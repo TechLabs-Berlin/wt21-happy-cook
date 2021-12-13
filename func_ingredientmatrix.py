@@ -9,11 +9,11 @@ def ingredientmatrix(url_raw_data_recipe):
     import pandas as pd
     from sklearn.feature_extraction.text import CountVectorizer
 
-    #load raw recipe dataset
+    #load recipe dataset
     rd_recipe = pd.read_csv(url_raw_data_recipe)
 
 
-    df_ingred = rd_recipe[["recipe_id", "ingredients"]][0:4000].copy()  # truncate data according to group agreement
+    df_ingred = rd_recipe[["recipe_id", "ingredients"]].copy()  # select only relevant columns
     df_ingred['ingredients'] = [x.replace('^', ',') for x in df_ingred['ingredients']] # change ^ sep to , sep
 
     vect = CountVectorizer() # instantiate the vectorizer
