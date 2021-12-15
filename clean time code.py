@@ -99,4 +99,6 @@ df3=df3.drop(columns=['cook_time3','cook_time2'])
 
 #getting the total cooking time
 df3['total_time']=df3['prep_time']+df3['cook_time']
+#cleared out all the rows with 0 minutes total_time
+df3=df3.loc[df3['total_time']!=0]
 df3
