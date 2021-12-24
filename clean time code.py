@@ -101,4 +101,7 @@ df3=df3.drop(columns=['cook_time3','cook_time2'])
 df3['total_time']=df3['prep_time']+df3['cook_time']
 #cleared out all the rows with 0 minutes total_time
 df3=df3.loc[df3['total_time']!=0]
-df3
+#Getting the number of steps
+df3["steps"]=df3["cooking_directions"].apply(lambda x:x[6:])
+df3['number_steps'] = df3['steps'].str.len()
+df3["number_steps"].replace(to_replace=0, value=1, inplace=True)
