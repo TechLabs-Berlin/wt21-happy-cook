@@ -49,9 +49,14 @@ app.get('/', (req, res) => {
 // List/Show all search results
 app.get('/recipes', async (req, res) => {
     const { ingredients } = req.query;
-    if (ingredients) {
-        console.log(`Query contains: "${ingredients}"`)
-        const recipes = await Recipe.find({ ingredients })
+    console.log(req.query);
+    console.log("Ingredients: " + ingredients)
+    const ingredientslist = ingredients.split(" ")
+    console.log(`Query contains: "${ingredientslist}"`)
+
+    if (ingredientslist) {
+        const recipes = await Recipe.find({ ingredients: { $all: ingredientslist } }) // search for recipes which contain all ingredients from search bar ; e.g. { $all: ["bananas", "Tomato"] }
+        console.log(recipes)
         res.render('recipes/index', { recipes, ingredients })
     } else {
         const recipes = await Recipe.find({});

@@ -8,7 +8,10 @@ const RecipeSchema = new Schema({
     aver_rate: Number,
     image_url: String,
     review_nums: Number,
-    ingredients: String,
+    ingredients:
+        [{
+            type: String,
+        }],
     cooking_directions: String,
     nutritions: String,
     reviews: String,
