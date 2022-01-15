@@ -15,7 +15,11 @@ const RecipeSchema = new Schema({
     cooking_directions: String,
     nutritions: String,
     reviews: String,
-    difficulty: String //3 parts
+    difficulty: {
+        type: String,
+        lowercase: true,
+        enum: ['easy', 'normal', 'hard']
+    }
 });
 
 
