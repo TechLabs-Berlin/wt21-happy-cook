@@ -1,6 +1,4 @@
-# HappyCook
-
-![logoHappyCook](https://user-images.githubusercontent.com/73216174/149679365-adeb22a1-b327-4e75-8caf-d25072fd9688.png)
+![logoHappyCook](https://user-images.githubusercontent.com/73216174/149679461-b22ff91c-a52f-49b2-9553-f8712dcd74b0.png)
 
 ## UX
 For further details, please see UX folder in this repository.
