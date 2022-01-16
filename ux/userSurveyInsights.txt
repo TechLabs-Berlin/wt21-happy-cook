@@ -1,0 +1,26 @@
+- **Survey insights (53 responses)**
+    - **Facts:**
+        - Average age of respondents: 30 years old
+        - Average cooking time per meal: 48 min
+        - 28.3% cooks everyday, followed by 20.8% twice to 18.9% three times a week. The second largest group could probably cook on weekends.
+        - The great majority 64.2% cooks to save money, followed by ones who have to (56.6%) and then 49.1% for health reasons. Only 15.1% cooks to save time.
+        - 56.6% doesn't have allergies or food restrictions, and from people with it an 18.9% has lactose intolerance. Only one option "Kosher" was not selected.
+        - 71.7% cooks in the evening.
+        - 66% uses other websites to learn how to cook new dishes, 43.4% YouTube and 34% Social Media.
+        - 98.1% used recipes to cook and got them from internet. From them, 50.9% uses recipes sometimes.
+            - 86.3% looked up for recipes on a mobile phone, 43.1% on a desktop computer, 21.6% on a tablet
+            - 78.8% finds ingredients relevant when searching for recipes, 69.2% time and 59.6% difficulty.
+        - 52.8% hasn't thrown away groceries because they didn't know how to cook them with.
+        - 64.2% has thrown away food since they cooked more than needed. From them, 70.6% thinks that correct portions will reduce household food waste.
+        - 39.6% is satisfied with her/his/their meal plan, 24.5% undecided and 20.7% dissatisfied/very dissatisfied.
+        - *Would you be interested in knowing which are the quickest recipes to cook using the ingredients you have at home?* 94.3% has interest.
+    - **Insights:**
+        - Recipes with cooking time equal or less than 48 min are very relevant.
+        - Allergies and diet-restrictions are relevant to at least half of respondents (nice-to-have)
+        - Avoid fancy recipes since most of the people cook to save money.
+        - A dark mode will be a very relevant feature (evening time)
+        - Webapp must be developed for mobile phones, then desktop.
+        - Three main aspects for search: ingredients, time and difficulty
+        - Portion feature is relevant.
+        - Webapp can help to reduce household food and grocery waste.
+        - Many users are not happy with their currrent routines, webapp can be an instrument to improve meal routines.
