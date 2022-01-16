@@ -14,11 +14,11 @@
     
     L: Where do you live?
     
-    C: I live in Porto, Portugal.
+    C: I live in Lisbon, Portugal.
     
     L: How old are you?
     
-    C: I'm 33 years old.
+    C: I'm 29 years old.
     
     L: Do you use social media?
     
