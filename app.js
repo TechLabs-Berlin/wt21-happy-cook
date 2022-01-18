@@ -49,13 +49,15 @@ app.get('/', (req, res) => {
 // List/Show all search results
 app.get('/recipes', async (req, res) => {
     const { ingredients } = req.query;
+    const { difficulty } = req.query;
     console.log(req.query);
     console.log("Ingredients: " + ingredients)
+    console.log("Difficulty: " + difficulty)
     const ingredientslist = ingredients.split(" ")
     console.log(`Query contains: "${ingredientslist}"`)
 
     if (ingredientslist) {
-        const recipes = await Recipe.find({ ingredients: { $all: ingredientslist } }) // search for recipes which contain all ingredients from search bar ; e.g. { $all: ["bananas", "Tomato"] }
+        const recipes = await Recipe.find({ ingredients: { $all: ingredientslist }, difficulty: difficulty }) // search for recipes which contain all ingredients from search bar ; e.g. { $all: ["bananas", "Tomato"] }
         console.log(recipes)
         res.render('recipes/index', { recipes, ingredients })
     } else {
@@ -89,11 +91,11 @@ app.get('/recipes/:id', async (req, res) => {
 })
 
 
-//MAKE new recipe: 
+// //MAKE new recipe:
 // app.get('/makerecipe', async (req, res) => {
 //     const recipe = new Recipe({
 //         recipe_id: 653542,
-//         recipe_name: "Tomato Soup recipe v3", cooking_directions: "Cut tomatos and cook", ingredients: "bananas",
+//         recipe_name: "Tomato Soup recipe v4", cooking_directions: "Cut tomatos and cook", ingredients: "Tomato", difficulty: "easy"
 //     });
 //     await recipe.save();
 //     res.send(recipe);
