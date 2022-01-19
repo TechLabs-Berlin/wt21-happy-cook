@@ -32,6 +32,8 @@ app.set('views', path.join(__dirname, 'views'))
 // Configure express to handle post requests
 app.use(express.urlencoded({ extended: true }))
 
+// Render static files
+app.use(express.static('public'));
 
 
 
