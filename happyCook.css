@@ -133,11 +133,13 @@ body.index {
   }
 
   .pick img{
-    width:5%;
+    width:10%;
   }
 
-  .pick{
+
+  .pick:hover{
     padding-top: 1%;
+    cursor:pointer;
   }
 
   button.navbar-toggler.cancel{
@@ -165,8 +167,16 @@ body.index {
     padding-right: 3rem;
   }
 
-  
 }
+
+.pick img:hover{
+  cursor:pointer;
+}
+
+
+
+
+
 
 
 .input-group-text{
@@ -386,13 +396,17 @@ body.loading {
   padding-top: 2%;
 }
 
-.difficulty p{
+.difficulty h4{
   font-family: Nokora;
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 19px;
+  padding-top: 3%; 
+  padding-bottom: 5%;
   color: rgba(116, 16, 16, 0.76);
+  
+}
+.difficultyButtons button{
+  border: red;
+  color:red;
 }
 
 .recipeRed{
@@ -404,20 +418,20 @@ body.loading {
 }
 
 .singleRecipe{
-  height: 1200px;
+  height: 95%;
  background-color: white;
  border-radius: 30px;
   margin-top: 5%;
 }
 
-.nameRecipe p{
+.nameRecipe h1{
 padding-top: 5%;
 padding-bottom: 5%;
 color:#4F5559;
 text-align: center;
 font-weight: bold;
-
 }
+
 .singleRecipePicture{
   display:flex;
 }
@@ -426,7 +440,7 @@ font-weight: bold;
  
   border-top-left-radius: 15%;
   border-bottom-left-radius: 15%;
-  height: 220px;
+  height: 17em;
   width: 60%;
   padding-left: 5%;
   text-align:left;
@@ -434,7 +448,7 @@ font-weight: bold;
 
 .ingredients{
   background-color:#5BE7CC ;
-  height: 341px;
+  height: 20em;
   width: 90%;
   margin:5%;
   border-radius: 20px;
@@ -443,7 +457,7 @@ font-weight: bold;
 
 .instructions{
   background-color:#4CD849 ;
-  height: 341px;
+  height: 20em;
   width: 90%;
   margin:5%;
   border-radius: 20px;
@@ -452,7 +466,7 @@ font-weight: bold;
 .instructions p{
   text-align: center;
   color: white;
-  padding-bottom:20%;
+  padding-bottom:10%;
   
 }
 .instructions img{
@@ -482,13 +496,14 @@ font-weight: bold;
 .rightFromImage{
 background-color: #F89500 ;
 width: 35%;
+height: 17em;
 border-top-right-radius:10%;
 border-bottom-right-radius: 10%;
 }
 
 .rightFromImage p{
   margin-left: 15%;
-  margin-top: 15%;
+  margin-top: 10%;
   color: white;
 }
 
@@ -520,19 +535,24 @@ border-bottom-right-radius: 10%;
   }
   .recipeButtons button{
     
-    width: 18%;
+    width: 19%;
     margin-bottom: 3%;
     margin-right: 5%;
     float: right;
     border:3px solid  #6C0102;
-    font-size: 13px;
-    padding:8px 25px 8px 25px; 
-    border-radius: 20px;
+    
+    padding:1% 1% 1% 1%; 
+    border-radius: 30px;
+    
   }
   
   .seeFullRecipe{
     background-color: #6C0102 ;
     color: white;
+  }
+
+  .goBack{
+    color:#6C0102;
   }
 
   .recipeRed .row{
