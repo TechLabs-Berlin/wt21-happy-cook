@@ -82,21 +82,33 @@
             <p class="fs-1 index">HappyCook</p>
             <div class="input-group mb-3">
               <span class="input-group-text" id="basic-addon1"> <img src="images/lupa.png"></span>
+
               <form action="/recipes" method="GET">
                 <input type="text" value="" id="box" name="ingredients" class="form-control"
                   placeholder="Enter ingredient" autofocus aria-label="Enter ingredient"
                   aria-describedby="basic-addon1">
+
+                <div class="difficulty">
+                  <h4>Difficulty</h4>
+                  <div class="difficultyButtons">
+                    <label for="choice1">EASY</label>
+                    <!--@Nikola you can delete the  line above if you dont need it-->
+                    <input type="radio" id="choice1" name="difficulty" value="easy">
+
+                    <label for="choice2">NORMAL</label>
+                    <!--@Nikola you can delete the line above if you dont need it-->
+                    <input type="radio" id="choice2" name="difficulty" value="normal">
+
+                    <label for="choice3">HARD</label>
+                    <!--@Nikola you can delete the line above if you dont need it-->
+                    <input type="radio" id="choice3" name="difficulty" value="hard">
+                  </div>
+                </div>
               </form>
+
             </div>
 
-            <div class="difficulty">
-              <h4>Difficulty</h4>
-              <div class="difficultyButtons">
-                <input type="button" value="easy">
-                <input type="button" value="medium">
-                <input type="button" value="hard">
-              </div>
-            </div>
+
 
             <p class="fs-6 index ">Quick Search</p>
 
