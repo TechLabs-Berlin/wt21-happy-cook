@@ -61,10 +61,10 @@ app.get('/recipes', async (req, res) => {
     if (ingredientslist) {
         const recipes = await Recipe.find({ ingredients: { $all: ingredientslist }, difficulty: difficulty }) // search for recipes which contain all ingredients from search bar ; e.g. { $all: ["bananas", "Tomato"] }
         console.log(recipes)
-        res.render('recipes/index', { recipes, ingredients })
+        res.render('recipes/results', { recipes, ingredients })
     } else {
         const recipes = await Recipe.find({});
-        res.render('recipes/index', { recipes, ingredients: "ALL" })
+        res.render('recipes/results', { recipes, ingredients: "ALL" })
     }
 })
 
