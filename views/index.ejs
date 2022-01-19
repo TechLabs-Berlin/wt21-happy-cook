@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="happyCook.js"></script>
+  <link rel="stylesheet" href="happyCook.css">
+  <title>HappyCook</title>
+
+</head>
+
+<body class="Index">
+
+  <div>
+
+    <img src="images/background.png" class="card-img img-fluid" alt="background" class="img-responsive">
+    <div class="card-img-overlay">
+
+      <nav class="navbar navbar-expand-lg navbar-light  happy-cook-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+
+          <button class="navbar-toggler navbar-right " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon   "></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-right " id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" id="dropDown" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="dropDown" href="loading.html"> Loading</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="dropDown" href="results.html">Results</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="dropDown" href="recipe.html">Recipe</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " id="dropDown" href="#">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <button class="navbar-toggler cancel rounded-pill" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"> Close</button>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <img src="images/iconHappyPot.svg" alt="HappyPot" class="logo happyPot">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-sm-1">
+          </div>
+
+          <div class="col-lg-5 center col-sm-10">
+            <p class="fs-1 index">HappyCook</p>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"> <img src="images/lupa.png"></span>
+              <form action="/recipes" method="GET">
+                <input type="text" value="" id="box" name="ingredients" class="form-control"
+                  placeholder="Enter ingredient" autofocus aria-label="Enter ingredient"
+                  aria-describedby="basic-addon1">
+              </form>
+            </div>
+
+            <div class="difficulty">
+              <h4>Difficulty</h4>
+              <div class="difficultyButtons">
+                <input type="button" value="easy">
+                <input type="button" value="medium">
+                <input type="button" value="hard">
+              </div>
+            </div>
+
+            <p class="fs-6 index ">Quick Search</p>
+
+
+            <div class="pick">
+              <img src="images/potato.png" onclick="showme('potato')" alt="potato">
+              <img src="images/milk.png" onclick="showme('milk')" alt="milk">
+              <img src="images/chicken.png" onclick="showme('chicken')" alt="chicken">
+              <img src="images/egg.png" onclick="showme('egg')" alt="egg">
+              <img src="images/pepper.png" onclick="showme('pepper')" alt="pepper">
+              <img src="images/onion.png" onclick="showme('onion')" alt="onion">
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-sm-1">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+</body>
+
+</html>

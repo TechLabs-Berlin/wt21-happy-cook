@@ -39,7 +39,7 @@ app.use(express.static('public'));
 
 //Search recipes by ingredients
 app.get('/', (req, res) => {
-    res.render('home')
+    res.render('index')
 })
 
 
