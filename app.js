@@ -68,6 +68,7 @@ app.get('/recipes', async (req, res) => {
     }
 })
 
+
 // //Show all recipes (OLD)
 // app.get('/recipes', async (req, res) => {
 //     const recipes = await Recipe.find({});
@@ -78,6 +79,15 @@ app.get('/recipes', async (req, res) => {
 app.get('/recipes/new', async (req, res) => {
     res.render('recipes/new',)
 })
+
+app.get('/recipes/loading', async (req, res) => {
+    res.render('recipes/loading',)
+})
+
+app.get('/recipes/results', async (req, res) => {
+    res.render('recipes/results',)
+})
+
 
 // Create new recipe
 app.post('/recipes', async (req, res) => {
