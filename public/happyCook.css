@@ -582,3 +582,64 @@ border-bottom-right-radius: 10%;
    width: 90%;
    
  }
+
+ .cookiesUpper{
+  
+ }
+
+ .cookiesUpper img{
+  height: 485px;
+  
+
+ }
+
+ .cookiesLower{
+   width: 100%;
+   height: 440px;
+   background-color:#EEEFE9;
+ }
+
+ .modal-dialog{
+   background-color: white;
+   border-radius: 10px;
+   height: 600px;
+   margin:-50rem auto;
+ }
+ .modal-dialog h1{
+   padding-top:  5%;
+
+ }
+
+ .modal-dialog h5{
+  padding: 4% 5% 8% 5%;
+ }
+
+ .modal-dialog h6{
+  margin: 0% 5% 5% 5%;
+ }
+
+ .modal-dialog h2{
+  padding-left: 5%;
+ }
+
+ .cookiesButtons{
+   text-align: center;
+ }
+
+ .allowAllCookies{
+  width: 13%;
+  
+  margin-right: 5%;
+  color:#6C0102;
+  border:3px solid  #6C0102;
+  
+  
+  border-radius: 30px;
+ }
+ .denyAll{
+  width: 18%;
+    background-color: #6C0102 ;
+    color: white;
+    border-radius: 30px;
+  
+ }
