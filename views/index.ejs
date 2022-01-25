@@ -15,127 +15,126 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
-  <script src="happyCook.js"></script>
-  <link rel="stylesheet" href="happyCook.css">
+  <script src="/happyCook.js"></script>
+  <link rel="stylesheet" href="/happyCook.css">
   <title>HappyCook</title>
 
 </head>
 
 <body class="Index">
 
-  
-
-    <img src="images/background.png" class="card-img img-fluid background" alt="background" class="img-responsive">
-    <div class="card-img-overlay">
-
-      <nav class="navbar navbar-expand-lg navbar-light  happy-cook-nav">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-
-          <button class="navbar-toggler navbar-right " type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon   "></span>
-          </button>
-          <div class="collapse navbar-collapse navbar-right " id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-              <li class="nav-item">
-                <a class="nav-link active" id="dropDown" aria-current="page" href="/">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" id="dropDown" href="/recipes/loading"> Loading</a>
-                <!-- error shown, currently-->
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" id="dropDown" href="/recipes/results">Results</a>
-                <!-- error shown currently-->
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" id="dropDown" href="recipe.html">Recipe</a>
-                <!--not connected-->
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link " id="dropDown" href="#">About Us</a>
-              </li>
-
-              <li class="nav-item">
-                <button class="navbar-toggler cancel rounded-pill" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarNavDropdown"> Close</button>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <img src="images/iconHappyPot.svg" alt="HappyPot" class="logo happyPot">
-
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-sm-1">
-          </div>
-
-          <div class="col-lg-5 center col-sm-10">
-            <p class="fs-1 index">HappyCook</p>
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1"> <img src="images/lupa.png"></span>
-
-              <form action="/recipes" method="GET" class="method">
-                <input type="text" value="" id="box" name="ingredients" class="form-control"
-                  placeholder="Enter ingredient" autofocus aria-label="Enter ingredient"
-                  aria-describedby="basic-addon1">
-
-                <div class="difficulty">
-                  <h4>Difficulty</h4>
-                  <div class="difficultyButtons">
-                    <label for="choice1">EASY</label>
-                    <!--@Nikola you can delete the  line above if you dont need it-->
-                    <input type="radio" id="choice1" name="difficulty" value="easy">
-
-                    <label for="choice2">NORMAL</label>
-                    <!--@Nikola you can delete the line above if you dont need it-->
-                    <input type="radio" id="choice2" name="difficulty" value="normal">
-
-                    <label for="choice3">HARD</label>
-                    <!--@Nikola you can delete the line above if you dont need it-->
-                    <input type="radio" id="choice3" name="difficulty" value="hard">
-                  </div>
-                </div>
-              </form>
-
-            </div>
 
 
+  <img src="images/background.png" class="card-img img-fluid background" alt="background" class="img-responsive">
+  <div class="card-img-overlay">
 
-            <p class="fs-6 index ">Quick Search</p>
+    <nav class="navbar navbar-expand-lg navbar-light  happy-cook-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
 
+        <button class="navbar-toggler navbar-right " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon   "></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-right " id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-            <div class="pick">
-              <img src="images/potato.png" onclick="showme('potato')" alt="potato">
-              <img src="images/milk.png" onclick="showme('milk')" alt="milk">
-              <img src="images/chicken.png" onclick="showme('chicken')" alt="chicken">
-              <img src="images/egg.png" onclick="showme('egg')" alt="egg">
-              <img src="images/pepper.png" onclick="showme('pepper')" alt="pepper">
-              <img src="images/onion.png" onclick="showme('onion')" alt="onion">
+            <li class="nav-item">
+              <a class="nav-link active" id="dropDown" aria-current="page" href="/">Home</a>
+            </li>
 
-            </div>
+            <li class="nav-item">
+              <a class="nav-link" id="dropDown" href="/recipes/loading"> Loading</a>
+              <!-- error shown, currently-->
+            </li>
 
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" id="dropDown" href="/recipes/results">Results</a>
+              <!-- error shown currently-->
+            </li>
 
-          <div class="col-lg-4 col-sm-1">
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" id="dropDown" href="/recipes/recipe">Recipe</a>
+              <!--not connected-->
+            </li>
 
+            <li class="nav-item">
+              <a class="nav-link " id="dropDown" href="/aboutus">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <button class="navbar-toggler cancel rounded-pill" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"> Close</button>
+            </li>
+
+          </ul>
         </div>
       </div>
+    </nav>
 
+    <img src="images/iconHappyPot.svg" alt="HappyPot" class="logo happyPot">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-sm-1">
+        </div>
+
+        <div class="col-lg-5 center col-sm-10">
+          <p class="fs-1 index">HappyCook</p>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"> <img src="images/lupa.png"></span>
+
+            <form action="/recipes" method="GET" class="method">
+              <input type="text" value="" id="box" name="ingredients" class="form-control"
+                placeholder="Enter ingredient" autofocus aria-label="Enter ingredient" aria-describedby="basic-addon1">
+
+              <div class="difficulty">
+                <h4>Difficulty</h4>
+                <div class="difficultyButtons">
+                  <label for="choice1">EASY</label>
+                  <!--@Nikola you can delete the  line above if you dont need it-->
+                  <input type="radio" id="choice1" name="difficulty" value="easy">
+
+                  <label for="choice2">NORMAL</label>
+                  <!--@Nikola you can delete the line above if you dont need it-->
+                  <input type="radio" id="choice2" name="difficulty" value="normal">
+
+                  <label for="choice3">HARD</label>
+                  <!--@Nikola you can delete the line above if you dont need it-->
+                  <input type="radio" id="choice3" name="difficulty" value="hard">
+                </div>
+              </div>
+            </form>
+
+          </div>
+
+
+
+          <p class="fs-6 index ">Quick Search</p>
+
+
+          <div class="pick">
+            <img src="images/potato.png" onclick="showme('potato')" alt="potato">
+            <img src="images/milk.png" onclick="showme('milk')" alt="milk">
+            <img src="images/chicken.png" onclick="showme('chicken')" alt="chicken">
+            <img src="images/egg.png" onclick="showme('egg')" alt="egg">
+            <img src="images/pepper.png" onclick="showme('pepper')" alt="pepper">
+            <img src="images/onion.png" onclick="showme('onion')" alt="onion">
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-sm-1">
+        </div>
+
+      </div>
     </div>
-  
+
+  </div>
+
 
   </div>
 </body>
