@@ -80,6 +80,23 @@ app.get('/recipes/new', async (req, res) => {
     res.render('recipes/new',)
 })
 
+// Create new recipe
+app.post('/recipes', async (req, res) => {
+    const recipe = new Recipe(req.body.recipe);
+    await recipe.save();
+    res.redirect(`/recipes/${recipe._id}`)
+})
+
+//Nav Bar pages
+app.get('/aboutus', async (req, res) => {
+    res.render('aboutus',)
+})
+
+
+app.get('/inspiration', async (req, res) => {
+    res.render('inspiration',)
+})
+
 app.get('/recipes/loading', async (req, res) => {
     res.render('recipes/loading',)
 })
