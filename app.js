@@ -105,18 +105,15 @@ app.get('/recipes/results', async (req, res) => {
     res.render('recipes/results',)
 })
 
-
-// Create new recipe
-app.post('/recipes', async (req, res) => {
-    const recipe = new Recipe(req.body.recipe);
-    await recipe.save();
-    res.redirect(`/recipes/${recipe._id}`)
+app.get('/recipes/recipe', async (req, res) => {
+    res.render('recipes/recipe',)
 })
 
 //Show single recipe details page
 app.get('/recipes/:id', async (req, res) => {
-    const recipe = await Recipe.findById(req.params.id);
-    res.render('recipes/show', { recipe })
+    const recipe = await Recipe.findById(req.params.id); // e.g. "61d5fc6688e42aae66f94a5f"
+    console.log(recipe)
+    res.render('recipes/recipe', { recipe })
 })
 
 
