@@ -606,20 +606,20 @@ border-bottom-right-radius: 10%;
    left: 50%;
    transform: translate(-50%, -50%);
  }
- .modal-dialog h1{
+ .modalFirst h1{
    padding-top:  5%;
 
  }
 
- .modal-dialog h5{
+ .modalFirst h5{
   padding: 4% 5% 8% 5%;
  }
 
- .modal-dialog h6{
+ .modalFirst h6{
   margin: 0% 5% 5% 5%;
  }
 
- .modal-dialog h2{
+ .modalFirst h2{
   padding-left: 5%;
  }
 
@@ -787,3 +787,37 @@ _____________
   flex: 1;
 }
 
+h5 button{
+  color:red;
+  border: none;
+  background-color: transparent;
+}
+.modalSecond{
+  text-align: center;
+}
+.modalSecond h1{
+  font-weight: bold;
+
+}
+.modalSecond h5{
+  font-weight: bold;
+  margin-top: 4%;
+
+}
+.modalSecond h6{
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+
+
+.goBack{
+    
+    background-color: #6C0102 ;
+    color: white;
+    border-radius: 30px;
+    text-align: center !important;
+
+   
+}
