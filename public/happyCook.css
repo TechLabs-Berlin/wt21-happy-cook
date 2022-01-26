@@ -369,7 +369,7 @@ body.loading {
 .resultsYellow img{
   position: absolute;
   right: 50%;
-  bottom: -35%;
+  bottom: -27%;
 }
 
 .resultsRed{
@@ -681,8 +681,13 @@ color: #FFFFFFE5;
    margin-top: 25px;
  }
 
+ .privacyIndex{
+  text-align: left;
+  
+ }
+
  .socialMediaIcons img{
-  margin-top: 25px;
+  margin-top: 20px;
   text-align: right;
  }
 
@@ -711,4 +716,29 @@ color: #FFFFFFE5;
 
 .nameRole hr{
  width: 150%;
+}
+
+
+.footerIndex{
+  background-color: transparent;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  text-align: center;
+}
+
+.footerCopyrightIndex{
+  color:#914644;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.socialMediaIconsIndex{
+  margin-bottom: 1%;
+  
+}
+.socialMediaIconsIndex img{
+  margin-left: 3%;
 }
