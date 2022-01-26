@@ -367,9 +367,9 @@ body.loading {
   background-color: #FFB55F;
 }
 .resultsYellow img{
-  position: fixed;
-  right: 50rem;
-  bottom: 2rem;
+  position: absolute;
+  right: 50%;
+  bottom: -35%;
 }
 
 .resultsRed{

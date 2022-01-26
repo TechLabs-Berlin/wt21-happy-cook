@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="/happyCook.css">
   <title>HappyCook</title>
 
+  <link href="images/iconHappyPot.jpg" rel="icon">
 </head>
 
 <body class="Index">
@@ -80,25 +81,21 @@
             <span class="input-group-text" id="basic-addon1"> <img src="images/lupa.png"></span>
 
             <form action="/recipes" method="GET" class="method">
-              <input type="text" value="" id="box" name="ingredients" class="form-control"
-                placeholder="Enter ingredient" autofocus aria-label="Enter ingredient" aria-describedby="basic-addon1">
+              <input type="text" value="" id="box" name="ingredients" class="form-control "
+                placeholder="Enter ingredient" autofocus aria-label="Enter ingredient" aria-describedby="basic-addon1"/>              
 
               <div class="difficulty">
                 <h4>Difficulty</h4>
                 <div class="difficultyButtons">
-                  <label for="choice1">EASY</label>
-                  <!--@Nikola you can delete the  line above if you dont need it-->
-                  <input type="radio" id="choice1" name="difficulty" value="easy">
+                 
+                  <input type="radio" id="choice1" name="difficulty" value="easy">EASY
 
-                  <label for="choice2">NORMAL</label>
-                  <!--@Nikola you can delete the line above if you dont need it-->
-                  <input type="radio" id="choice2" name="difficulty" value="normal">
-
-                  <label for="choice3">HARD</label>
-                  <!--@Nikola you can delete the line above if you dont need it-->
-                  <input type="radio" id="choice3" name="difficulty" value="hard">
+                  <input type="radio" id="choice2" name="difficulty" value="normal">NORMAL
+                  
+                  <input type="radio" id="choice3" name="difficulty" value="hard">HARD
                 </div>
               </div>
+
             </form>
 
           </div>
