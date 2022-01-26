@@ -97,6 +97,10 @@ app.get('/inspiration', async (req, res) => {
     res.render('inspiration',)
 })
 
+app.get('/gitHub', async (req, res) => {
+    res.render('gitHub',)
+})
+
 app.get('/recipes/loading', async (req, res) => {
     res.render('recipes/loading',)
 })

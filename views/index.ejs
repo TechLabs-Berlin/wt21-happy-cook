@@ -15,7 +15,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
-  <script src="/happyCook.js"></script>
+ 
   <link rel="stylesheet" href="/happyCook.css">
   <title>HappyCook</title>
 
@@ -82,7 +82,9 @@
 
             <form action="/recipes" method="GET" class="method">
               <input type="text" value="" id="box" name="ingredients" class="form-control "
-                placeholder="Enter ingredient" autofocus aria-label="Enter ingredient" aria-describedby="basic-addon1"/>              
+                placeholder="Enter ingredient" autofocus aria-label="Enter ingredient" aria-describedby="basic-addon1"/>   
+               
+               
 
               <div class="difficulty">
                 <h4>Difficulty</h4>
@@ -123,7 +125,76 @@
       </div>
     </div>
 
+    
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Cookies
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div >
+        <h1 ><center>Cookies</center></h1>
+        <h6><center>Updated 02. February 2022</center></h6>
+        
+      </div>
+      <div class="modal-body">
+        <h2>About cookies on this website</h2>
+  <h5>Cookies are text files placed on your computer to collect standard internet log information and visitor behavior information. 
+      When you visit Happycook website, we may collect information from you automatically through cookies or similar technology. 
+      These enables us to recognize your previously selected preferences, which includes, language, location, nutrition types, e.t.c. 
+      For more information visit Privacy Policy.
+  </h5>
+      </div>
+      <div class="cookiesButtons">
+        <button  type="button" class="allowAllCookies" data-bs-dismiss="modal" aria-label="Close"  > 
+            <h6> Deny all</h6>
+          </button>
+  
+        <button  type="button" class="denyAll"   data-bs-dismiss="modal" aria-label="Close"  >
+          <h6> Allow all cookies</h6>
+  
+        </button>
+        
+    </div>
+      
+    </div>
+  </div>
+</div>
  
+
+<!-- 
+<div class="modal-dialog modal-xl ">
+  <h1><center>Cookies</center></h1>
+  <h6><center>Updated 02. February 2022</center></h6>
+
+  <h2>About cookies on this website</h2>
+  <h5>Cookies are text files placed on your computer to collect standard internet log information and visitor behavior information. 
+      When you visit Happycook website, we may collect information from you automatically through cookies or similar technology. 
+      These enables us to recognize your previously selected preferences, which includes, language, location, nutrition types, e.t.c. 
+      For more information visit privacy policy.
+  </h5>
+
+
+  <div class="cookiesButtons">
+      <button  type="button" class="allowAllCookies" data-bs-dismiss="modal" aria-label="Close"  > 
+          <h6> Deny all</h6>
+        </button>
+
+      <button  type="button" class="denyAll"   data-bs-dismiss="modal" aria-label="Close"  >
+        <h6> Allow all cookies</h6>
+
+      </button>
+      
+  </div>
+
+</div> -->
+
+
+
+
 
   <footer class="footerIndex">
 
@@ -150,7 +221,15 @@
       
   </footer>
 </div>
-  
+
+
+
+
+
+
+
+
+<script src="./happyCook.js"></script>
 </body>
 
 </html>

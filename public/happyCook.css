@@ -601,7 +601,10 @@ border-bottom-right-radius: 10%;
    background-color: white;
    border-radius: 10px;
    height: 600px;
-   margin:-50rem auto;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
  }
  .modal-dialog h1{
    padding-top:  5%;
@@ -742,3 +745,45 @@ color: #FFFFFFE5;
 .socialMediaIconsIndex img{
   margin-left: 3%;
 }
+
+.modal-dialog  {
+  background-color: white;
+  border-radius: 10px;
+  height: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+    
+}
+
+
+_____________
+.tag-container .tag {
+  height: 30px;
+  margin: 5px;
+  padding: 5px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  color: #333;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 1px 1px #fff;
+  cursor: default;
+}
+.tag i {
+  font-size: 16px;
+  color: #666;
+  margin-left: 5px;
+}
+.tag-container input {
+  padding: 5px;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  font-family: 'Rubik';
+  color: #333;
+  flex: 1;
+}
+
