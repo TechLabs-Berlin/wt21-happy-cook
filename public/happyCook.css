@@ -50,10 +50,8 @@ img.card-img.img-fluid.background {
 }
 
 body.Index {
-  background-image: url('images/background.png');
-  background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 100%;;
+ 
+ 
   background-color: #e6e6e6;
 }
 
@@ -643,3 +641,74 @@ border-bottom-right-radius: 10%;
     border-radius: 30px;
   
  }
+
+ .footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #474747;
+  color: white;
+  text-align: center;
+ }
+
+ .footerHappyCook{
+  font-family: Nothing You Could Do;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  color: #FFFFFF;
+ }
+
+ .footerCopyright{
+  font-family: Nokora;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+padding-bottom: 20px;
+color: #FFFFFFE5;
+  
+ }
+
+ .privacy p{
+   text-align: left;
+   margin-top: 25px;
+ }
+
+ .socialMediaIcons img{
+  margin-top: 25px;
+  text-align: right;
+ }
+
+ footer .container{
+  max-width: 96%;
+ }
+
+ header{  
+
+  font-family: Nokora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  color: #6C0102;
+  margin-top: 2%;
+  margin-bottom: 1%;
+} 
+
+.colleague{
+  margin-left: 3%;
+   
+    display: inline-block;
+    justify-content: center;
+}
+
+.nameRole hr{
+ width: 150%;
+}
