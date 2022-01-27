@@ -73,6 +73,71 @@
       <div class="row">
 
         <div class="col-lg-3 col-sm-1">
+
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Cookies
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modalFirst">
+                
+                  <h1 ><center>Cookies</center></h1>
+                  <h6><center>Updated 02. February 2022</center></h6>
+                  
+                
+                
+                  <h2>About cookies on this website</h2>
+                   <h5>Cookies are text files placed on your computer to collect standard internet log information and visitor behavior information. 
+                  When you visit Happycook website, we may collect information from you automatically through cookies or similar technology. 
+                  These enables us to recognize your previously selected preferences, which includes, language, location, nutrition types, e.t.c. 
+                  For more information visit our <button  data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Privacy Policy</button>.
+                  </h5>
+                </div>
+                <div class="cookiesButtons">
+                  <button  type="button" class="allowAllCookies" data-bs-dismiss="modal" aria-label="Close"  > 
+                      <h6> Deny all</h6>
+                    </button>
+            
+                  <button  type="button" class="denyAll"   data-bs-dismiss="modal" aria-label="Close"  >
+                    <h6> Allow all cookies</h6>
+            
+                  </button>
+                  
+              </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog ">
+              <div class="modal-content modalSecond">
+               <br>
+                <h1>Privacy Policy</h1>
+                <h6>Updated 02. February 2022</h6>
+                  
+                  <h5>General notes and compulsory information</h5>
+                  <h6>This privacy Policy is based on the General Data Protextion Regulation("GDPR") which has been in effect since 25. May 2018 and applies to the use of our web site.</h6>
+                
+                <h5>Data Protection</h5>
+                <h6>The operators of these pages take the protection of your personal data very seriously. We do not store any personal data as declared in this data protection declaration.</h6>
+                  <h6>When you use this website, no personal data is collected. Personal data are data with which you can be personally identified.</h6>
+                  <h6>We would like to point out that data transmission over the Internet (e.g. communication by e-mail) can have security gaps. A complete protetion of data against access by third parties is not possible.</h6>
+                   <h5>Contact</h5>
+                   <h6>info@happycook.com</h6>  
+          
+                <br>
+                <br>
+            <button type="button" class="goBack" data-bs-dismiss="modal" aria-label="Close">Go back</button>
+                
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
 
         <div class="col-lg-5 center col-sm-10">
@@ -105,12 +170,101 @@
 
           </div>
 
-
-
           <p class="fs-6 index ">Quick Search</p>
 
 
-          <div class="pick">
+          <div class="container text-center my-3">
+            
+            <div class="row mx-auto my-auto justify-content-center">
+                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="images/potato.png" class="img-fluid">
+                                    </div>
+                                    <!-- <div class="card-img-overlay">Slide 1</div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="images/milk.png" class="img-fluid">
+                                    </div>
+                                    <!-- <div class="card-img-overlay">Slide 2</div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="images/egg.png" class="img-fluid">
+                                    </div>
+                                    <!-- <div class="card-img-overlay">Slide 3</div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="images/tomato.png" class="img-fluid">
+                                    </div>
+                                    <!-- <div class="card-img-overlay">Slide 4</div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="images/chicken.png" class="img-fluid">
+                                    </div>
+                                    <!-- <div class="card-img-overlay">Slide 5</div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="images/pepper.png" class="img-fluid">
+                                    </div>
+                                    <!-- <div class="card-img-overlay">Slide 6</div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="col-md-3">
+                              <div class="card">
+                                  <div class="card-img">
+                                      <img src="images/onion.png" class="img-fluid">
+                                  </div>
+                                  <!-- <div class="card-img-overlay">Slide 6</div> -->
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+
+          
+
+
+          <!-- <div class="pick">
             <img src="images/potato.png" onclick="showme('potato')" alt="potato">
             <img src="images/milk.png" onclick="showme('milk')" alt="milk">
             <img src="images/chicken.png" onclick="showme('chicken')" alt="chicken">
@@ -118,7 +272,7 @@
             <img src="images/pepper.png" onclick="showme('pepper')" alt="pepper">
             <img src="images/onion.png" onclick="showme('onion')" alt="onion">
 
-          </div>
+          </div> -->
 
         </div>
 
@@ -126,6 +280,7 @@
         </div>
 
       </div>
+      
     </div>
 
     
@@ -140,67 +295,7 @@
                 <p>Privacy</p>
 
                 <!-- Button trigger modal -->
-<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Cookies
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modalFirst">
-      
-        <h1 ><center>Cookies</center></h1>
-        <h6><center>Updated 02. February 2022</center></h6>
-        
-      
-      
-        <h2>About cookies on this website</h2>
-         <h5>Cookies are text files placed on your computer to collect standard internet log information and visitor behavior information. 
-        When you visit Happycook website, we may collect information from you automatically through cookies or similar technology. 
-        These enables us to recognize your previously selected preferences, which includes, language, location, nutrition types, e.t.c. 
-        For more information visit our <button  data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Privacy Policy</button>.
-        </h5>
-      </div>
-      <div class="cookiesButtons">
-        <button  type="button" class="allowAllCookies" data-bs-dismiss="modal" aria-label="Close"  > 
-            <h6> Deny all</h6>
-          </button>
-  
-        <button  type="button" class="denyAll"   data-bs-dismiss="modal" aria-label="Close"  >
-          <h6> Allow all cookies</h6>
-  
-        </button>
-        
-    </div>
-      
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-  <div class="modal-dialog modal-xl modal-dialog ">
-    <div class="modal-content modalSecond">
-     <br>
-      <h1>Privacy Policy</h1>
-      <h6>Updated 02. February 2022</h6>
-        
-        <h5>General notes and compulsory information</h5>
-        <h6>This privacy Policy is based on the General Data Protextion Regulation("GDPR") which has been in effect since 25. May 2018 and applies to the use of our web site.</h6>
-      
-      <h5>Data Protection</h5>
-      <h6>The operators of these pages take the protection of your personal data very seriously. We do not store any personal data as declared in this data protection declaration.</h6>
-        <h6>When you use this website, no personal data is collected. Personal data are data with which you can be personally identified.</h6>
-        <h6>We would like to point out that data transmission over the Internet (e.g. communication by e-mail) can have security gaps. A complete protetion of data against access by third parties is not possible.</h6>
-         <h5>Contact</h5>
-         <h6>info@happycook.com</h6>  
-
-      <br>
-      <br>
-  <button type="button" class="goBack" data-bs-dismiss="modal" aria-label="Close">Go back</button>
-      
-    </div>
-  </div>
-</div>
 
             </div>
           <div class="col-8">
