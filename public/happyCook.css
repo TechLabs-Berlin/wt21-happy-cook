@@ -59,7 +59,9 @@ body.Index {
     a:hover {
       color: black;
     }
-
+    nav.happy-cook-nav ul.navbar-nav li a.nav-link:hover{
+      color:#A6B401 ;
+    }
     
 
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -593,7 +595,7 @@ border-bottom-right-radius: 10%;
  .modal-dialog{
    background-color: white;
    border-radius: 10px;
-   height: 600px;
+   /* height: 550px; */
    position: fixed;
    top: 50%;
    left: 50%;
@@ -618,6 +620,7 @@ border-bottom-right-radius: 10%;
 
  .cookiesButtons{
    text-align: center;
+  
  }
 
  .allowAllCookies{
@@ -631,7 +634,7 @@ border-bottom-right-radius: 10%;
   border-radius: 30px;
  }
  .denyAll{
-  width: 18%;
+  width: 20%;
     background-color: #6C0102 ;
     color: white;
     border-radius: 30px;
@@ -672,10 +675,15 @@ color: #FFFFFFE5;
   
  }
 
- .privacy p{
+ .privacyIndex button{
    text-align: left;
-   margin-top: 25px;
+   padding-bottom: 20px;
+   border: none;
+   color: #F86500 ;
    
+ }
+ .privacyIndex button:hover{
+   color:#A6B401;
  }
 
  .privacyIndex{
@@ -717,7 +725,7 @@ color: #FFFFFFE5;
 }
 
 .nameRole hr{
- width: 150%;
+ width: 100%;
 }
 
 
@@ -748,7 +756,7 @@ color: #FFFFFFE5;
 .modal-dialog  {
   background-color: white;
   border-radius: 10px;
-  height: 600px;
+  height: 550px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -893,4 +901,36 @@ transform: translateX(0);
 .carousel-control-prev-icon{
   margin-right: 55%;
   background-image: url("images/quickSearchLeft.png") ;
+}
+
+
+
+.email{
+  color:rgb(19, 137, 153)
+}
+
+.modal-content{
+  border:none;
+}
+
+.btn-danger{
+  position: absolute;
+  right:10px;
+  bottom: 50px;
+}
+
+.colleague img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+article h1{
+  color: #6C0102;
+  ;
+}
+
+article h6{
+  padding-left: 15%;
+  padding-right: 15%;
 }
