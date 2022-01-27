@@ -2,8 +2,6 @@ function showme(count){
     document.getElementById("box").value=count;
 }
 
-
-
 const tagContainer = document.querySelector('.tag-container');
 const input = document.querySelector('.tag-container input');
 
@@ -15,7 +13,7 @@ function createTag(label) {
   const span = document.createElement('span');
   span.innerHTML = label;
   const closeIcon = document.createElement('i');
-  closeIcon.innerHTML = 'close';
+  closeIcon.innerHTML = 'x';
   closeIcon.setAttribute('class', 'material-icons');
   closeIcon.setAttribute('data-item', label);
   div.appendChild(span);
@@ -57,5 +55,4 @@ document.addEventListener('click', (e) => {
 })
 
 input.focus();
-
 

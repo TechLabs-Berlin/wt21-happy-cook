@@ -71,15 +71,15 @@ body.Index {
 .input-group-text{
   border:1px solid #B20001 !important ;
   border-radius: 15%;
-  height:40px;
+  height: 43px;
   
 }
 
-.form-control {
+/* .form-control {
   border:1px solid #B20001 !important;
   border-left: white !important;
   
-}
+} */
 
 @media screen and (max-width: 992px) {
   nav.navbar .nav-item {
@@ -195,9 +195,7 @@ body.Index {
   height: 40px;
 }
 
-#box{
-  
-}
+
 
 nav.happy-cook-nav ul.navbar-nav li a.nav-link {
   color:#F86500;
@@ -346,9 +344,6 @@ body.loading {
 
 
 
-.recipeIcon{
- 
-}
 
 .recipeIcon img{
   width: 25px;
@@ -581,9 +576,7 @@ border-bottom-right-radius: 10%;
    
  }
 
- .cookiesUpper{
-  
- }
+
 
  .cookiesUpper img{
   height: 485px;
@@ -682,11 +675,17 @@ color: #FFFFFFE5;
  .privacy p{
    text-align: left;
    margin-top: 25px;
+   
  }
 
  .privacyIndex{
   text-align: left;
+  display: flex;
   
+ }
+ .privacyIndex button{
+  margin-left: 10px;
+  margin-bottom: 5px;
  }
 
  .socialMediaIcons img{
@@ -758,34 +757,6 @@ color: #FFFFFFE5;
 }
 
 
-_____________
-.tag-container .tag {
-  height: 30px;
-  margin: 5px;
-  padding: 5px 6px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  background: #eee;
-  display: flex;
-  align-items: center;
-  color: #333;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 1px 1px #fff;
-  cursor: default;
-}
-.tag i {
-  font-size: 16px;
-  color: #666;
-  margin-left: 5px;
-}
-.tag-container input {
-  padding: 5px;
-  font-size: 16px;
-  border: 0;
-  outline: none;
-  font-family: 'Rubik';
-  color: #333;
-  flex: 1;
-}
 
 h5 button{
   color:red;
@@ -807,7 +778,6 @@ h5 button{
 .modalSecond h6{
   margin-left: 5%;
   margin-right: 5%;
-
 }
 
 
@@ -821,3 +791,55 @@ h5 button{
 
    
 }
+
+
+
+
+
+
+
+@import url('https://kodhus.com/kodhus-ui/kodhus-0.1.0.min.css');
+
+.tag-container {
+  border: 1px solid  #B20001;
+  border-left: transparent;
+  border-radius: 0px 3px 3px 0px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 43px;
+ 
+ 
+  /* padding: 6px; */
+  /* overflow-x: scroll; */
+}
+.tag-container .tag {
+  height: 30px;
+  margin: 5px;
+  padding: 5px 6px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  background: #60CF5D;
+  display: flex;
+  align-items: center;
+  color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 1px 1px #fff;
+  cursor: default;
+}
+.tag i {
+  font-size: 16px;
+  color: white;
+  margin-left: 5px;
+}
+.tag-container input {
+  /* padding: 5px; */
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  font-family: 'Nokora';
+  color: #333;
+  flex: 1;
+}
+
+
