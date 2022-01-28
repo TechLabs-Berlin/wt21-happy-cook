@@ -8,9 +8,12 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nokora:wght@700&family=Nothing+You+Could+Do&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
@@ -26,7 +29,7 @@
 
 
 
-  <img src="images/background.png" class="card-img img-fluid background" alt="background" class="img-responsive">
+  <!-- <img src="images/background.png" class="card-img img-fluid background" alt="background" class="img-responsive"> -->
   <div class="card-img-overlay">
 
     <nav class="navbar navbar-expand-lg navbar-light  happy-cook-nav">
@@ -163,11 +166,17 @@
                   <input type="radio" id="choice2" name="difficulty" value="normal">NORMAL
                   
                   <input type="radio" id="choice3" name="difficulty" value="hard">HARD
-                </div>
+                </div>             
               </div>
-
             </form>
 
+            
+          </div>
+
+          <div class="difficultyBar">
+            <button class="">easy</button>
+            <button>medium</button>
+            <button>hard</button>
           </div>
 
           <p class="fs-6 index ">Quick Search</p>
@@ -249,12 +258,13 @@
                           </div>
                       </div>
                     </div>
-                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                   
+                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     </a>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  </a>
                 </div>
             </div>
             
@@ -292,7 +302,7 @@
     <div class="container">
         <div class="row">
             <div class="col privacyIndex">
-              <button  data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Privacy Policy</button>
+              <button  data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Privacy</button>
 
                 <!-- Button trigger modal -->
 
