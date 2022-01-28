@@ -37,7 +37,7 @@ def search():
 
 @app.route("/<qry>", methods=['GET','POST'])
 def query(qry):
-    df = pd.read_csv('only_easy_recipe.csv')   #uploads dataset
+    df = pd.read_csv('small_clean_data.csv')   #uploads dataset
     df=df[df['Difficulty']=='Easy']
     D = load('vectorized_corpus.joblib')
     DF = load('DF.joblib')
@@ -76,7 +76,7 @@ def query(qry):
 
 @app.route("/<qry>/json", methods=['GET','POST'])
 def query_json(qry):
-    df = pd.read_csv('only_easy_recipe.csv')   #uploads dataset
+    df = pd.read_csv('small_clean_data.csv')   #uploads dataset
     D = load('./vectorized_corpus.joblib')
     DF = load('./DF.joblib')
     N = load('./N.joblib')
@@ -95,7 +95,7 @@ def query_json(qry):
 
 @app.route("/tables")
 def show_tables():  #this is the function to show individual recipe details.
-    df = pd.read_csv('only_easy_recipe.csv')
+    df = pd.read_csv('small_clean_data.csv')
     recip_id = int(session.get('recip_id', None))
     filter = df.recipe_id == recip_id
     recipe_details = df.loc[filter, :]
