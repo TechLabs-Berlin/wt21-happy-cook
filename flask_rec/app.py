@@ -37,7 +37,7 @@ def search():
 
 @app.route("/<qry>", methods=['GET','POST'])
 def query(qry):
-    df = pd.read_csv('small_clean_data.csv')   #uploads dataset
+    df = pd.read_csv('clean_data_for_api.csv')   #uploads dataset
     df=df[df['Difficulty']=='Easy']
     D = load('vectorized_corpus.joblib')
     DF = load('DF.joblib')
@@ -76,7 +76,7 @@ def query(qry):
 
 @app.route("/<qry>/json", methods=['GET','POST'])
 def query_json(qry):
-    df = pd.read_csv('small_clean_data.csv')   #uploads dataset
+    df = pd.read_csv('clean_data_for_api.csv')   #uploads dataset
     D = load('./vectorized_corpus.joblib')
     DF = load('./DF.joblib')
     N = load('./N.joblib')
@@ -90,12 +90,12 @@ def query_json(qry):
     DQ['recipe_id']=DQ.id.apply(lambda x: df['recipe_id'][x])
     DQ['match']=pd.Series(["{0:.2f}%".format(val * 100) for val in DQ['similarity']])
     DQ=DQ.drop(columns=['id','similarity'])
-    DQ_json=DQ.to_json(orient='records', lines=TRUE, index=FALSE)  
+    DQ_json=DQ.to_json(orient='records', index=FALSE)  
     return DQ_json
 
 @app.route("/tables")
 def show_tables():  #this is the function to show individual recipe details.
-    df = pd.read_csv('small_clean_data.csv')
+    df = pd.read_csv('clean_data_for_api.csv')
     page_id = request.args.get("id") # 123
     filter = df["recipe_id"] == int(page_id)
     recipe_details = df.loc[filter,:]

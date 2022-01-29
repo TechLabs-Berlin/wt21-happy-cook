@@ -8,6 +8,12 @@ from num2words import num2words
 import numpy as np
 import re
 
+def change_delimiter(data):
+    data = np.char.replace(data, "',", "  ^")
+    data = np.char.replace(data, "\"", "  ^")
+    data = np.char.replace(data, "'", " ")
+    data = np.char.replace(data, " u ", " ")
+    return data
 
 def convert_lower_case(data):
     return np.char.lower(data)
