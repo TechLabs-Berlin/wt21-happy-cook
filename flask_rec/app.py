@@ -103,7 +103,6 @@ def show_tables():  #this is the function to show individual recipe details.
     recipe_details['cooking_directions']=recipe_details['cooking_directions'].str.replace('\"','')
     recipe_details['cooking_directions']=recipe_details['cooking_directions'].str.replace("'",'')
     Re_json=recipe_details.to_json(orient='records', lines=TRUE, index=FALSE)  
-    
     return Re_json
 
 if __name__ == "__main__":
