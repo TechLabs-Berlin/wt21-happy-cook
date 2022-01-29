@@ -96,13 +96,11 @@ def query_json(qry):
 @app.route("/tables")
 def show_tables():  #this is the function to show individual recipe details.
     df = pd.read_csv('small_clean_data.csv')
-    recip_id = int(session.get('recip_id', None))
-    filter = df.recipe_id == recip_id
-    recipe_details = df.loc[filter, :]
-    recipe_details['ingredients']=recipe_details['ingredients'].str.replace('^',';')
-    recipe_details['cooking_directions']=recipe_details['cooking_directions'].str.replace('\"','')
-    recipe_details['cooking_directions']=recipe_details['cooking_directions'].str.replace("'",'')
-    Re_json=recipe_details.to_json(orient='records', lines=TRUE, index=FALSE)  
+    page_id = request.args.get("id") # 123
+    filter = df["recipe_id"] == int(page_id)
+    recipe_details = df.loc[filter,:]
+    Re_json = recipe_details.to_json(orient='records', lines=TRUE, index=FALSE)  
+    aha = df.to_json(orient='records', lines=TRUE, index=FALSE)  
     return Re_json
 
 if __name__ == "__main__":
