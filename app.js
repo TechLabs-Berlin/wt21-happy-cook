@@ -167,9 +167,15 @@ app.get('/recipes/:id', async (req, res) => {
     const recipe = recipeDetails.data
     console.log(recipe)
 
-    res.render('recipes/recipe', { recipe })
-})
+    const all_ingredients = recipe.ingredients.split("^")
+    console.log(all_ingredients)
 
+    const all_cooking_directions = recipe.cooking_directions.split(",")
+    console.log(all_cooking_directions)
+
+
+    res.render('recipes/recipe', { recipe, all_ingredients, all_cooking_directions })
+})
 
 
 // //Show single recipe details page (LOCAL MongoDB Server // OLD Version)

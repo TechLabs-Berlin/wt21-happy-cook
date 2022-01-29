@@ -120,7 +120,7 @@
                 <div class="numberOfMinutes">
                   <img src="/images/watchWhite.png">
                   <p>
-                    <%= recipe.total_time %> min
+                    <%= recipe.total_time %> minutes
                   </p>
                 </div>
                 <div class="meatVeg">
@@ -134,16 +134,16 @@
               <img src="/images/ingredients.png">
               <p>INGREDIENTS</p>
               <p>
-                <%= recipe.ingredients %>
+                <% for (let ingredient of all_ingredients) {%>
+                  <%= ingredient %>
+                    <% } %>
+
               </p>
             </div>
 
             <div class="instructions">
               <img src="/images/instructions.png">
               <p>INSTRUCTIONS</p>
-              <p>
-                <%=recipe.cooking_directions%>
-              </p>
               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -154,27 +154,33 @@
                     aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <% for (let cooking_step of all_cooking_directions) {%>
+                    <div class="carousel-item active">
 
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                          First slide label
+                        </h5>
+                        <p>
+                          <%= cooking_step %>
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
+                    <% } %>
+                      <div class="carousel-item">
 
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
 
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                   data-bs-slide="prev">
