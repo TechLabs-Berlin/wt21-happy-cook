@@ -81,7 +81,7 @@ def query_json(qry):
     DF = load('./DF.joblib')
     N = load('./N.joblib')
     difficulty = session.get('difficulty', None) #exports difficulty level as as string.
-    [model, model_score] = pred.cosine_similarity(6, qry, D , DF, N)
+    [model, model_score] = pred.cosine_similarity(25, qry, D , DF, N)
 
     d = {'id': model, 'similarity': model_score}
     DQ = pd.DataFrame(data=d)
