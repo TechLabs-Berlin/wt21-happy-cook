@@ -1,6 +1,6 @@
 // Import express
 const express = require('express');
-
+const axios = require('axios')
 const path = require('path');
 
 // Import Mongoose
@@ -69,6 +69,43 @@ app.get('/recipes', async (req, res) => {
 })
 
 
+
+
+
+
+// //API Testing with cryptonator API
+// axios.get('https://api.cryptonator.com/api/ticker/btc-usd')
+//     .then(res => {
+//         console.log(res.data.ticker.price)
+//     })
+// 
+////same as above
+// const getBitconPrice = async () => {
+//     const res = await axios.get('https://api.cryptonator.com/api/ticker/btc-usd')
+//     console.log(res)
+// }
+
+
+// //Search recipes by ingredients
+// app.get('/DSSEARCHTEST', (req, res) => {
+//     res.render('/archiv_templates/archiv_ds-api')
+// })
+
+// // DS_API test page 
+// app.get('/DSAPI', async (req, res) => {
+//     const { ingredients } = req.query;
+//     console.log(ingredients)
+//     res.redirect(`http://127.0.0.1:5000/${ingredients}/json`)
+//     //fetch(`http://127.0.0.1:5000/chicken/json`)
+// })
+
+
+// axios.get('http://127.0.0.1:5000/chicken/json')
+//     .then(res => {
+//         console.log(res.data)
+//     })
+
+
 // //Show all recipes (OLD)
 // app.get('/recipes', async (req, res) => {
 //     const recipes = await Recipe.find({});
@@ -113,12 +150,34 @@ app.get('/recipes/recipe', async (req, res) => {
     res.render('recipes/recipe',)
 })
 
-//Show single recipe details page
+
+//Testing of flask API 
+// axios.get('http://127.0.0.1:5000/tables?id=237610')
+//     .then(res => {
+//         console.log(res.data.ingredients)
+//     })
+
+
+//Show single recipe details page (LOCAL flask Server) 
 app.get('/recipes/:id', async (req, res) => {
-    const recipe = await Recipe.findById(req.params.id); // e.g. "61d5fc6688e42aae66f94a5f"
+    const recipeID = req.params.id;
+    console.log(recipeID);
+
+    const recipeDetails = await axios.get(`http://127.0.0.1:5000/tables?id=${recipeID}`)
+    const recipe = recipeDetails.data
     console.log(recipe)
+
     res.render('recipes/recipe', { recipe })
 })
+
+
+
+// //Show single recipe details page (LOCAL MongoDB Server // OLD Version)
+// app.get('/recipes/:id', async (req, res) => {
+//     const recipe = await Recipe.findById(req.params.id); // e.g. "61d5fc6688e42aae66f94a5f"
+//     console.log(recipe)
+//     res.render('recipes/recipe', { recipe })
+// })
 
 
 // //MAKE new recipe:
