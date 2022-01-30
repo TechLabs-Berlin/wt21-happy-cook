@@ -80,8 +80,11 @@ app.get('/recipes', async (req, res) => {
     console.log(`http://127.0.0.1:5000/${ingredients}/json`)
     const recipeResults = await axios.get(`http://127.0.0.1:5000/${ingredients}/json`)
     const recipes = recipeResults.data
-    console.log(recipes)
-    res.render('recipes/results', { recipes, ingredients })
+    //  console.log(recipes)
+    top3recipes = recipes.slice(0, 3)
+    remainingrecipes = recipes.slice(3, 12)
+    //  console.log(remainingrecipes)
+    res.render('recipes/results', { remainingrecipes, ingredients, top3recipes })
 })
 
 

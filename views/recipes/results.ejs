@@ -66,64 +66,63 @@
 
     <a href="/"><img src="images/iconHappyPot.svg" alt="HappyPot" class="logo happyPot"></a>
 
-      <div class="container">
-        <div class="row">
+    <div class="container">
+      <div class="row">
 
-          <div class="col-lg-3 col-sm-1">
-          </div>
+        <div class="col-lg-3 col-sm-1">
+        </div>
 
-          <div class="col-lg-5 center col-sm-10">
-            <p class="fs-1">HappyCook</p>
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1"> <img src="images/lupa.png"></span>
-  
-              <form action="/recipes" method="GET" class="method">
-                <div class="tag-container">
+        <div class="col-lg-5 center col-sm-10">
+          <p class="fs-1">HappyCook</p>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"> <img src="images/lupa.png"></span>
+
+            <form action="/recipes" method="GET" class="method">
+              <div class="tag-container">
                 <input type="text" value="" id="box" name="ingredients" class="form-control "
-                  placeholder="Enter ingredient" autofocus aria-label="Enter ingredient" aria-describedby="basic-addon1"/>
+                  placeholder="Enter ingredient" autofocus aria-label="Enter ingredient"
+                  aria-describedby="basic-addon1" />
+              </div>
+
+              <div class="difficulty">
+                <h4>Difficulty</h4>
+                <div class="difficultyButtons">
+
+                  <input type="radio" id="choice1" name="difficulty" value="easy">EASY
+
+                  <input type="radio" id="choice2" name="difficulty" value="normal">NORMAL
+
+                  <input type="radio" id="choice3" name="difficulty" value="hard">HARD
                 </div>
+              </div>
 
-                  <div class="difficulty">
-                    <h4>Difficulty</h4>
-                    <div class="difficultyButtons">
-                     
-                      <input type="radio" id="choice1" name="difficulty" value="easy">EASY
-    
-                      <input type="radio" id="choice2" name="difficulty" value="normal">NORMAL
-                          
-                      <input type="radio" id="choice3" name="difficulty" value="hard">HARD
-                    </div>
-                  </div>
-
-              </form>
-  
-            </div>
-            <div class="difficultyBar">
-              <button class="">easy</button>
-              <button>medium</button>
-              <button>hard</button>
-            </div>
-
+            </form>
 
           </div>
-
-          <div class="col-lg-4 col-sm-1">
+          <div class="difficultyBar">
+            <button class="">easy</button>
+            <button>medium</button>
+            <button>hard</button>
           </div>
+
 
         </div>
-      </div>
 
+        <div class="col-lg-4 col-sm-1">
+        </div>
+
+      </div>
     </div>
+
+  </div>
   </div>
 
   <div class="resultsRed">
     <img src="/images/resultsRed.png" class="card-img img-fluid img-responsive  resultsRed   " alt="resultsRed">
     <div class="top3Results">
 
-
-
-
-      <% for (let recipe of recipes) {%>
+      <!-- Show top 3 recipes -->
+      <% for (let recipe of top3recipes) {%>
         <div class="recipesRed">
           <p>
             <a href="/recipes/<%= recipe.recipe_id%>">
@@ -155,33 +154,66 @@
         </div>
         <% } %>
 
-        <footer class="footer ">
-
-          <div class="container">
-              <div class="row">
-                  <div class="col privacy">
-                      <p>Privacy</p>
-                  </div>
-                <div class="col-8">
-                  
-                  <p class="footerHappyCook">HappyCook</p>
-                  <p class="footerCopyright">© Copyright 2022. All rights reserved</p>
-
+          <!-- Show all remaining recipes (Recipe No 4 to 12) -->
+          <% for (let recipe of remainingrecipes) {%>
+            <div class="recipesRed">
+              <p>
+                <a href="/recipes/<%= recipe.recipe_id%>">
+                  <%= recipe.recipe_name %>
+                </a>
+              </p>
+              <img src="/images/recipe1.png" alt="recipe1">
+              <!--Abi: I need connect real images-->
+              <div class="recipeIcon">
+                <div class="match">
+                  <img src="/images/OK.png">
+                  <p>
+                    <%= recipe.match %>
+                  </p>
                 </div>
-                <div class="col socialMediaIcons">
-                 <img src="images/socialMediaIcons.png">
+
+                <div class="match">
+                  <img src="/images/watch.png">
+                  <p>
+                    <%= recipe.time %> minutes
+                  </p>
+                </div>
+
+                <div class="match">
+                  <img src="/images/cuttlery.png">
+                  <p>Vegetarian</p> <!-- Leticia told me that she is thinking that only "vegetarian" should be there-->
                 </div>
               </div>
             </div>
-               
-            
-        </footer>
+            <% } %>
+
+              <footer class="footer ">
+
+                <div class="container">
+                  <div class="row">
+                    <div class="col privacy">
+                      <p>Privacy</p>
+                    </div>
+                    <div class="col-8">
+
+                      <p class="footerHappyCook">HappyCook</p>
+                      <p class="footerCopyright">© Copyright 2022. All rights reserved</p>
+
+                    </div>
+                    <div class="col socialMediaIcons">
+                      <img src="images/socialMediaIcons.png">
+                    </div>
+                  </div>
+                </div>
+
+
+              </footer>
 
 
 
 
 
-          
+
 
 
 
