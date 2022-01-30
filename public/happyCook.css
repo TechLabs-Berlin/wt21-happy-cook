@@ -49,12 +49,44 @@ p.fs-1.index{
     text-align: center;
 }
 article.center.aboutUs h1{
-padding-bottom: 5px;
+padding-bottom: 15px;
 margin-top: -1%;
+font-family: Nokora;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+padding-bottom: 20px;
+
+
 }
-article.center.aboutUs h6{
+article.center.aboutUs h4{
+  font-family: Nokora;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: center;
   padding-bottom: 10px;
+  
+  
+}
+
+article.center.aboutUs h6{
+ padding-bottom: 20px;
+  font-family: Nokora;
+font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: center;
+    
   }
+ span.aboutUsNameRole{
+  color: #F86500
+ }
+
 
 .img-fluid {
     background-size: cover;
@@ -250,6 +282,14 @@ input.form-control:focus{
 .happyPot{
   margin-top: -2%;
   margin-left: 1.5%;
+}
+.happyPotAboutUs{
+  margin-top: -2%;
+  margin-left: 3%;
+}
+
+#navbarNavDropdown.collapse.navbar-collapse.navbar-right.aboutUs{
+  margin-right: 1%;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
@@ -628,8 +668,8 @@ border-bottom-right-radius: 10%;
 
  .modal-dialog{
    background-color: white;
-   border-radius: 10px;
-   /* height: 550px; */
+   border-radius: 25px !important;
+   
    position: fixed;
    top: 50%;
    left: 50%;
@@ -683,7 +723,7 @@ border-bottom-right-radius: 10%;
   background-color: #474747;
   color: white;
   text-align: center;
-  height: 65px;
+  height: 70px;
  }
 
  .footerHappyCook{
@@ -732,7 +772,8 @@ color: #FFFFFFE5;
   margin-bottom: 5px;
  }
 .privacy p{
-  padding-top: 30px;
+  padding-top: 20px;
+  text-align: left;
 }
 
  .socialMediaIcons img{
@@ -836,13 +877,19 @@ h5 button{
     background-color: #6C0102 ;
     color: white;
     border-radius: 30px;
-    text-align: center !important;
+    /* text-align: center !important; */
+width: 130px;
 
-   
 }
+.modal-content.modalSecond{
+wid
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 
-
+  }
+  
 
 
 
@@ -965,6 +1012,7 @@ transform: translateX(0);
 
 .modal-content{
   border:none;
+  border-radius: 25px;
 }
 
 .btn-danger{
@@ -981,7 +1029,7 @@ transform: translateX(0);
 
 article h1{
   color: #6C0102;
-  ;
+  
 }
 
 article h6{
@@ -1021,9 +1069,7 @@ box-sizing: border-box;
 border-radius: 35px;
 }
 
-/* .card-img-overlay{
-  padding:0rem;
-} */
+
 
 hr {
   margin:0px 0px 0px 0px;
@@ -1048,4 +1094,11 @@ justify-content: center;
   margin-top: 0.5%;
   margin-bottom: 0.5%; */
   margin: 0.5% 3% 0.5% 3%;
+}
+.card-img-overlay.aboutUs{
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+img.logo.happyPot{
+  padding-left: 1rem;
 }
