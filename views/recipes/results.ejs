@@ -126,7 +126,7 @@
       <% for (let recipe of recipes) {%>
         <div class="recipesRed">
           <p>
-            <a href="/recipes/<%= recipe._id%>">
+            <a href="/recipes/<%= recipe.recipe_id%>">
               <%= recipe.recipe_name %>
             </a>
           </p>
@@ -135,12 +135,16 @@
           <div class="recipeIcon">
             <div class="match">
               <img src="/images/OK.png">
-              <p>match percentage</p><!-- we need to check, if we have those infos in our recipes dataset-->
+              <p>
+                <%= recipe.match %>
+              </p>
             </div>
 
             <div class="match">
               <img src="/images/watch.png">
-              <p>duration</p>
+              <p>
+                <%= recipe.time %> minutes
+              </p>
             </div>
 
             <div class="match">

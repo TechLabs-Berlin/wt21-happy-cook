@@ -48,27 +48,41 @@ app.get('/', (req, res) => {
 //     res.render('recipes/search')
 // })
 
-// List/Show all search results
+//// List/Show all search results
+// app.get('/recipes', async (req, res) => {
+//     const { ingredients } = req.query;
+//     const { difficulty } = req.query;
+//     console.log(req.query);
+//     console.log("Ingredients: " + ingredients)
+//     console.log("Difficulty: " + difficulty)
+//     const ingredientslist = ingredients.split(" ")
+//     console.log(`Query contains: "${ingredientslist}"`)
+
+//     if (ingredientslist) {
+//         const recipes = await Recipe.find({ ingredients: { $all: ingredientslist }, difficulty: difficulty }) // search for recipes which contain all ingredients from search bar ; e.g. { $all: ["bananas", "Tomato"] }
+//         console.log(recipes)
+//         res.render('recipes/results', { recipes, ingredients })
+//     } else {
+//         const recipes = await Recipe.find({});
+//         res.render('recipes/results', { recipes, ingredients: "ALL" })
+//     }
+// })
+
+// List/Show all search results (LOCAL flask server)
 app.get('/recipes', async (req, res) => {
     const { ingredients } = req.query;
     const { difficulty } = req.query;
     console.log(req.query);
     console.log("Ingredients: " + ingredients)
     console.log("Difficulty: " + difficulty)
-    const ingredientslist = ingredients.split(" ")
-    console.log(`Query contains: "${ingredientslist}"`)
-
-    if (ingredientslist) {
-        const recipes = await Recipe.find({ ingredients: { $all: ingredientslist }, difficulty: difficulty }) // search for recipes which contain all ingredients from search bar ; e.g. { $all: ["bananas", "Tomato"] }
-        console.log(recipes)
-        res.render('recipes/results', { recipes, ingredients })
-    } else {
-        const recipes = await Recipe.find({});
-        res.render('recipes/results', { recipes, ingredients: "ALL" })
-    }
+    // const ingredientslist = ingredients.split(" ")
+    // console.log(`Query contains: "${ingredientslist}"`)
+    console.log(`http://127.0.0.1:5000/${ingredients}/json`)
+    const recipeResults = await axios.get(`http://127.0.0.1:5000/${ingredients}/json`)
+    const recipes = recipeResults.data
+    console.log(recipes)
+    res.render('recipes/results', { recipes, ingredients })
 })
-
-
 
 
 
