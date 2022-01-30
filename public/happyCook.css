@@ -1102,3 +1102,78 @@ justify-content: center;
 img.logo.happyPot{
   padding-left: 1rem;
 }
+
+.inspirationImages{
+  display: flex;
+}
+
+
+.kale{
+  background: url(images/inspirationHover/inspirationKale.png) no-repeat;
+  width: 270px;
+  height: 500px;
+  opacity: 0.4;
+}
+.kale:hover{ 
+  background: url(images/inspirationHover/inspirationKale.png) no-repeat;
+  opacity: 1;
+}
+
+.brusselsprouts{
+  background: url(images/inspiration/brusselsprouts.png) no-repeat;
+  width: 327px;
+  height: 500px;
+}
+.brusselsprouts:hover{ 
+  background: url(images/inspirationHover/inspirationBrusselsprouts.png) no-repeat;
+  
+}
+
+.parsnip{
+  background: url(images/inspiration/parsnip.png) no-repeat;
+  width: 327px;
+  height: 500px;
+  }
+.parsnip:hover{ 
+  background: url(images/inspirationHover/inspirationParsnip.png) no-repeat;
+}
+
+.leek{
+  background: url(images/inspiration/leek.png) no-repeat;
+  width: 334px;
+  height: 500px;
+}
+.leek:hover{ 
+  background: url(images/inspirationHover/inspirationLeek.png) no-repeat;
+
+ 
+}
+
+.mushroom{
+  background: url(images/inspiration/mushroom.png) no-repeat;
+  width: 340px;
+  height: 500px;
+}
+.mushroom:hover{ 
+  background: url(images/inspirationHover/inspirationMushroom.png) no-repeat;
+
+}
+
+.savoycabbage{
+  background: url(images/inspirationHover/inspirationSavoycabbage.png) no-repeat;
+  width: 335px;
+  height: 500px;
+  opacity: 0.4;
+}
+.savoycabbage:hover{ 
+  background: url(images/inspirationHover/inspirationSavoycabbage.png) no-repeat;
+  opacity: 1;
+}
+
+
+header{
+  font-family: Nokora;
+}
+header h1{
+  margin-top: -4%;
+}
