@@ -170,7 +170,7 @@ app.get('/recipes/:id', async (req, res) => {
     const all_ingredients = recipe.ingredients.split("^")
     console.log(all_ingredients)
 
-    const all_cooking_directions = recipe.cooking_directions.split(",")
+    const all_cooking_directions = recipe.cooking_directions.split("^")
     console.log(all_cooking_directions)
 
 
