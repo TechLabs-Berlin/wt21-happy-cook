@@ -37,7 +37,7 @@ def search():
 
 @app.route("/<qry>", methods=['GET','POST'])
 def query(qry):
-    df = pd.read_csv('small_clean_data.csv')   #uploads dataset
+    df = pd.read_csv('clean_data_for_api.csv')   #uploads dataset
     df=df[df['Difficulty']=='Easy']
     D = load('vectorized_corpus.joblib')
     DF = load('DF.joblib')
@@ -47,8 +47,8 @@ def query(qry):
 
     d = {'id': model, 'similarity': model_score}
     DQ = pd.DataFrame(data=d)
-    
-    #the filter keeps return error, could you please edit it? Thanks (it does work in jupyitor notebook)#
+
+      #the filter keeps return error, could you please edit it? Thanks (it does work in jupyitor notebook)#
     #if difficulty == 'Easy':
         #results=data[data['Difficulty']=='Easy']
    # elif difficulty == 'Medium':    
@@ -57,9 +57,10 @@ def query(qry):
         #results=data[data['Difficulty']=='Difficult']
    # else:
        # results=None#
-
+    
     DQ['recipe_name']=DQ.id.apply(lambda x: df['recipe_name'][x])
     DQ['time']=DQ.id.apply(lambda x: df['total_time'][x])
+    DQ['recipe_id']=DQ.id.apply(lambda x: df['recipe_id'][x])
     DQ['match']=pd.Series(["{0:.2f}%".format(val * 100) for val in DQ['similarity']])
     DQ=DQ.drop(columns=['id','similarity'])
 
@@ -75,30 +76,33 @@ def query(qry):
 
 @app.route("/<qry>/json", methods=['GET','POST'])
 def query_json(qry):
-    df = pd.read_csv('small_clean_data.csv')   #uploads dataset
+    df = pd.read_csv('clean_data_for_api.csv')   #uploads dataset
     D = load('./vectorized_corpus.joblib')
     DF = load('./DF.joblib')
     N = load('./N.joblib')
     difficulty = session.get('difficulty', None) #exports difficulty level as as string.
-    [model, model_score] = pred.cosine_similarity(6, qry, D , DF, N)
+    [model, model_score] = pred.cosine_similarity(40, qry, D , DF, N)
 
     d = {'id': model, 'similarity': model_score}
     DQ = pd.DataFrame(data=d)
     DQ['recipe_name']=DQ.id.apply(lambda x: df['recipe_name'][x])
     DQ['time']=DQ.id.apply(lambda x: df['total_time'][x])
+    DQ['recipe_id']=DQ.id.apply(lambda x: df['recipe_id'][x])
     DQ['match']=pd.Series(["{0:.2f}%".format(val * 100) for val in DQ['similarity']])
+    DQ['image_url']=DQ.id.apply(lambda x: df['image_url'])
+    DQ['Difficulty']=DQ.id.apply(lambda x: df['Difficulty'])
     DQ=DQ.drop(columns=['id','similarity'])
-    DQ_json=DQ.to_json(orient='records', lines=TRUE, index=FALSE)  
+    DQ_json=DQ.to_json(orient='records', index=FALSE)  
     return DQ_json
 
 @app.route("/tables")
 def show_tables():  #this is the function to show individual recipe details.
-    df = pd.read_csv('small_clean_data.csv')
-    recip_id = int(session.get('recip_id', None))
-    filter = df.recipe_id == recip_id
-    recipe_details = df.loc[filter, :]
-    Re_json=recipe_details.to_json(orient='records', lines=TRUE, index=FALSE)  
-    
+    df = pd.read_csv('clean_data_for_api.csv')
+    page_id = request.args.get("id") # 123
+    filter = df["recipe_id"] == int(page_id)
+    recipe_details = df.loc[filter,:]
+    Re_json = recipe_details.to_json(orient='records', lines=TRUE, index=FALSE)  
+    aha = df.to_json(orient='records', lines=TRUE, index=FALSE)  
     return Re_json
 
 if __name__ == "__main__":
