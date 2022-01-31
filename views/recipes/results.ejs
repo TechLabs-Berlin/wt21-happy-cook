@@ -124,7 +124,101 @@
     <div class="top3Results">
 
       <!-- Show top 3 recipes -->
-      <% for (let recipe of top3recipes) {%>
+      <!-- 1. Recipe -->
+      <div class="recipesRed">
+        <p>
+          <a href="/recipes/<%= top3recipes[0].recipe_id%>">
+            <%= top3recipes[0].recipe_name %>
+          </a>
+        </p>
+        <img src="<%= top3recipes[0].url%>" alt="recipe1">
+        <div class="recipeIcon">
+          <div class="match">
+            <img src="/images/OK.png">
+            <p>
+              <%= top3recipes[0].match %>
+            </p>
+          </div>
+
+          <div class="match">
+            <img src="/images/watch.png">
+            <p>
+              <%= top3recipes[0].time %> minutes
+            </p>
+          </div>
+
+          <!-- <div class="match">
+            <img src="/images/cuttlery.png">
+            <p>Vegetarian</p> 
+          </div> -->
+        </div>
+      </div>
+
+      <!-- 2. Recipe -->
+      <div class="recipesRed">
+        <p>
+          <a href="/recipes/<%= top3recipes[1].recipe_id%>">
+            <%= top3recipes[1].recipe_name %>
+          </a>
+        </p>
+        <img src="<%= top3recipes[1].url%>" alt="recipe1">
+        <div class="recipeIcon">
+          <div class="match">
+            <img src="/images/OK.png">
+            <p>
+              <%= top3recipes[1].match %>
+            </p>
+          </div>
+
+          <div class="match">
+            <img src="/images/watch.png">
+            <p>
+              <%= top3recipes[1].time %> minutes
+            </p>
+          </div>
+
+          <!-- <div class="match">
+            <img src="/images/cuttlery.png">
+            <p>Vegetarian</p> 
+          </div> -->
+        </div>
+      </div>
+
+      <!-- 3. Recipe -->
+      <div class="recipesRed">
+        <p>
+          <a href="/recipes/<%= top3recipes[2].recipe_id%>">
+            <%= top3recipes[2].recipe_name %>
+          </a>
+        </p>
+        <img src="<%= top3recipes[2].url%>" alt="recipe1">
+        <div class="recipeIcon">
+          <div class="match">
+            <img src="/images/OK.png">
+            <p>
+              <%= top3recipes[2].match %>
+            </p>
+          </div>
+
+          <div class="match">
+            <img src="/images/watch.png">
+            <p>
+              <%= top3recipes[2].time %> minutes
+            </p>
+          </div>
+
+          <!-- <div class="match">
+            <img src="/images/cuttlery.png">
+            <p>Vegetarian</p> 
+          </div> -->
+        </div>
+      </div>
+
+
+
+
+      <!-- Show all remaining recipes (Recipe No 4 to 12) -->
+      <% for (let recipe of remainingrecipes) {%>
         <div class="recipesRed">
           <p>
             <a href="/recipes/<%= recipe.recipe_id%>">
@@ -148,68 +242,36 @@
               </p>
             </div>
 
-            <div class="match">
+            <!-- <div class="match">
               <img src="/images/cuttlery.png">
-              <p>Vegetarian</p> <!-- Leticia told me that she is thinking that only "vegetarian" should be there-->
-            </div>
+              <p>Vegetarian</p>  -->
+            <!-- Leticia told me that she is thinking that only "vegetarian" should be there-->
+            <!-- </div> -->
           </div>
         </div>
         <% } %>
 
-          <!-- Show all remaining recipes (Recipe No 4 to 12) -->
-          <% for (let recipe of remainingrecipes) {%>
-            <div class="recipesRed">
-              <p>
-                <a href="/recipes/<%= recipe.recipe_id%>">
-                  <%= recipe.recipe_name %>
-                </a>
-              </p>
-              <img src="<%= recipe.url%>" alt="recipe1">
-              <!--Abi: I need connect real images-->
-              <div class="recipeIcon">
-                <div class="match">
-                  <img src="/images/OK.png">
-                  <p>
-                    <%= recipe.match %>
-                  </p>
-                </div>
+          <footer class="footer ">
 
-                <div class="match">
-                  <img src="/images/watch.png">
-                  <p>
-                    <%= recipe.time %> minutes
-                  </p>
+            <div class="container">
+              <div class="row">
+                <div class="col privacy">
+                  <p>Privacy</p>
                 </div>
+                <div class="col-8">
 
-                <div class="match">
-                  <img src="/images/cuttlery.png">
-                  <p>Vegetarian</p> <!-- Leticia told me that she is thinking that only "vegetarian" should be there-->
+                  <p class="footerHappyCook">HappyCook</p>
+                  <p class="footerCopyright">© Copyright 2022. All rights reserved</p>
+
+                </div>
+                <div class="col socialMediaIcons">
+                  <img src="images/socialMediaIcons.png">
                 </div>
               </div>
             </div>
-            <% } %>
-
-              <footer class="footer ">
-
-                <div class="container">
-                  <div class="row">
-                    <div class="col privacy">
-                      <p>Privacy</p>
-                    </div>
-                    <div class="col-8">
-
-                      <p class="footerHappyCook">HappyCook</p>
-                      <p class="footerCopyright">© Copyright 2022. All rights reserved</p>
-
-                    </div>
-                    <div class="col socialMediaIcons">
-                      <img src="images/socialMediaIcons.png">
-                    </div>
-                  </div>
-                </div>
 
 
-              </footer>
+          </footer>
 
 
 
