@@ -48,7 +48,7 @@ app.get('/', (req, res) => {
 //     res.render('recipes/search')
 // })
 
-//// List/Show all search results
+//// List/Show all search results (LOCAL Mongo DB Server)
 // app.get('/recipes', async (req, res) => {
 //     const { ingredients } = req.query;
 //     const { difficulty } = req.query;
