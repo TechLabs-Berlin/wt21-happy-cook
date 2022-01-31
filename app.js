@@ -183,6 +183,11 @@ app.get('/recipes/recipe', async (req, res) => {
 
 //Show single recipe details page (LOCAL flask Server) 
 app.get('/recipes/:id', async (req, res) => {
+    // get matching score
+    const match = req.query.match;
+    console.log(match)
+
+    //get recipe details
     const recipeID = req.params.id;
     console.log(recipeID);
 
@@ -197,7 +202,7 @@ app.get('/recipes/:id', async (req, res) => {
     console.log(all_cooking_directions)
 
 
-    res.render('recipes/recipe', { recipe, all_ingredients, all_cooking_directions })
+    res.render('recipes/recipe', { recipe, all_ingredients, all_cooking_directions, match })
 })
 
 

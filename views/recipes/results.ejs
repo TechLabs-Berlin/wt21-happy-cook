@@ -127,7 +127,7 @@
       <!-- 1. Recipe -->
       <div class="recipesRed">
         <p>
-          <a href="/recipes/<%= top3recipes[0].recipe_id%>">
+          <a href="/recipes/<%= top3recipes[0].recipe_id%>/?match=<%= top3recipes[0].match %>">
             <%= top3recipes[0].recipe_name %>
           </a>
         </p>
@@ -157,7 +157,7 @@
       <!-- 2. Recipe -->
       <div class="recipesRed">
         <p>
-          <a href="/recipes/<%= top3recipes[1].recipe_id%>">
+          <a href="/recipes/<%= top3recipes[1].recipe_id%>/?match=<%= top3recipes[1].match %>">
             <%= top3recipes[1].recipe_name %>
           </a>
         </p>
@@ -187,7 +187,7 @@
       <!-- 3. Recipe -->
       <div class="recipesRed">
         <p>
-          <a href="/recipes/<%= top3recipes[2].recipe_id%>">
+          <a href="/recipes/<%= top3recipes[2].recipe_id%>/?match=<%= top3recipes[2].match %>">
             <%= top3recipes[2].recipe_name %>
           </a>
         </p>
@@ -221,7 +221,7 @@
       <% for (let recipe of remainingrecipes) {%>
         <div class="recipesRed">
           <p>
-            <a href="/recipes/<%= recipe.recipe_id%>">
+            <a href="/recipes/<%= recipe.recipe_id%>/?match=<%= remainingrecipes.match %>">
               <%= recipe.recipe_name %>
             </a>
           </p>
