@@ -125,153 +125,329 @@
 
       <!-- Show top 3 recipes -->
       <!-- 1. Recipe -->
-      <div class="recipesRed">
-        <p>
-          <a href="/recipes/<%= top3recipes[0].recipe_id%>/?match=<%= top3recipes[0].match %>">
-            <%= top3recipes[0].recipe_name %>
-          </a>
-        </p>
-        <img src="<%= top3recipes[0].url%>" alt="recipe1">
-        <div class="recipeIcon">
-          <div class="match">
-            <img src="/images/OK.png">
-            <p>
-              <%= top3recipes[0].match %>
-            </p>
-          </div>
-
-          <div class="match">
-            <img src="/images/watch.png">
-            <p>
-              <%= top3recipes[0].time %> minutes
-            </p>
-          </div>
-
-          <!-- <div class="match">
-            <img src="/images/cuttlery.png">
-            <p>Vegetarian</p> 
-          </div> -->
-        </div>
-      </div>
-
-      <!-- 2. Recipe -->
-      <div class="recipesRed">
-        <p>
-          <a href="/recipes/<%= top3recipes[1].recipe_id%>/?match=<%= top3recipes[1].match %>">
-            <%= top3recipes[1].recipe_name %>
-          </a>
-        </p>
-        <img src="<%= top3recipes[1].url%>" alt="recipe1">
-        <div class="recipeIcon">
-          <div class="match">
-            <img src="/images/OK.png">
-            <p>
-              <%= top3recipes[1].match %>
-            </p>
-          </div>
-
-          <div class="match">
-            <img src="/images/watch.png">
-            <p>
-              <%= top3recipes[1].time %> minutes
-            </p>
-          </div>
-
-          <!-- <div class="match">
-            <img src="/images/cuttlery.png">
-            <p>Vegetarian</p> 
-          </div> -->
-        </div>
-      </div>
-
-      <!-- 3. Recipe -->
-      <div class="recipesRed">
-        <p>
-          <a href="/recipes/<%= top3recipes[2].recipe_id%>/?match=<%= top3recipes[2].match %>">
-            <%= top3recipes[2].recipe_name %>
-          </a>
-        </p>
-        <img src="<%= top3recipes[2].url%>" alt="recipe1">
-        <div class="recipeIcon">
-          <div class="match">
-            <img src="/images/OK.png">
-            <p>
-              <%= top3recipes[2].match %>
-            </p>
-          </div>
-
-          <div class="match">
-            <img src="/images/watch.png">
-            <p>
-              <%= top3recipes[2].time %> minutes
-            </p>
-          </div>
-
-          <!-- <div class="match">
-            <img src="/images/cuttlery.png">
-            <p>Vegetarian</p> 
-          </div> -->
-        </div>
-      </div>
-
-
-
-
-      <!-- Show all remaining recipes (Recipe No 4 to 12) -->
-      <% for (let recipe of remainingrecipes) {%>
+      <% if(top3recipes[0]) {%>
         <div class="recipesRed">
           <p>
-            <a href="/recipes/<%= recipe.recipe_id%>/?match=<%= remainingrecipes.match %>">
-              <%= recipe.recipe_name %>
+            <a href="/recipes/<%= top3recipes[0].recipe_id%>/?match=<%= top3recipes[0].match %>">
+              <%= top3recipes[0].recipe_name %>
             </a>
           </p>
-          <img src="<%= recipe.url%>" alt="recipe1">
-          <!--Abi: I need connect real images-->
+          <img src="<%= top3recipes[0].url%>" alt="recipe1">
           <div class="recipeIcon">
             <div class="match">
               <img src="/images/OK.png">
               <p>
-                <%= recipe.match %>
+                <%= top3recipes[0].match %>
               </p>
             </div>
 
             <div class="match">
               <img src="/images/watch.png">
               <p>
-                <%= recipe.time %> minutes
+                <%= top3recipes[0].time %> minutes
               </p>
             </div>
 
             <!-- <div class="match">
-              <img src="/images/cuttlery.png">
-              <p>Vegetarian</p>  -->
-            <!-- Leticia told me that she is thinking that only "vegetarian" should be there-->
-            <!-- </div> -->
+            <img src="/images/cuttlery.png">
+            <p>Vegetarian</p> 
+          </div> -->
           </div>
         </div>
         <% } %>
 
-          <footer class="footer ">
 
-            <div class="container">
-              <div class="row">
-                <div class="col privacy">
-                  <p>Privacy</p>
+          <!-- 2. Recipe -->
+          <% if(top3recipes[1]) {%>
+            <div class="recipesRed">
+              <p>
+                <a href="/recipes/<%= top3recipes[1].recipe_id%>/?match=<%= top3recipes[1].match %>">
+                  <%= top3recipes[1].recipe_name %>
+                </a>
+              </p>
+              <img src="<%= top3recipes[1].url%>" alt="recipe1">
+              <div class="recipeIcon">
+                <div class="match">
+                  <img src="/images/OK.png">
+                  <p>
+                    <%= top3recipes[1].match %>
+                  </p>
                 </div>
-                <div class="col-8">
 
-                  <p class="footerHappyCook">HappyCook</p>
-                  <p class="footerCopyright">© Copyright 2022. All rights reserved</p>
+                <div class="match">
+                  <img src="/images/watch.png">
+                  <p>
+                    <%= top3recipes[1].time %> minutes
+                  </p>
+                </div>
 
-                </div>
-                <div class="col socialMediaIcons">
-                  <img src="images/socialMediaIcons.png">
-                </div>
+                <!-- <div class="match">
+            <img src="/images/cuttlery.png">
+            <p>Vegetarian</p> 
+          </div> -->
               </div>
             </div>
+            <% } %>
 
 
-          </footer>
+              <!-- 3. Recipe -->
+              <% if(top3recipes[2]) {%>
+                <div class="recipesRed">
+                  <p>
+                    <a href="/recipes/<%= top3recipes[2].recipe_id%>/?match=<%= top3recipes[2].match %>">
+                      <%= top3recipes[2].recipe_name %>
+                    </a>
+                  </p>
+                  <img src="<%= top3recipes[2].url%>" alt="recipe1">
+                  <div class="recipeIcon">
+                    <div class="match">
+                      <img src="/images/OK.png">
+                      <p>
+                        <%= top3recipes[2].match %>
+                      </p>
+                    </div>
+
+                    <div class="match">
+                      <img src="/images/watch.png">
+                      <p>
+                        <%= top3recipes[2].time %> minutes
+                      </p>
+                    </div>
+
+                    <!-- <div class="match">
+            <img src="/images/cuttlery.png">
+            <p>Vegetarian</p> 
+          </div> -->
+                  </div>
+                </div>
+                <% } %>
+
+
+
+                  <!-- Show all remaining recipes (Recipe No 4 to 6) -->
+                  <!-- 4. Recipe -->
+                  <% if(remainingrecipes[0]) {%>
+                    <div class="recipesRed">
+                      <p>
+                        <a href="/recipes/<%= remainingrecipes[0].recipe_id%>/?match=<%= remainingrecipes[0].match %>">
+                          <%= remainingrecipes[0].recipe_name %>
+                        </a>
+                      </p>
+                      <img src="<%= remainingrecipes[0].url%>" alt="recipe1">
+                      <div class="recipeIcon">
+                        <div class="match">
+                          <img src="/images/OK.png">
+                          <p>
+                            <%= remainingrecipes[0].match %>
+                          </p>
+                        </div>
+
+                        <div class="match">
+                          <img src="/images/watch.png">
+                          <p>
+                            <%= remainingrecipes[0].time %> minutes
+                          </p>
+                        </div>
+
+                        <!-- <div class="match">
+            <img src="/images/cuttlery.png">
+            <p>Vegetarian</p> 
+          </div> -->
+                      </div>
+                    </div>
+                    <% } %>
+
+                      <!-- 5. Recipe -->
+                      <% if(remainingrecipes[1]) {%>
+                        <div class="recipesRed">
+                          <p>
+                            <a
+                              href="/recipes/<%= remainingrecipes[1].recipe_id%>/?match=<%= remainingrecipes[1].match %>">
+                              <%= remainingrecipes[1].recipe_name %>
+                            </a>
+                          </p>
+                          <img src="<%= remainingrecipes[1].url%>" alt="recipe1">
+                          <div class="recipeIcon">
+                            <div class="match">
+                              <img src="/images/OK.png">
+                              <p>
+                                <%= remainingrecipes[1].match %>
+                              </p>
+                            </div>
+
+                            <div class="match">
+                              <img src="/images/watch.png">
+                              <p>
+                                <%= remainingrecipes[1].time %> minutes
+                              </p>
+                            </div>
+
+                            <!-- <div class="match">
+            <img src="/images/cuttlery.png">
+            <p>Vegetarian</p> 
+          </div> -->
+                          </div>
+                        </div>
+                        <% } %>
+
+
+                          <!-- 6. Recipe -->
+                          <% if(remainingrecipes[2]) {%>
+                            <div class="recipesRed">
+                              <p>
+                                <a
+                                  href="/recipes/<%= remainingrecipes[2].recipe_id%>/?match=<%= remainingrecipes[2].match %>">
+                                  <%= remainingrecipes[2].recipe_name %>
+                                </a>
+                              </p>
+                              <img src="<%= remainingrecipes[2].url%>" alt="recipe1">
+                              <div class="recipeIcon">
+                                <div class="match">
+                                  <img src="/images/OK.png">
+                                  <p>
+                                    <%= remainingrecipes[2].match %>
+                                  </p>
+                                </div>
+
+                                <div class="match">
+                                  <img src="/images/watch.png">
+                                  <p>
+                                    <%= remainingrecipes[2].time %> minutes
+                                  </p>
+                                </div>
+
+                                <!-- <div class="match">
+                  <img src="/images/cuttlery.png">
+                  <p>Vegetarian</p> 
+                </div> -->
+                              </div>
+                            </div>
+                            <% } %>
+
+                              <!-- 7. Recipe -->
+                              <% if(remainingrecipes[3]) {%>
+                                <div class="recipesRed">
+                                  <p>
+                                    <a
+                                      href="/recipes/<%= remainingrecipes[3].recipe_id%>/?match=<%= remainingrecipes[3].match %>">
+                                      <%= remainingrecipes[3].recipe_name %>
+                                    </a>
+                                  </p>
+                                  <img src="<%= remainingrecipes[3].url%>" alt="recipe1">
+                                  <div class="recipeIcon">
+                                    <div class="match">
+                                      <img src="/images/OK.png">
+                                      <p>
+                                        <%= remainingrecipes[3].match %>
+                                      </p>
+                                    </div>
+
+                                    <div class="match">
+                                      <img src="/images/watch.png">
+                                      <p>
+                                        <%= remainingrecipes[3].time %> minutes
+                                      </p>
+                                    </div>
+
+                                    <!-- <div class="match">
+                  <img src="/images/cuttlery.png">
+                  <p>Vegetarian</p> 
+                </div> -->
+                                  </div>
+                                </div>
+                                <% } %>
+
+
+                                  <!-- 8. Recipe -->
+                                  <% if(remainingrecipes[4]) {%>
+                                    <div class="recipesRed">
+                                      <p>
+                                        <a
+                                          href="/recipes/<%= remainingrecipes[4].recipe_id%>/?match=<%= remainingrecipes[4].match %>">
+                                          <%= remainingrecipes[4].recipe_name %>
+                                        </a>
+                                      </p>
+                                      <img src="<%= remainingrecipes[4].url%>" alt="recipe1">
+                                      <div class="recipeIcon">
+                                        <div class="match">
+                                          <img src="/images/OK.png">
+                                          <p>
+                                            <%= remainingrecipes[4].match %>
+                                          </p>
+                                        </div>
+
+                                        <div class="match">
+                                          <img src="/images/watch.png">
+                                          <p>
+                                            <%= remainingrecipes[4].time %> minutes
+                                          </p>
+                                        </div>
+
+                                        <!-- <div class="match">
+                    <img src="/images/cuttlery.png">
+                    <p>Vegetarian</p> 
+                  </div> -->
+                                      </div>
+                                    </div>
+                                    <% } %>
+
+
+                                      <!-- 9. Recipe -->
+                                      <% if(remainingrecipes[5]) {%>
+                                        <div class="recipesRed">
+                                          <p>
+                                            <a
+                                              href="/recipes/<%= remainingrecipes[5].recipe_id%>/?match=<%= remainingrecipes[5].match %>">
+                                              <%= remainingrecipes[5].recipe_name %>
+                                            </a>
+                                          </p>
+                                          <img src="<%= remainingrecipes[5].url%>" alt="recipe1">
+                                          <div class="recipeIcon">
+                                            <div class="match">
+                                              <img src="/images/OK.png">
+                                              <p>
+                                                <%= remainingrecipes[5].match %>
+                                              </p>
+                                            </div>
+
+                                            <div class="match">
+                                              <img src="/images/watch.png">
+                                              <p>
+                                                <%= remainingrecipes[5].time %> minutes
+                                              </p>
+                                            </div>
+
+                                            <!-- <div class="match">
+                    <img src="/images/cuttlery.png">
+                    <p>Vegetarian</p> 
+                  </div> -->
+                                          </div>
+                                        </div>
+                                        <% } %>
+
+
+
+                                          <footer class="footer ">
+
+                                            <div class="container">
+                                              <div class="row">
+                                                <div class="col privacy">
+                                                  <p>Privacy</p>
+                                                </div>
+                                                <div class="col-8">
+
+                                                  <p class="footerHappyCook">HappyCook</p>
+                                                  <p class="footerCopyright">© Copyright 2022. All rights reserved</p>
+
+                                                </div>
+                                                <div class="col socialMediaIcons">
+                                                  <img src="images/socialMediaIcons.png">
+                                                </div>
+                                              </div>
+                                            </div>
+
+
+                                          </footer>
 
 
 
