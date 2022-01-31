@@ -20,12 +20,12 @@ def search():
         query = request.form["nm"]
         
         #sample buttons for the difficulty level
-        if request.form['submit_button'] == 'Easy':
-            difficulty = "Easy"
-        elif request.form['submit_button'] == 'Medium':
-            difficulty = "Medium"# do something else
-        elif request.form['submit_button'] == 'Difficult':
-            difficulty = "Difficult"# do something else
+        if request.form['submit_button'] == 'easy':
+            difficulty = "easy"
+        elif request.form['submit_button'] == 'medium':
+            difficulty = "medium"# do something else
+        elif request.form['submit_button'] == 'hard':
+            difficulty = "hard"# do something else
         else:
             pass # unknown
         #difficulty = request.form["easy"]
@@ -91,7 +91,7 @@ def query_json(qry):
     DQ['recipe_id']=DQ.id.apply(lambda x: df['recipe_id'][x])
     #added difficulty level and image_url
     DQ['Difficulty']=DQ.id.apply(lambda x: df['Difficulty'][x])
-    DQ['url']=df['image_url']
+    DQ['url']=DQ.id.apply(lambda x: df['image_url'][x])
     DQ['match']=pd.Series(["{0:.2f}%".format(val * 100) for val in DQ['similarity']])
     DQ=DQ.drop(columns=['id','similarity'])
     DQ_json=DQ.to_json(orient='records', index=FALSE)  
