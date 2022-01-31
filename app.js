@@ -198,8 +198,10 @@ app.get('/recipes/:id', async (req, res) => {
     const all_ingredients = recipe.ingredients.split("^")
     console.log(all_ingredients)
 
-    const all_cooking_directions = recipe.cooking_directions.split("^")
+
+    const all_cooking_directions = recipe.cooking_directions.split("^").slice(7)
     console.log(all_cooking_directions)
+
 
 
     res.render('recipes/recipe', { recipe, all_ingredients, all_cooking_directions, match })
