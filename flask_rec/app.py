@@ -43,7 +43,7 @@ def query(qry):
     DF = load('DF.joblib')
     N = load('N.joblib')
     difficulty = session.get('difficulty', None) #exports difficulty level as as string.
-    [model, model_score] = pred.cosine_similarity(40, qry, D , DF, N)
+    [model, model_score] = pred.cosine_similarity(6, qry, D , DF, N)
 
     d = {'id': model, 'similarity': model_score}
     DQ = pd.DataFrame(data=d)
@@ -61,8 +61,7 @@ def query(qry):
     DQ['recipe_name']=DQ.id.apply(lambda x: df['recipe_name'][x])
     DQ['time']=DQ.id.apply(lambda x: df['total_time'][x])
     DQ['recipe_id']=DQ.id.apply(lambda x: df['recipe_id'][x])
-    DQ['Difficulty']=DQ.id.apply(lambda x: df['Difficulty'][x])
-    DQ['url']=df['image_url']
+    DQ['match']=pd.Series(["{0:.2f}%".format(val * 100) for val in DQ['similarity']])
     DQ=DQ.drop(columns=['id','similarity'])
 
     if request.method == "POST":  #I still need to somehow make a button/link beside every recipe. But assume that you are clicking the recipe id 12345
@@ -82,15 +81,13 @@ def query_json(qry):
     DF = load('./DF.joblib')
     N = load('./N.joblib')
     difficulty = session.get('difficulty', None) #exports difficulty level as as string.
-    [model, model_score] = pred.cosine_similarity(40, qry, D , DF, N)
+    [model, model_score] = pred.cosine_similarity(25, qry, D , DF, N)
 
     d = {'id': model, 'similarity': model_score}
     DQ = pd.DataFrame(data=d)
     DQ['recipe_name']=DQ.id.apply(lambda x: df['recipe_name'][x])
     DQ['time']=DQ.id.apply(lambda x: df['total_time'][x])
     DQ['recipe_id']=DQ.id.apply(lambda x: df['recipe_id'][x])
-    DQ['Difficulty']=DQ.id.apply(lambda x: df['Difficulty'][x])
-    DQ['url']=df['image_url']
     DQ['match']=pd.Series(["{0:.2f}%".format(val * 100) for val in DQ['similarity']])
     DQ=DQ.drop(columns=['id','similarity'])
     DQ_json=DQ.to_json(orient='records', index=FALSE)  
