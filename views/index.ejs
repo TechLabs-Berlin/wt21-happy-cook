@@ -177,13 +177,17 @@
 
               <div class="difficulty">
                 <h4>Difficulty</h4>
-                <div class="difficultyButtons">
+                <div>
+                  <input type="radio" class="btn-check" name="difficulty" value="easy" id="option1" autocomplete="off"
+                    checked>
+                  <label class="btn btn-outline-secondary" for="option1">easy</label>
 
-                  <input type="radio" id="choice1" name="difficulty" value="easy">EASY
+                  <input type="radio" class="btn-check" name="difficulty" value="normal" id="option2"
+                    autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="option2">medium</label>
 
-                  <input type="radio" id="choice2" name="difficulty" value="normal">NORMAL
-
-                  <input type="radio" id="choice3" name="difficulty" value="hard">HARD
+                  <input type="radio" class="btn-check" name="difficulty" value="hard" id="option3" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="option3">hard</label>
                 </div>
               </div>
             </form>
