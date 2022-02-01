@@ -143,11 +143,11 @@ body.inspiration{
 span#basic-addon1.input-group-text:hover{
   border-color: #A6B401;
 }
-/* .form-control {
+.form-control {
   border:1px solid #B20001 !important;
   border-left: white !important;
   
-} */
+}
 
 @media screen and (max-width: 992px) {
   nav.navbar .nav-item {
@@ -260,7 +260,11 @@ span#basic-addon1.input-group-text:hover{
 
 .form-control{
   border-left: white;
-  height: 40px;
+  height: 43px;
+}
+input#box.form-control :hover{
+  border-color: #A6B401;
+  
 }
 
 
@@ -279,10 +283,7 @@ input.form-control:focus{
   color:red;
 }
 
-.happyPot{
-  margin-top: -2%;
-  margin-left: 1.5%;
-}
+
 .happyPotAboutUs{
   margin-top: -2%;
   margin-left: 3%;
@@ -486,8 +487,8 @@ body.loading {
 .difficulty h4{
   font-family: Nokora;
   font-weight: bold;
-  padding-top: 7%; 
-  padding-bottom: 5%;
+  padding-top: 9%; 
+  padding-bottom: 3%;
   color: rgba(116, 16, 16, 0.76);
   
 }
@@ -755,7 +756,7 @@ color: #FFFFFFE5;
    padding-bottom: 20px;
    border: none;
    color: #F86500 ;
-   
+   background-color: transparent;
  }
  .privacyIndex button:hover{
    color:#A6B401;
@@ -776,10 +777,10 @@ color: #FFFFFFE5;
   text-align: left;
 }
 
- .socialMediaIcons img{
+ /* .socialMediaIcons img{
   margin-top: 20px;
   text-align: right;
- }
+ } */
 
  footer .container{
   max-width: 96%;
@@ -827,13 +828,10 @@ color: #FFFFFFE5;
   font-family: Nokora;
 }
 
-.socialMediaIconsIndex{
-  margin-bottom: 1%;
-  
-}
-.socialMediaIconsIndex img{
+
+/* .socialMediaIconsIndex img{
   margin-left: 3%;
-}
+} */
 
 .modal-dialog  {
   background-color: white;
@@ -1100,12 +1098,130 @@ justify-content: center;
 }
 
 img.logo.happyPot{
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
+  
 }
 
 .inspirationImages{
   display: flex;
 }
+
+
+.happyPot{
+  margin-top: -2%;
+  margin-left: 1.5%;
+}
+.happyPot{
+  background: url(images/iconHappyPot.svg) no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.happyPot:hover{
+  background: url(images/iconHappyPotHover.svg) no-repeat;
+  width: 105px;
+  height: 100px;
+  /* padding-left: 0rem; */
+}
+
+.socialMediaIconsIndex{
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 2%;
+}
+.socialMediaIcons{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1% 0% 0% 0%;
+}
+
+
+.twitterIndex{
+background:url(images/icons/twitterIndex.png) no-repeat;
+width: 28px;
+  height: 28px;
+}
+
+.twitterIndex:hover{
+  background:url(images/icons/twitterHover.png) no-repeat;
+  width: 28px;
+    height: 28px;
+  }
+.twitter{
+    background:url(images/icons/twitter.png) no-repeat;
+    width: 32px;
+    height: 32px;
+ }
+.twitter:hover{
+   background:url(images/icons/twitterHover.png) no-repeat;
+   width: 32px;
+   height: 32px;
+  }
+
+.linkedinIndex{
+  background:url(images/icons/linkedinIndex.png) no-repeat;
+  width: 28px;
+    height: 28px;
+  }
+  .linkedinIndex:hover{
+    background:url(images/icons/linkedinHover.png) no-repeat;
+    width: 28px;
+      height: 28px;
+  }
+  .linkedin{
+    background:url(images/icons/linkedin.png) no-repeat;
+    width: 28px;
+    height: 28px;
+ }
+.linkedin:hover{
+   background:url(images/icons/linkedinHover.png) no-repeat;
+   width: 28px;
+   height: 28px;
+  }
+
+.behanceIndex{
+  background:url(images/icons/behanceIndex.png) no-repeat;
+  width: 32px;
+    height: 32px;
+  }
+  .behanceIndex:hover{
+    background:url(images/icons/behanceHover.png) no-repeat;
+    width: 32px;
+      height: 32px;
+    }
+.behance{
+      background:url(images/icons/behance.png) no-repeat;
+      width: 32px;
+      height: 32px;
+   }
+  .behance:hover{
+     background:url(images/icons/behanceHover.png) no-repeat;
+     width: 32px;
+     height: 32px;
+    }    
+
+
+.whatsAppIndex{
+  background:url(images/icons/whatsAppIndex.png) no-repeat;
+  width: 32px;
+    height: 32px;
+  }
+  .whatsAppIndex:hover{
+    background:url(images/icons/whatsAppHover.png) no-repeat;
+    width: 32px;
+      height: 32px;
+    }
+.whatsApp{
+      background:url(images/icons/whatsApp.png) no-repeat;
+      width: 32px;
+      height: 32px;
+   }
+  .whatsApp:hover{
+     background:url(images/icons/whatsAppHover.png) no-repeat;
+     width: 32px;
+     height: 32px;
+    } 
+
 
 
 .kale{
@@ -1176,4 +1292,8 @@ header{
 }
 header h1{
   margin-top: -4%;
+}
+
+header.center h6{
+  color:#4F5559;
 }

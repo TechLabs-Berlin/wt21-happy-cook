@@ -67,15 +67,16 @@
       </div>
     </nav>
 
-    <a href="/"><img src="images/iconHappyPot.svg" alt="HappyPot" class="logo happyPot"></a>
+    <a href="/"><div class="happyPot"></div></a>
 
-    <header>
-      <h1 class="center">Local seasonal Veggies</h1>
-      <h5 class="center">Check and try the recipes for these veggies before the seasons ends</h5>
+    <header class="center">
+      <h1 >Local seasonal Veggies</h1>
+      <h6>Check and try the recipes for these veggies before the seasons ends</h6>
       <br>
-      <h6 class="center">Germany</h6>
+      
+      <img src="images/locationMonth.png">
       <br>
-
+<br>
     </header>
 
 
@@ -98,14 +99,49 @@
 
     </div>
 
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog ">
+      <div class="modal-content modalSecond">
+        <br>
+        <h1>Privacy Policy</h1>
+        <h6>Updated 02. February 2022</h6>
+
+        <h5>General notes and compulsory information</h5>
+        <h6>This privacy Policy is based on the General Data Protextion Regulation("GDPR") which has been in
+          effect since 25. May 2018 and applies to the use of our web site.</h6>
+
+        <h5>Data Protection</h5>
+        <h6>The operators of these pages take the protection of your personal data very seriously. We do not
+          store any personal data as declared in this data protection declaration.</h6>
+        <h6>When you use this website, no personal data is collected. Personal data are data with which you can
+          be personally identified.</h6>
+        <h6>We would like to point out that data transmission over the Internet (e.g. communication by e-mail)
+          can have security gaps. A complete protetion of data against access by third parties is not possible.
+        </h6>
+        <h5>Contact</h5>
+        <h6 class="email">info@happycook.com</h6>
+
+        <br>
+        <br>
+        <button type="button" class="goBack" data-bs-dismiss="modal" aria-label="Close">Go back</button>
+        <br>
+      </div>
+    </div>
+  </div>
+
 
 
     <footer class="footer ">
 
       <div class="container">
         <div class="row">
-          <div class="col privacy">
-            <p>Privacy</p>
+          <div class="col privacyIndex">
+            <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Privacy</button>
+
+            <!-- Button trigger modal -->
+
+
           </div>
 
           <div class="col-8">
@@ -114,7 +150,12 @@
           </div>
 
           <div class="col socialMediaIcons">
-            <img src="images/socialMediaIcons.png">
+            <a href="/"><div class="twitter"></div></a>
+            <a href="/"><div class="linkedin"></div></a>
+            <a href="/"><div class="behance"></div></a>
+            <a href="/"><div class="whatsApp"></div></a>
+           
+            <!-- <img src="images/socialMediaIcons.png"> -->
           </div>
 
         </div>
