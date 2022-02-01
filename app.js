@@ -78,8 +78,8 @@ app.get('/recipes', async (req, res) => {
 
     // const ingredientslist = ingredients.split(" ")
     // console.log(`Query contains: "${ingredientslist}"`)
-    console.log(`http://127.0.0.1:5000/${ingredients}/json`)
-    const recipeAPIresults = await axios.get(`http://127.0.0.1:5000/${ingredients}/json`)
+    console.log(`http://localhost:5000/${ingredients}/json`)
+    const recipeAPIresults = await axios.get(`http://localhost:5000/${ingredients}/json`)
     const recipesALL = recipeAPIresults.data
     const recipes = recipesALL.filter(item => item.Difficulty == difficulty)
 

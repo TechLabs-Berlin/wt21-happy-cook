@@ -401,7 +401,7 @@ body.loading {
   width: 271px;
   height: 335px;
   background-color: white;
-  display: inline-block;
+  display: inline-grid;
   
   position: relative;
   margin-top: 70px;
@@ -518,6 +518,7 @@ padding-bottom: 5%;
 color:#4F5559;
 text-align: center;
 font-weight: bold;
+font-family: Nokora;
 }
 
 .singleRecipePicture{
@@ -589,25 +590,36 @@ border-top-right-radius:10%;
 border-bottom-right-radius: 10%;
 }
 
+.large {
+  font-size: 40px;
+  margin-top: 30px;
+}
+.small{
+  font: size 14px;
+}
+
 .rightFromImage p{
-  margin-left: 15%;
-  margin-top: 10%;
+  margin-left: 23%;
+  /* margin-top: 10%; */
   color: white;
+  font-family: Nokora;
+  
 }
 
 .rightFromImage img{
   width: 10%;
   height: 10%;
   margin-left: 10%;
-  margin-top: 13%;
+  margin-top: 16%;
 }
 
 .numberOfMinutes{
   display: flex;
+  margin-left:10% ;
 }
 .numberOfMinutes p{
-  margin-left: 6%;
-  margin-top: 12%;
+  margin-left: 2%;
+  margin-top: 10%;
 }
 
 .meatVeg{
@@ -1297,3 +1309,4 @@ header h1{
 header.center h6{
   color:#4F5559;
 }
+
