@@ -1166,11 +1166,25 @@ img.logo.happyPot{
   display: flex;
 }
 
+.happyPotAboutUs{
+  background: url(images/iconHappyPot.svg) no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-top: -2%;
+  margin-left: 2.3%;
+}
+.happyPotAboutUs:hover{
+  background: url(images/iconHappyPotHover.svg) no-repeat;
+  width: 105px;
+  height: 100px;
+  /* padding-left: 0rem; */
+}
 
 .happyPot{
   margin-top: -2%;
   margin-left: 1.5%;
 }
+
 .happyPot{
   background: url(images/iconHappyPot.svg) no-repeat;
   width: 100px;
