@@ -11,8 +11,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nokora:wght@700&family=Nothing+You+Could+Do&family=Oxygen:wght@700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Nokora:wght@700&family=Nothing+You+Could+Do&family=Oxygen:wght@700&display=swap"
     rel="stylesheet">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -43,7 +42,7 @@
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
             <li class="nav-item">
-              <a class="nav-link active" id="dropDown" aria-current="page" href="/">Home</a>
+              <a class="nav-link" id="dropDown" aria-current="page" href="/">Home</a>
             </li>
 
             <li class="nav-item">
@@ -161,7 +160,7 @@
       <% if(top3recipes[0]) {%>
         <div class="recipesRed">
           <p>
-            <a href="/recipes/<%= top3recipes[0].recipe_id%>/?match=<%= top3recipes[0].match %>">
+            <a href="/recipes/<%= top3recipes[0].recipe_id%>/?match=<%= top3recipes[0].match %>" class="resultsName">
               <%= top3recipes[0].recipe_name %>
             </a>
           </p>
@@ -194,7 +193,7 @@
           <% if(top3recipes[1]) {%>
             <div class="recipesRed">
               <p>
-                <a href="/recipes/<%= top3recipes[1].recipe_id%>/?match=<%= top3recipes[1].match %>">
+                <a href="/recipes/<%= top3recipes[1].recipe_id%>/?match=<%= top3recipes[1].match %>" class="resultsName">
                   <%= top3recipes[1].recipe_name %>
                 </a>
               </p>
@@ -227,7 +226,7 @@
               <% if(top3recipes[2]) {%>
                 <div class="recipesRed">
                   <p>
-                    <a href="/recipes/<%= top3recipes[2].recipe_id%>/?match=<%= top3recipes[2].match %>">
+                    <a href="/recipes/<%= top3recipes[2].recipe_id%>/?match=<%= top3recipes[2].match %>" class="resultsName">
                       <%= top3recipes[2].recipe_name %>
                     </a>
                   </p>
@@ -262,7 +261,7 @@
                   <% if(remainingrecipes[0]) {%>
                     <div class="recipesRed">
                       <p>
-                        <a href="/recipes/<%= remainingrecipes[0].recipe_id%>/?match=<%= remainingrecipes[0].match %>">
+                        <a href="/recipes/<%= remainingrecipes[0].recipe_id%>/?match=<%= remainingrecipes[0].match %>" class="resultsName">
                           <%= remainingrecipes[0].recipe_name %>
                         </a>
                       </p>
@@ -295,7 +294,7 @@
                         <div class="recipesRed">
                           <p>
                             <a
-                              href="/recipes/<%= remainingrecipes[1].recipe_id%>/?match=<%= remainingrecipes[1].match %>">
+                              href="/recipes/<%= remainingrecipes[1].recipe_id%>/?match=<%= remainingrecipes[1].match %>" class="resultsName">
                               <%= remainingrecipes[1].recipe_name %>
                             </a>
                           </p>
@@ -329,7 +328,7 @@
                             <div class="recipesRed">
                               <p>
                                 <a
-                                  href="/recipes/<%= remainingrecipes[2].recipe_id%>/?match=<%= remainingrecipes[2].match %>">
+                                  href="/recipes/<%= remainingrecipes[2].recipe_id%>/?match=<%= remainingrecipes[2].match %>" class="resultsName">
                                   <%= remainingrecipes[2].recipe_name %>
                                 </a>
                               </p>
@@ -534,12 +533,12 @@
 
 
   <div class="resultsYellow">
-    <img src="/images/topButton.png">
+    <img src="/images/topButton.png"   onclick="topFunction()" id="myBtn" title="Go to top">
 
   </div>
 
 
-
+  <script src="./happyCook.js"></script>
 </body>
 
 </html>
