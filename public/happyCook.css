@@ -441,7 +441,7 @@ body.loading {
 .resultsYellow img{
   position: absolute;
   right: 50%;
-  bottom: -36%;
+  bottom: -36.5%;
 }
 .resultsYellow img:hover{
   cursor: pointer;
