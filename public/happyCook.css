@@ -571,7 +571,9 @@ font-family: Nokora;
 .instructions h5,h6{
   text-align: center;
   color: white;
-  padding-bottom:1%;
+  /* padding-bottom:1%;
+  padding-top: 2% ; */
+  padding: 2% 5% 1% 5%;
   
 }
 .instructions img{
