@@ -1,10 +1,9 @@
-## Project Description
-
+<h3 align="center">Project Description</h3>
 
 <h3 align="center">UX</h3>
 <h5 align="center">by Leticia Valladares</h5>
 
-<p align="center">
+<h5 align="center">
   <a href="#strategy">Strategy</a>  ||
   <a href="#scope">Scope</a>  ||
   <a href="#structure">Structure</a>  ||
@@ -12,7 +11,8 @@
   <a href="#surface">Surface</a>  ||
   <a href="#testing">Testing</a>  ||
   <a href="#future">Future</a>
-</p>
+</h5>
+
 
 
 ### Strategy
@@ -27,6 +27,7 @@ In our second meeting I could share my findings, therefore we could shape a poss
 **Solution**: A user enters ingredients or selects them and gets best recipes according to several factors (time, other users' rating, quantity of missing ingredients, diet). In order to personalize and improve this search, there will be a predicting model, which will show the best options indicating the percent of his/her/their match.
 
 
+
 ### Scope
 #### User Research
 
@@ -37,18 +38,22 @@ Our first method was User Survey. After writing some questions, we compared them
 The second method was User Interview. Because of time, I could only conduct one interview, which lasted 30 minutes. Even though it was only one, I could get so many insights which helped me to tune the last details for the UX artifacts.
 
 **Personas**:
+
+
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548480-43253d3a-855c-4839-a111-2bf2815defd0.png>
+<br>
 <img src=https://user-images.githubusercontent.com/73216174/152548489-a59cc90a-ed45-4728-9dd2-5bc0deab658c.png></p>
+
 
 **Storyboard**:
 
+
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548501-a20571ae-9370-45c4-a966-df2e5fa24e32.png>
-<img src=https://user-images.githubusercontent.com/73216174/152548512-e601c6d1-ad3b-43a2-aca1-d9a6b04fc0e2.png>
-<img src=https://user-images.githubusercontent.com/73216174/152548519-0e66edcd-a3bd-4b75-9a8f-45b0b838c6f8.png>
-<img src=https://user-images.githubusercontent.com/73216174/152548645-6bc8308a-dea6-46bf-bfc7-dcb0cef1e19c.png>
   </p>
+  [See the full storyboard](https://www.canva.com/design/DAEyjVsXhTo/view)
+
 
 **Scenario**:
 
@@ -58,8 +63,9 @@ As she is using her laptop to work, she opens the webapp in a browser, checks wh
 The most suitable one is "Pasta with Fresh Tomatoes and Corn" so she clicks on the recipe overview, reads what ingredients she needs and since has almost all ingredients, she decides on preparing this. It takes her 15 minutes as she had already cooked pasta yesterday, and eats it in 15 minutes. She has 30 minutes to relax and talk with her friends.
 
 
+
 ### Structure
-#### Wireframing / IA
+#### Wireframing / Information Architecture
 
 From the very first week, I had some sketches which helped me to produce wireframes. As every week we iterated our product, every week I made some changes. Sometimes there were only small changes such as creation of objects or new position of them but there were also radical ones such as redesigning all the layout since the dataset didn’t contain what was needed for one of the main original features (measure calculation).
 
@@ -72,7 +78,7 @@ From the very first week, I had some sketches which helped me to produce wirefra
 
 In the early weeks I had in mind that the IA should comply with the search engine standards so the user could interact intuitively. I applied Filtered View IA in my wireframes and prototypes, and after the big change in the layout due to the lack of data, the Detailed Recipe Page was transformed into an Overview Page with Dashboard Design IA.
 
-We decided as a team to create four main pages for the MVP: Home Page with Search Bar, Loading Page, Result Page and Overview Page.
+We decided as a team to create four main pages for the MVP: *Home Page* with Search Bar, *Loading Page*, *Result Page* and *Overview Page*.
 
 - Home Page and Result Page - Filtered View with cards displaying results.
 - Overview Page - Dashboard Design.
@@ -80,7 +86,7 @@ We decided as a team to create four main pages for the MVP: Home Page with Searc
 
 In the Home Page there are two options to go to the Result Page. To highlight the most relevant feature according to our Key Value Path: Search Bar, I used higher color contrast and positioned it in the center of the website. This made the Quick Search feature as a second and an extra option.
 
-The Key Value Path for HappyCook is:
+The **Key Value** Path for HappyCook is:
 
 - (Most relevant) User types ingredient(s) in the Search Bar / (Least relevant) User selects ingredient from Quick Search.
 - User gets list with recipes ordered from the most relevant to their query to the least and selects at least one of the resulting recipes.
@@ -92,7 +98,9 @@ The Key Value Path for HappyCook is:
 <img src=https://user-images.githubusercontent.com/73216174/152549846-6e155094-634d-4d1f-9b80-f5c7b9d040d1.png>
 </p>
 
-#### Skeleton
+
+
+### Skeleton
 #### Prototyping
 
 **Prototype**:
@@ -102,37 +110,46 @@ The Key Value Path for HappyCook is:
 *Overview Page*
 
 
+
 ### Surface
 #### Design and Usability Testing
 
 Regarding colors, fonts and images, the dataset contained the images so we couldn’t use high quality pictures. Nevertheless, I could create a logo, played with color palettes and fonts.
 
+
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548756-671534da-d404-471f-9b79-73af28ddaf8f.svg>
 </p>
 
+
 The **logo** transmits both concepts of HappyCook: Happiness and Cooking. Even it’s not animated, the flames and smiling pot give a glance of emotion and action.
+
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152549822-30bcad1a-68e9-466c-9da1-6b75db1dc84b.svg>
 </p>
 
+
 The **color palette** was took from the logo and the home background image. I didn’t want to use the standard white as background color since the dataset pictures didn’t have good quality and white background highlights the images. Colors were more in the dark palette side, but keeping in mind contrast (monochrome test). I kept red variations as the main colors since red was the main original color in the project pitch slides.
 
 I used some **rules for colors** to keep everything logic and structured, more than pretty, that is to say: there is only one color for all hover effects, one for titles without link, one for text without link, one for activated links, and another one for not-activated links. I applied the same for buttons.
+
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548703-31b58c85-71f7-4420-ab4e-0b9c1643a70a.png>
 </p>
 
-The **fonts** were picked with the idea of being simple, cozy, relaxed and at-home feeling.
+
+The **fonts** were selected with the idea of being simple, cozy, relaxed and at-home feeling.
 
 I decided on a **flat design** so hover effect was fundamental to guide users to buttons and links and used some linear gradations to show progress.
 
 
 Due to lack of time, I had to conduct **Usability Testing** with a High-Fidelity Prototype. The great challenge was to replicate the functionality of a Search Bar in Figma. I could manage to use an input search bar used as a reference and explained this to the user.
 
+
 https://user-images.githubusercontent.com/73216174/152541003-4a1b2477-eb22-49bc-a787-1c57d627dbdb.mp4
+
 
 [Usability Testing 101](https://www.nngroup.com/articles/usability-testing-101/) from Nielsen Norman Group was my guideline. I wrote some scenarios/tasks and tested the prototype a couple of times before starting. First I asked the user to think out loud in the whole test, then I explain the first task and let the user speak and navigate. The think-out-loud technique was of great help to take note of aspects not considered in the tasks and get some suggestions.
 
@@ -140,8 +157,10 @@ After finishing the test, I understood that a ‘How it works Page’ was necess
 
 User found out that the Inspiration Page was interesting and was looking forward to it, and was glad that registration wasn’t needed in relation to privacy.
 
-#### Future
-### What’s Next:
+
+
+### Future
+#### What’s Next:
 
 - Redesigning ‘How it works’ Page with animates slides
 - Finishing Mobile Prototype
