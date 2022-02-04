@@ -22,7 +22,7 @@ In our second meeting I could share my findings, therefore we could shape a poss
 
 **Solution**: A user enters ingredients or selects them and gets best recipes according to several factors (time, other users' rating, quantity of missing ingredients, diet). In order to personalize and improve this search, there will be a predicting model, which will show the best options indicating the percent of his/her/their match.
 
-### User
+### User Research
 
 Our first method was User Survey. After writing some questions, we compared them, selected the most relevant and uploaded them in TypeForm. Ope wrote an invite to the survey which marked a milestone: we started to share it in our social networks and reached 54 respondents.
 
