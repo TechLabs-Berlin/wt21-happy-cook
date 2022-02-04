@@ -1,4 +1,6 @@
-![logoHappyCook](https://user-images.githubusercontent.com/73216174/149679461-b22ff91c-a52f-49b2-9553-f8712dcd74b0.png)
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/149679461-b22ff91c-a52f-49b2-9553-f8712dcd74b0.png>
+</p>
 
 ## UX
 For further details, please see UX folder in this repository.
@@ -17,10 +19,7 @@ For further details, please see UX folder in this repository.
 1. DS: [Nisa Ulumuddin](https://github.com/nisaulumuddin)
 2. DS: [Ganyi Zhang](https://github.com/Yii67)
 3. DS: [Jayashree Prabhakaran](https://github.com/JayashreePrabhakaran)
-4. DS: ...
-5. DS: ...
-6. DS: ...
-7. WD: [Nikola Jelavic](https://github.com/NikolaJelavic)
-8. WD: [Abiraam Kantharajah](https://github.com/akrava25)
-9. UX: [Leticia Valladares](https://github.com/lavf)
-10. UX: [Ajimati Opeyemi](https://github.com/ope1521)
+4. WD: [Nikola Jelavic](https://github.com/NikolaJelavic)
+5. WD: [Abiraam Kantharajah](https://github.com/akrava25)
+6. UX: [Leticia Valladares](https://github.com/lavf)
+7. UX: [Ajimati Opeyemi](https://github.com/ope1521)
