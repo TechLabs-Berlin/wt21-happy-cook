@@ -91,6 +91,8 @@ Our second method was **User Interview**. Because of time, I could only conduct 
 &nbsp;
 
 **Scenario**:
+
+&nbsp;
 Today Carolina works remotely in the late shift till 12 am and has only one hour lunch at 7 pm. She has already prepared pasta and chicken yesterday and have them in airtight containers in the fridge. Nevertheless, she ate pasta with chicken yesterday and doesn't want to eat this dish again.
 She has other ingredients to cook another dish but doesn't want to use half of her lunch time cooking. In this situation, she remembers that HappyCook can help her to look for quicker recipe options in order to improvise another dish.
 As she is using her laptop to work, she opens the webapp in a browser, checks what she has in the fridge, keeps in her mind what she wants to eat, goes back to her laptop and enters the ingredients on the search bar. She types: pasta, cheese, tomato and gets a list with the quickest recipes according to these three ingredients.
