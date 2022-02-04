@@ -1,18 +1,18 @@
-##Project Description
+## Project Description
 
 
-<h3 align="center">UX</h3>
+<h2 align="center">UX</h2>
 <h4 align="center">by Leticia Valladares</h4>
 
 <p align="center">
-  <a href="#defining">Defining the problem / Possible solution</a> |
-  <a href="#user">User Research</a> |
-  <a href="#wireframing">Wireframing / IA / Prototyping</a> |
-  <a href="#usability">Usability Testing</a> |
+  <a href="#defining">Defining the problem / Possible solution</a>  |
+  <a href="#user">User Research</a>  |
+  <a href="#wireframing">Wireframing / IA / Prototyping</a>  |
+  <a href="#usability">Usability Testing</a>  | 
   <a href="#what">What's Next</a>
 </p>
 
-###Defining the problem / Possible solution
+### Defining the problem / Possible solution
 
 In the first meeting it was hard to define the problem since there were many factors to be considered when searching for a recipe. Nevertheless, in order to start with user research I started a Competitor Analysis to see what other apps were already offering and what they were missing. With this analysis, I could apply the MoSCoW method to prioritize and avoid features.
 
@@ -22,7 +22,7 @@ In our second meeting I could share my findings, therefore we could shape a poss
 
 **Solution**: A user enters ingredients or selects them and gets best recipes according to several factors (time, other users' rating, quantity of missing ingredients, diet). In order to personalize and improve this search, there will be a predicting model, which will show the best options indicating the percent of his/her/their match.
 
-###User Research
+### User Research
 
 Our first method was User Survey. After writing some questions, we compared them, selected the most relevant and uploaded them in TypeForm. Ope wrote an invite to the survey which marked a milestone: we started to share it in our social networks and reached 54 respondents.
 
@@ -41,7 +41,7 @@ She has other ingredients to cook another dish but doesn't want to use half of h
 As she is using her laptop to work, she opens the webapp in a browser, checks what she has in the fridge, keeps in her mind what she wants to eat, goes back to her laptop and enters the ingredients on the search bar. She types: pasta, cheese, tomato and gets a list with the quickest recipes according to these three ingredients.
 The most suitable one is "Pasta with Fresh Tomatoes and Corn" so she clicks on the recipe overview, reads what ingredients she needs and since has almost all ingredients, she decides on preparing this. It takes her 15 minutes as she had already cooked pasta yesterday, and eats it in 15 minutes. She has 30 minutes to relax and talk with her friends.
 
-###Wireframing / IA / Prototyping
+### Wireframing / IA / Prototyping
 
 From the very first week, I had some sketches which helped me to produce wireframes. As every week we iterated our product, every week I made some changes. Sometimes there were only small changes such as creation of objects or new position of them but there were also radical ones such as redesigning all the layout since the dataset didn’t contain what was needed for one of the main original features (measure calculation).
 
@@ -75,7 +75,7 @@ The Key Value Path for HappyCook is:
 *Result Page*
 *Overview Page*
 
-###Usability Testing
+### Usability Testing
 
 Due to lack of time, I had to conduct Usability Testing with a High-Fidelity Prototype. The great challenge was to replicate the functionality of a Search Bar in Figma. I could manage to use an input search bar used as a reference and explained this to the user.
 
@@ -87,7 +87,7 @@ After finishing the test, I understood that a ‘How it works Page’ was necess
 
 User found out that the Inspiration Page was interesting and was looking forward to it, and was glad that registration wasn’t needed in relation to privacy.
 
-###What’s Next:
+### What’s Next:
 
 - Redesigning ‘How it works’ Page with animates slides
 - Finishing Mobile Prototype
