@@ -38,22 +38,25 @@ Our first method was User Survey. After writing some questions, we compared them
 The second method was User Interview. Because of time, I could only conduct one interview, which lasted 30 minutes. Even though it was only one, I could get so many insights which helped me to tune the last details for the UX artifacts.
 
 **Personas**:
-<br />
-<br />
+&nbsp;
+&nbsp;
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548480-43253d3a-855c-4839-a111-2bf2815defd0.png>
-<br />
+&nbsp;
+&nbsp;
 <img src=https://user-images.githubusercontent.com/73216174/152548489-a59cc90a-ed45-4728-9dd2-5bc0deab658c.png>
 </p>
-<br />
-<br />
-**Storyboard**:
+&nbsp;
+&nbsp;
 
+**Storyboard**:
+&nbsp;
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548501-a20571ae-9370-45c4-a966-df2e5fa24e32.png>
   </p>
-  [See full storyboard](https://www.canva.com/design/DAEyjVsXhTo/view)
+
+[See full storyboard](https://www.canva.com/design/DAEyjVsXhTo/view)
 
 **Scenario**:
 
