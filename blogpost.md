@@ -20,8 +20,6 @@
 ### Strategy
 #### Defining the problem / Possible solution
 
-&nbsp;
-
 In the first meeting it was hard to define the problem since there were many factors to be considered when searching for a recipe. Nevertheless, in order to start with user research I started a Competitor Analysis to see what other apps were already offering and what they were missing. With this analysis, I could apply the MoSCoW method to prioritize and avoid features.
 
 In our second meeting I could share my findings, therefore we could shape a possible solution in order to define target users, develop an appropriate Information Architecture and start with early wireframes.
@@ -37,8 +35,6 @@ In our second meeting I could share my findings, therefore we could shape a poss
 ### Scope
 #### User Research
 
-&nbsp;
-
 Our first method for User Research was **User Survey**. After writing some questions, we compared them, selected the most relevant and uploaded them in TypeForm. We started to share it in our social networks and reached 54 respondents.
 
 **Target Respondents**: Users between 18 and 80, who cook (for pleasure or not), and get/buy their groceries.
@@ -51,13 +47,19 @@ Based on quantitative results from the survey, we selected the three main featur
 <img src=https://user-images.githubusercontent.com/73216174/152563596-675a679c-022c-4154-b7ab-4fc4edcb3c89.png width="600" />
 </p>
 
-[See Typeform Survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
-[See further insights](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#35fce534a2ea4a72963b688e17867e8c)
+[> See Typeform Survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
+
+&nbsp;
+
+[> See further insights](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#35fce534a2ea4a72963b688e17867e8c)
 
 Our second method was **User Interview**. Because of time, I could only conduct one interview, which lasted 30 minutes. Even though it was only one, I could get so many insights which helped me to tune the last details for the UX artifacts.
 
-[See interview transcription](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#7234de53c77944a0afd3087156c4068e)
-[See interview insights](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#ab3df716e5ee498cb04573c98bd1a135)
+[> See interview transcription](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#7234de53c77944a0afd3087156c4068e)
+
+&nbsp;
+
+[> See interview insights](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#ab3df716e5ee498cb04573c98bd1a135)
 
 &nbsp;
 
@@ -66,10 +68,12 @@ Our second method was **User Interview**. Because of time, I could only conduct 
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548480-43253d3a-855c-4839-a111-2bf2815defd0.png width="600" />
+</p>
 
 &nbsp;
 &nbsp;
 
+<p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548489-a59cc90a-ed45-4728-9dd2-5bc0deab658c.png width="600" />
 </p>
 
@@ -84,7 +88,7 @@ Our second method was **User Interview**. Because of time, I could only conduct 
 <img src=https://user-images.githubusercontent.com/73216174/152548501-a20571ae-9370-45c4-a966-df2e5fa24e32.png width="600" />
   </p>
 
-[See full storyboard](https://www.canva.com/design/DAEyjVsXhTo/view)
+[> See full storyboard](https://www.canva.com/design/DAEyjVsXhTo/view)
 
 &nbsp;
 
@@ -101,8 +105,6 @@ The most suitable one is "Pasta with Fresh Tomatoes and Corn" so she clicks on t
 ### Structure
 #### Wireframing / Information Architecture
 
-&nbsp;
-
 From the very first week, I had some sketches which helped me to produce wireframes. As every week we iterated our product, every week I made some changes. Sometimes there were only small changes such as creation of objects or new position of them but there were also radical ones such as redesigning all the layout since the dataset didn’t contain what was needed for one of the main original features (measure calculation).
 
 &nbsp;
@@ -111,10 +113,11 @@ From the very first week, I had some sketches which helped me to produce wirefra
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548652-c984e2ca-f71f-4ecb-9c87-5efcda274e74.png width="600" />
-
+</p>
 &nbsp;
 &nbsp;
 
+<p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152549870-7722b24a-0dd7-403d-9281-9b3b3f16ca19.jpg width="600" />
   </p>
 
@@ -155,7 +158,6 @@ The **Key Value** Path for HappyCook is:
 ### Skeleton
 #### Prototyping
 
-**Prototype**:
 *Home Page*
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152556811-2cff0253-ead1-44b4-990c-6e638834471c.png>
@@ -249,7 +251,7 @@ After finishing the test, I understood that a ‘How it works Page’ was necess
 
 User found out that the Inspiration Page was interesting and was looking forward to it, and was glad that registration wasn’t needed in relation to privacy.
 
-[See Usability Test Report](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#be40bd27cb3249f7b20659f28287a5a1)
+[> See Usability Test Report](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#be40bd27cb3249f7b20659f28287a5a1)
 
 &nbsp;
 &nbsp;
