@@ -150,7 +150,7 @@ The **Key Value** Path for HappyCook is:
 **IA and Key Value Path**:
 
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152549846-6e155094-634d-4d1f-9b80-f5c7b9d040d1.png width="1000" />
+<img src=https://user-images.githubusercontent.com/73216174/152549846-6e155094-634d-4d1f-9b80-f5c7b9d040d1.png width="900" />
 </p>
 
 &nbsp;
@@ -162,7 +162,7 @@ The **Key Value** Path for HappyCook is:
 
 *Home Page*
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152556811-2cff0253-ead1-44b4-990c-6e638834471c.png width="1000" />
+<img src=https://user-images.githubusercontent.com/73216174/152556811-2cff0253-ead1-44b4-990c-6e638834471c.png width="900" />
 </p>
 
 &nbsp;
@@ -170,7 +170,7 @@ The **Key Value** Path for HappyCook is:
 
 *Loading Page*
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152556831-cc4b181f-c072-4425-a839-dd712972ad75.png width="1000" />
+<img src=https://user-images.githubusercontent.com/73216174/152556831-cc4b181f-c072-4425-a839-dd712972ad75.png width="900" />
 </p>
 
 &nbsp;
@@ -178,7 +178,7 @@ The **Key Value** Path for HappyCook is:
 
 *Result Page*
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152556856-c7c9e862-85a1-4722-b493-09f47c60f150.png width="1000" />
+<img src=https://user-images.githubusercontent.com/73216174/152556856-c7c9e862-85a1-4722-b493-09f47c60f150.png width="900" />
 </p>
 
 &nbsp;
@@ -186,7 +186,7 @@ The **Key Value** Path for HappyCook is:
 
 *Overview Page*
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152556834-86409f20-b942-4087-baee-2a0c3e7d37af.png width="1000" />
+<img src=https://user-images.githubusercontent.com/73216174/152556834-86409f20-b942-4087-baee-2a0c3e7d37af.png width="900" />
 </p>
 
 &nbsp;
@@ -269,5 +269,5 @@ User found out that the Inspiration Page was interesting and was looking forward
 &nbsp;
 
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152559598-87ee1874-4e6b-4fed-95f9-a727d6d2796a.png width="1000" />
+<img src=https://user-images.githubusercontent.com/73216174/152559598-87ee1874-4e6b-4fed-95f9-a727d6d2796a.png width="900" />
 </p>
