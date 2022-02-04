@@ -1,15 +1,15 @@
 ## Project Description
 
 
-<h2 align="center">UX</h2>
-<h4 align="center">by Leticia Valladares</h4>
+<h3 align="center">UX</h3>
+<h5 align="center">by Leticia Valladares</h5>
 
 <p align="center">
-  <a href="#defining">Defining the problem / Possible solution</a>  |
-  <a href="#user">User Research</a>  |
-  <a href="#wireframing">Wireframing / IA / Prototyping</a>  |
-  <a href="#usability">Usability Testing</a>  | 
-  <a href="#what">What's Next</a>
+  <a href="#Defining the problem / Possible solution">Defining the problem / Possible solution</a>  |
+  <a href="#User Research">User Research</a>  |
+  <a href="#Wireframing / IA / Prototyping">Wireframing / IA / Prototyping</a>  |
+  <a href="#Usability Testing">Usability Testing</a>  |
+  <a href="#What’s Next">What's Next</a>
 </p>
 
 ### Defining the problem / Possible solution
