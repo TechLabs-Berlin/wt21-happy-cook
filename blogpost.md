@@ -5,15 +5,18 @@
 <h5 align="center">by Leticia Valladares</h5>
 
 <p align="center">
-  <a href="#Problem">Defining the problem / Possible solution</a>  -
-  <a href="#Research">User Research</a>  -
-  <a href="#IA">Wireframing / IA / Prototyping</a>  -
-  <a href="#Tests">Usability Testing</a>  -
-  <a href="#Future">What's Next</a>
+  <a href="#strategy">Strategy</a>  ||
+  <a href="#scope">Scope</a>  ||
+  <a href="#structure">Structure</a>  ||
+  <a href="#skeleton">Skeleton</a>  ||
+  <a href="#surface">Surface</a>  ||
+  <a href="#testing">Testing</a>  ||
+  <a href="#future">Future</a>
 </p>
 
-#### Intro
-### Defining the problem / Possible solution
+
+### Strategy
+#### Defining the problem / Possible solution
 
 In the first meeting it was hard to define the problem since there were many factors to be considered when searching for a recipe. Nevertheless, in order to start with user research I started a Competitor Analysis to see what other apps were already offering and what they were missing. With this analysis, I could apply the MoSCoW method to prioritize and avoid features.
 
@@ -23,8 +26,9 @@ In our second meeting I could share my findings, therefore we could shape a poss
 
 **Solution**: A user enters ingredients or selects them and gets best recipes according to several factors (time, other users' rating, quantity of missing ingredients, diet). In order to personalize and improve this search, there will be a predicting model, which will show the best options indicating the percent of his/her/their match.
 
-#### Research
-### User Research
+
+### Scope
+#### User Research
 
 Our first method was User Survey. After writing some questions, we compared them, selected the most relevant and uploaded them in TypeForm. Ope wrote an invite to the survey which marked a milestone: we started to share it in our social networks and reached 54 respondents.
 
@@ -33,8 +37,18 @@ Our first method was User Survey. After writing some questions, we compared them
 The second method was User Interview. Because of time, I could only conduct one interview, which lasted 30 minutes. Even though it was only one, I could get so many insights which helped me to tune the last details for the UX artifacts.
 
 **Personas**:
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152548480-43253d3a-855c-4839-a111-2bf2815defd0.png>
+<img src=https://user-images.githubusercontent.com/73216174/152548489-a59cc90a-ed45-4728-9dd2-5bc0deab658c.png></p>
 
 **Storyboard**:
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152548501-a20571ae-9370-45c4-a966-df2e5fa24e32.png>
+<img src=https://user-images.githubusercontent.com/73216174/152548512-e601c6d1-ad3b-43a2-aca1-d9a6b04fc0e2.png>
+<img src=https://user-images.githubusercontent.com/73216174/152548519-0e66edcd-a3bd-4b75-9a8f-45b0b838c6f8.png>
+<img src=https://user-images.githubusercontent.com/73216174/152548645-6bc8308a-dea6-46bf-bfc7-dcb0cef1e19c.png>
+  </p>
 
 **Scenario**:
 
@@ -43,16 +57,18 @@ She has other ingredients to cook another dish but doesn't want to use half of h
 As she is using her laptop to work, she opens the webapp in a browser, checks what she has in the fridge, keeps in her mind what she wants to eat, goes back to her laptop and enters the ingredients on the search bar. She types: pasta, cheese, tomato and gets a list with the quickest recipes according to these three ingredients.
 The most suitable one is "Pasta with Fresh Tomatoes and Corn" so she clicks on the recipe overview, reads what ingredients she needs and since has almost all ingredients, she decides on preparing this. It takes her 15 minutes as she had already cooked pasta yesterday, and eats it in 15 minutes. She has 30 minutes to relax and talk with her friends.
 
-#### IA
-### Wireframing / IA / Prototyping
+
+### Structure
+#### Wireframing / IA
 
 From the very first week, I had some sketches which helped me to produce wireframes. As every week we iterated our product, every week I made some changes. Sometimes there were only small changes such as creation of objects or new position of them but there were also radical ones such as redesigning all the layout since the dataset didn’t contain what was needed for one of the main original features (measure calculation).
 
 **Wireframes**:
 
-The **fonts** were picked with the idea of being simple, cozy, relaxed and at-home feeling.
-
-I decided on a **flat design** so hover effect was fundamental to guide users to buttons and links and used some linear gradations to show progress.
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152548652-c984e2ca-f71f-4ecb-9c87-5efcda274e74.png>
+<img src=https://user-images.githubusercontent.com/73216174/152549870-7722b24a-0dd7-403d-9281-9b3b3f16ca19.jpg>
+  </p>
 
 In the early weeks I had in mind that the IA should comply with the search engine standards so the user could interact intuitively. I applied Filtered View IA in my wireframes and prototypes, and after the big change in the layout due to the lack of data, the Detailed Recipe Page was transformed into an Overview Page with Dashboard Design IA.
 
@@ -72,16 +88,49 @@ The Key Value Path for HappyCook is:
 
 **IA and Key Value Path**:
 
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152549846-6e155094-634d-4d1f-9b80-f5c7b9d040d1.png>
+</p>
+
+#### Skeleton
+#### Prototyping
+
 **Prototype**:
 *Home Page*
 *Loading Page*
 *Result Page*
 *Overview Page*
 
-#### Tests
-### Usability Testing
 
-Due to lack of time, I had to conduct Usability Testing with a High-Fidelity Prototype. The great challenge was to replicate the functionality of a Search Bar in Figma. I could manage to use an input search bar used as a reference and explained this to the user.
+### Surface
+#### Design and Usability Testing
+
+Regarding colors, fonts and images, the dataset contained the images so we couldn’t use high quality pictures. Nevertheless, I could create a logo, played with color palettes and fonts.
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152548756-671534da-d404-471f-9b79-73af28ddaf8f.svg>
+</p>
+
+The **logo** transmits both concepts of HappyCook: Happiness and Cooking. Even it’s not animated, the flames and smiling pot give a glance of emotion and action.
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152549822-30bcad1a-68e9-466c-9da1-6b75db1dc84b.svg>
+</p>
+
+The **color palette** was took from the logo and the home background image. I didn’t want to use the standard white as background color since the dataset pictures didn’t have good quality and white background highlights the images. Colors were more in the dark palette side, but keeping in mind contrast (monochrome test). I kept red variations as the main colors since red was the main original color in the project pitch slides.
+
+I used some **rules for colors** to keep everything logic and structured, more than pretty, that is to say: there is only one color for all hover effects, one for titles without link, one for text without link, one for activated links, and another one for not-activated links. I applied the same for buttons.
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152548703-31b58c85-71f7-4420-ab4e-0b9c1643a70a.png>
+</p>
+
+The **fonts** were picked with the idea of being simple, cozy, relaxed and at-home feeling.
+
+I decided on a **flat design** so hover effect was fundamental to guide users to buttons and links and used some linear gradations to show progress.
+
+
+Due to lack of time, I had to conduct **Usability Testing** with a High-Fidelity Prototype. The great challenge was to replicate the functionality of a Search Bar in Figma. I could manage to use an input search bar used as a reference and explained this to the user.
 
 https://user-images.githubusercontent.com/73216174/152541003-4a1b2477-eb22-49bc-a787-1c57d627dbdb.mp4
 
