@@ -25,9 +25,9 @@ In our second meeting I could share my findings, therefore we could shape a poss
 **Problem**: A user has few ingredients and wants to cook something in a reduced amount of time. There are many apps that offer recipes by typing the ingredients in a search bar. However, that is not enough if the user only gets many pages with hundreds of recipes and there is just information about how long it takes to prepare the dish but there is no consideration about the time and what ingredients the user is missing.
 
 **Solution**: A user enters ingredients or selects them and gets best recipes according to several factors (time, other users' rating, quantity of missing ingredients, diet). In order to personalize and improve this search, there will be a predicting model, which will show the best options indicating the percent of his/her/their match.
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 ### Scope
 #### User Research
 
@@ -48,7 +48,7 @@ The second method was User Interview. Because of time, I could only conduct one 
 </p>
 &nbsp;
 &nbsp;
-
+&nbsp;
 **Storyboard**:
 &nbsp;
 
@@ -64,9 +64,9 @@ Today Carolina works remotely in the late shift till 12 am and has only one hour
 She has other ingredients to cook another dish but doesn't want to use half of her lunch time cooking. In this situation, she remembers that HappyCook can help her to look for quicker recipe options in order to improvise another dish.
 As she is using her laptop to work, she opens the webapp in a browser, checks what she has in the fridge, keeps in her mind what she wants to eat, goes back to her laptop and enters the ingredients on the search bar. She types: pasta, cheese, tomato and gets a list with the quickest recipes according to these three ingredients.
 The most suitable one is "Pasta with Fresh Tomatoes and Corn" so she clicks on the recipe overview, reads what ingredients she needs and since has almost all ingredients, she decides on preparing this. It takes her 15 minutes as she had already cooked pasta yesterday, and eats it in 15 minutes. She has 30 minutes to relax and talk with her friends.
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 ### Structure
 #### Wireframing / Information Architecture
 
@@ -100,9 +100,9 @@ The **Key Value** Path for HappyCook is:
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152549846-6e155094-634d-4d1f-9b80-f5c7b9d040d1.png>
 </p>
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 ### Skeleton
 #### Prototyping
 
@@ -111,9 +111,9 @@ The **Key Value** Path for HappyCook is:
 *Loading Page*
 *Result Page*
 *Overview Page*
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 ### Surface
 #### Design and Usability Testing
 
@@ -147,6 +147,8 @@ The **fonts** were selected with the idea of being simple, cozy, relaxed and at-
 
 I decided on a **flat design** so hover effect was fundamental to guide users to buttons and links and used some linear gradations to show progress.
 
+&nbsp;
+&nbsp;
 
 Due to lack of time, I had to conduct **Usability Testing** with a High-Fidelity Prototype. The great challenge was to replicate the functionality of a Search Bar in Figma. I could manage to use an input search bar used as a reference and explained this to the user.
 
