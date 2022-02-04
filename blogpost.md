@@ -1,9 +1,9 @@
-<h3 align="center">Project Description</h3>
+<h2 align="left">Project Description</h2>
 
-<h3 align="center">UX</h3>
-<h5 align="center">by Leticia Valladares</h5>
+<h2 align="left">UX</h2>
+<h5 align="left">by Leticia Valladares</h5>
 
-<h5 align="center">
+<h5 align="left">
   <a href="#strategy">Strategy</a>  ||
   <a href="#scope">Scope</a>  ||
   <a href="#structure">Structure</a>  ||
@@ -25,9 +25,11 @@ In our second meeting I could share my findings, therefore we could shape a poss
 **Problem**: A user has few ingredients and wants to cook something in a reduced amount of time. There are many apps that offer recipes by typing the ingredients in a search bar. However, that is not enough if the user only gets many pages with hundreds of recipes and there is just information about how long it takes to prepare the dish but there is no consideration about the time and what ingredients the user is missing.
 
 **Solution**: A user enters ingredients or selects them and gets best recipes according to several factors (time, other users' rating, quantity of missing ingredients, diet). In order to personalize and improve this search, there will be a predicting model, which will show the best options indicating the percent of his/her/their match.
+
 &nbsp;
 &nbsp;
 &nbsp;
+
 ### Scope
 #### User Research
 
@@ -42,14 +44,19 @@ The second method was User Interview. Because of time, I could only conduct one 
 &nbsp;
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152548480-43253d3a-855c-4839-a111-2bf2815defd0.png>
+
 &nbsp;
 &nbsp;
+
 <img src=https://user-images.githubusercontent.com/73216174/152548489-a59cc90a-ed45-4728-9dd2-5bc0deab658c.png>
 </p>
+
 &nbsp;
 &nbsp;
 &nbsp;
+
 **Storyboard**:
+
 &nbsp;
 
 <p align="center">
@@ -58,15 +65,19 @@ The second method was User Interview. Because of time, I could only conduct one 
 
 [See full storyboard](https://www.canva.com/design/DAEyjVsXhTo/view)
 
+&nbsp;
+
 **Scenario**:
 
 Today Carolina works remotely in the late shift till 12 am and has only one hour lunch at 7 pm. She has already prepared pasta and chicken yesterday and have them in airtight containers in the fridge. Nevertheless, she ate pasta with chicken yesterday and doesn't want to eat this dish again.
 She has other ingredients to cook another dish but doesn't want to use half of her lunch time cooking. In this situation, she remembers that HappyCook can help her to look for quicker recipe options in order to improvise another dish.
 As she is using her laptop to work, she opens the webapp in a browser, checks what she has in the fridge, keeps in her mind what she wants to eat, goes back to her laptop and enters the ingredients on the search bar. She types: pasta, cheese, tomato and gets a list with the quickest recipes according to these three ingredients.
 The most suitable one is "Pasta with Fresh Tomatoes and Corn" so she clicks on the recipe overview, reads what ingredients she needs and since has almost all ingredients, she decides on preparing this. It takes her 15 minutes as she had already cooked pasta yesterday, and eats it in 15 minutes. She has 30 minutes to relax and talk with her friends.
+
 &nbsp;
 &nbsp;
 &nbsp;
+
 ### Structure
 #### Wireframing / Information Architecture
 
@@ -100,9 +111,11 @@ The **Key Value** Path for HappyCook is:
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152549846-6e155094-634d-4d1f-9b80-f5c7b9d040d1.png>
 </p>
+
 &nbsp;
 &nbsp;
 &nbsp;
+
 ### Skeleton
 #### Prototyping
 
@@ -111,9 +124,11 @@ The **Key Value** Path for HappyCook is:
 *Loading Page*
 *Result Page*
 *Overview Page*
+
 &nbsp;
 &nbsp;
 &nbsp;
+
 ### Surface
 #### Design and Usability Testing
 
@@ -162,7 +177,9 @@ After finishing the test, I understood that a ‘How it works Page’ was necess
 
 User found out that the Inspiration Page was interesting and was looking forward to it, and was glad that registration wasn’t needed in relation to privacy.
 
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 ### Future
 #### What’s Next:
