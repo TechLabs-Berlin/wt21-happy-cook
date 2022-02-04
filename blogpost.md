@@ -48,7 +48,7 @@ Based on quantitative results from the survey, we selected the three main featur
 &nbsp;
 
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152563596-675a679c-022c-4154-b7ab-4fc4edcb3c89.png width="400" />
+<img src=https://user-images.githubusercontent.com/73216174/152563596-675a679c-022c-4154-b7ab-4fc4edcb3c89.png width="600" />
 </p>
 
 [See Typeform Survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
@@ -65,12 +65,12 @@ Our second method was **User Interview**. Because of time, I could only conduct 
 &nbsp;
 
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152548480-43253d3a-855c-4839-a111-2bf2815defd0.png>
+<img src=https://user-images.githubusercontent.com/73216174/152548480-43253d3a-855c-4839-a111-2bf2815defd0.png width="600" />
 
 &nbsp;
 &nbsp;
 
-<img src=https://user-images.githubusercontent.com/73216174/152548489-a59cc90a-ed45-4728-9dd2-5bc0deab658c.png>
+<img src=https://user-images.githubusercontent.com/73216174/152548489-a59cc90a-ed45-4728-9dd2-5bc0deab658c.png width="600" />
 </p>
 
 &nbsp;
@@ -81,7 +81,7 @@ Our second method was **User Interview**. Because of time, I could only conduct 
 &nbsp;
 
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152548501-a20571ae-9370-45c4-a966-df2e5fa24e32.png>
+<img src=https://user-images.githubusercontent.com/73216174/152548501-a20571ae-9370-45c4-a966-df2e5fa24e32.png width="600" />
   </p>
 
 [See full storyboard](https://www.canva.com/design/DAEyjVsXhTo/view)
@@ -110,12 +110,12 @@ From the very first week, I had some sketches which helped me to produce wirefra
 **Wireframes**:
 
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152548652-c984e2ca-f71f-4ecb-9c87-5efcda274e74.png>
+<img src=https://user-images.githubusercontent.com/73216174/152548652-c984e2ca-f71f-4ecb-9c87-5efcda274e74.png width="600" />
 
 &nbsp;
 &nbsp;
 
-<img src=https://user-images.githubusercontent.com/73216174/152549870-7722b24a-0dd7-403d-9281-9b3b3f16ca19.jpg>
+<img src=https://user-images.githubusercontent.com/73216174/152549870-7722b24a-0dd7-403d-9281-9b3b3f16ca19.jpg width="600" />
   </p>
 
 &nbsp;
