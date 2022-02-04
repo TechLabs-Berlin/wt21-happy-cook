@@ -48,7 +48,7 @@ Based on quantitative results from the survey, we selected the three main featur
 &nbsp;
 
 <p align="center">
-<img src=https://user-images.githubusercontent.com/73216174/152563596-675a679c-022c-4154-b7ab-4fc4edcb3c89.png>
+<img src=https://user-images.githubusercontent.com/73216174/152563596-675a679c-022c-4154-b7ab-4fc4edcb3c89.png width="400" />
 </p>
 
 [See Typeform Survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
