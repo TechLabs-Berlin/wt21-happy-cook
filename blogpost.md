@@ -49,12 +49,14 @@ Based on quantitative results from the survey, we selected the three main featur
 
 [> See Typeform Survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
 &nbsp;
+
 [> See further insights](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#35fce534a2ea4a72963b688e17867e8c)
 
 Our second method was **User Interview**. Because of time, I could only conduct one interview, which lasted 30 minutes. Even though it was only one, I could get so many insights which helped me to tune the last details for the UX artifacts.
 
 [> See interview transcription](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#7234de53c77944a0afd3087156c4068e)
 &nbsp;
+
 [> See interview insights](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#ab3df716e5ee498cb04573c98bd1a135)
 
 &nbsp;
