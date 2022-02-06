@@ -119,9 +119,9 @@ HappyCook is Recipe Search Engine designed for busy people. Users can input thei
 ## Authors
 Data Science:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nisa Ulumuddin](https://github.com/nisaulumuddin) &nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ganyi Zhang](https://github.com/Yii67) &nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ganyi Zhang](https://github.com/Yii67) &nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Jayashree Prabhakaran](https://github.com/JayashreePrabhakaran) &nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Jayashree Prabhakaran](https://github.com/JayashreePrabhakaran) &nbsp;
 
 WD Frontend:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nikola Jelavic](https://github.com/NikolaJelavic) &nbsp;
 
@@ -129,4 +129,4 @@ WD Backend:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Abiraam Kantharajah](https://gi
 
 User Experience:&nbsp; [Leticia Valladares](https://github.com/lavf) &nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ajimati Opeyemi](https://github.com/ope1521)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ajimati Opeyemi](https://github.com/ope1521)
