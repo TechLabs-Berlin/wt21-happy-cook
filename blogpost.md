@@ -25,7 +25,7 @@ We are happy to bring an interdisciplinary project of this scope to life within 
 &nbsp;
 
 ## UX
-##### by [Leticia](https://github.com/lavf)
+#### by [Leticia](https://github.com/lavf)
 
 <h5 align="left">
   || &nbsp; <a href="#strategy">Strategy</a> &nbsp; ||
@@ -213,7 +213,10 @@ The **Key Value** Path for HappyCook is:
 <img src=https://user-images.githubusercontent.com/73216174/152556834-86409f20-b942-4087-baee-2a0c3e7d37af.png width="900" />
 </p>
 
-[> See High-Fidelity Prototype](https://www.figma.com/proto/cFAruddFG2PtB5Wa9CKp0R/HappyCook_Prototype?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=350%3A575&node-id=877%3A7503)
+[> See High-Fidelity Desktop Prototype](https://www.figma.com/proto/cFAruddFG2PtB5Wa9CKp0R/HappyCook_Prototype?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=350%3A575&node-id=877%3A7503)
+&nbsp;
+
+[> See High-Fidelity Mobile Prototype](https://www.figma.com/proto/cFAruddFG2PtB5Wa9CKp0R/HappyCook_Prototype?node-id=1206%3A8429&scaling=scale-down&page-id=1206%3A7749&starting-point-node-id=1206%3A8429)
 
 &nbsp;
 &nbsp;
@@ -305,7 +308,9 @@ User found out that the Inspiration Page was interesting and was looking forward
 &nbsp;
 
 ## DS
-##### by [Nisa](https://github.com/nisaulumuddin), [Ganyi](https://github.com/Yii67) and [Jayashree](https://github.com/JayashreePrabhakaran)
+#### by [Nisa](https://github.com/nisaulumuddin), [Ganyi](https://github.com/Yii67) and [Jayashree](https://github.com/JayashreePrabhakaran)
+
+&nbsp;
 
 ### The Logic of the Model
 
@@ -499,7 +504,7 @@ A week was spent on creating the API for connecting our model to the backend of 
 &nbsp;
 
 ## WD-Backend
-#####by [Abiraam](https://github.com/akrava25)
+#### by [Abiraam](https://github.com/akrava25)
 
 The development of the backend of happy cooks was characterized by ups and downs. Overall, the backend was developed in an agile way using smaller packages and goals, which led to weekly endproducts. Initially, there was no explicit coordination with the frontend or the datascience track, which led to some code not being needed in the final MVP (see section "technical journey > Part 4).
 
@@ -543,7 +548,8 @@ In the third phase, my backend was to be connected to the frontend. Nikola and I
 
 #### 4. Connecting website with datascience algorithm
 The goal at this stage was to link Datascience's algorithm to the website. My original idea of having all the recipes uploaded to MongoDB and then integrating DataScience's algorithm or python code into my node.js was quickly dropped after a conversation with the trackleads from the web development team. Instead, datascience and I agreed on the following API structure:
-![API_structure](https://user-images.githubusercontent.com/91902360/152676403-bc0cf475-6a9d-4f53-90db-8c8d6adc1ea5.png)\
+
+![API_structure](https://user-images.githubusercontent.com/91902360/152676403-bc0cf475-6a9d-4f53-90db-8c8d6adc1ea5.png)
 
 As with the frontend and backend work, several alignments were necessary here as well, so that the right data could be connected via the right endpoints.
 In the end, we were able to look back on a solid and functioning connection between the website and the database.
@@ -559,6 +565,11 @@ For example:
 \
 I am very happy with the result of our website. Even though setting up the MongoDB server was useless in retrospect, I still found it necessary to have a better understanding of the whole system. Only with frequent coordination and great communication within the team it was possible for us to create such a MVP.
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 ## WD-Frontend
 ##### by [Nikola](https://github.com/NikolaJelavic)
