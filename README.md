@@ -35,42 +35,48 @@ HappyCook is Recipe Search Engine designed for busy people. Users can input thei
 ##### Requirements: python, nodeJS
 
 ### Express app
-> Use the package manager
+> Use the package manager [npm](https://npmjs.com/) to install the dependencies
 
-[npm](https://npmjs.com/) to install the dependencies
+1. From the top-level directory: `wt21-happy-cook`
 
-1. From the top-level directory:
-`wt21-happy-cook`
+2. Change to folder: `$ cd node_app`
 
-2. Change to folder:
-`$ cd node_app`
+3. Run following commands to install express and dependencies:
 
-3. Run following commands to install express and dependencies:  
-```sh
-npm install
-```
+ ```sh
+ npm install
+ ```
+
 ### Flask server
 > for installation
 
-1. Go to the directory:
-`wt21-happy-cook/python_app/flask_rec`
+1. Go to the directory: `wt21-happy-cook/python_app/flask_rec`
 
-2. Install python
-$ pip install python  or  $ pip3 install python
+2. Install python: $ pip install python  or  $ pip3 install python
 
 3. Install flask (for more info <a href="https://flask.palletsprojects.com/en/2.0.x/installation/">click here</a>)
 
-4. Run the following commands to install all dependencies:  ```sh
+4. Run the following commands to install all dependencies:
+
+  ```sh
   $ pip install numpy
-  ```  ```sh
+  ```
+
+  ```sh
   $ pip install joblib
-  ```  ```sh
+  ```
+
+  ```sh
   $ pip install pandas
-  ```  ```sh
+  ```
+
+  ```sh
   $ pip install num2words
-  ```  ```sh
+  ```
+
+  ```sh
   $ pip install —user -U nltk
-  (for more infos <a href=“https://www.nltk.org/install.html”>click here</a>
+  (for more infos <a href=“https://www.nltk.org/install.html”>click here</a>)
   ```
 
   Note: If you find any ImportError messages, continue to install missing dependencies.
@@ -83,20 +89,25 @@ $ pip install python  or  $ pip3 install python
 2. Make sure that you are in the virtual environment (venv).
   If you are not, reactivate the environment (see link <a href=“https://flask.palletsprojects.com/en/2.0.x/installation/”>click here</a>)
 
-3. Run the following commands:  
+3. Run the following commands:
+
   ```sh
   $ export FLASK_APP=app
-  ```  ```sh
+  ```
+
+  ```sh
   $ flask run
   ```
 
-  **to start up express** run command:
+**to start up express** run command:
 
-  1. Go to the directory: `wt21-happy-cook/node_app`
+1. Go to the directory: `wt21-happy-cook/node_app`
 
-  2. Run the following commands:  ```sh
-  $ node app.js
-  ```
+2. Run the following commands:
+
+ ```sh
+ $ node app.js
+ ```
 
 ## Authors
 - Data Science: [Nisa Ulumuddin](https://github.com/nisaulumuddin)
