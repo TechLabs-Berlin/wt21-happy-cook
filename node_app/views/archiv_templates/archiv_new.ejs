@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Recipe</title>
+</head>
+
+<body>
+    <h4>TEST (not included by UX design)</h4>
+    <h1>Add new Recipe</h1>
+    <form action="/recipes" method="POST">
+        <div>
+            <label for="recipe_name">Recipe Name</label>
+            <input type="text" id="recipe_name" name="recipe[recipe_name]">
+        </div>
+        <div>
+            <label for="recipe_id">HappyCook Recipe ID</label>
+            <input type="text" id="recipe_id" name="recipe[recipe_id]">
+        </div>
+        <div>
+            <label for="ingredients">Ingredients</label>
+            <input type="text" id="ingredients" name="recipe[ingredients]">
+        </div>
+        <div>
+            <label for="cooking_directions">Cooking directions</label>
+            <input type="text" id="cooking_directions" name="recipe[cooking_directions]">
+        </div>
+        <button>Add Recipe</button>
+    </form>
+
+</body>
+
+</html>

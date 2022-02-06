@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>HOME Happy Cook </h1>
+    <form action="/recipes" method="GET">
+        <div>
+            <label for="ingredients">Enter Ingredients</label>
+            <input type="text" id="ingredients" name="ingredients">
+        </div>
+
+        <p>Please select your difficulty type:</p>
+        <div>
+            <label for="choice1">EASY</label>
+            <input type="radio" id="choice1" name="difficulty" value="easy">
+
+            <label for="choice2">NORMAL</label>
+            <input type="radio" id="choice2" name="difficulty" value="normal">
+
+            <label for="choice3">HARD</label>
+            <input type="radio" id="choice3" name="difficulty" value="hard">
+
+        </div>
+
+        <div>
+            <button>Search Recipe</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

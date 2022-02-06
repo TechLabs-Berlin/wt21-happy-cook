@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Details of 1 Recipe</title>
+</head>
+
+<body>
+    <h1>
+        <%= recipe.recipe_name %>
+    </h1>
+    <ul>
+        <li>
+            recipe_id: <%= recipe.recipe_id %>
+        </li>
+        <li>
+            review_nums: <%= recipe.review_nums %>
+        </li>
+        <li>
+            ingredients: <%= recipe.ingredients %>
+        </li>
+        <li>
+            cooking_directions: <%= recipe.cooking_directions %>
+        </li>
+        <li>
+            nutritions: <%= recipe.nutritions %>
+        </li>
+        <li>
+            reviews: <%= recipe.reviews %>
+        </li>
+        <li>
+            difficulty: <%= recipe.difficulty %>
+        </li>
+    </ul>
+
+</body>
+
+</html>
