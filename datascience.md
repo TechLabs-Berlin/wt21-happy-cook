@@ -181,6 +181,4 @@ It indicates that tuning of the model by vectorizing a combined 'ingredients' an
 
 A week was spent on creating the API for connecting our model to the backend of the web app. We used Flask to set up a local server. Two routes were created to provide the data for the results page and the details page.
 
-![image](https://user-images.githubusercontent.com/91828417/152679987-574655ed-ed5e-4bfe-83b6-c68cdb431e35.png)
-
 
