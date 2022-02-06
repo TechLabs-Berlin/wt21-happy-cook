@@ -1,3 +1,5 @@
+&nbsp;
+
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/149679461-b22ff91c-a52f-49b2-9553-f8712dcd74b0.png>
 </p>
@@ -76,10 +78,13 @@ HappyCook is Recipe Search Engine designed for busy people. Users can input thei
 
   ```sh
   $ pip install —user -U nltk
-  (for more infos <a href=“https://www.nltk.org/install.html”>click here</a>)
   ```
 
+  (for more infos <a href=“https://www.nltk.org/install.html”>click here</a>)  
+
   Note: If you find any ImportError messages, continue to install missing dependencies.
+
+&nbsp;
 
 ## Running
 **to start up the flask server**:
@@ -109,11 +114,13 @@ HappyCook is Recipe Search Engine designed for busy people. Users can input thei
  $ node app.js
  ```
 
+&nbsp;
+
 ## Authors
-- Data Science: [Nisa Ulumuddin](https://github.com/nisaulumuddin)
-- Data Science: [Ganyi Zhang](https://github.com/Yii67)
-- Data Science: [Jayashree Prabhakaran](https://github.com/JayashreePrabhakaran)
-- Web Development Frontend: [Nikola Jelavic](https://github.com/NikolaJelavic)
-- Web Development Backend: [Abiraam Kantharajah](https://github.com/akrava25)
+- Data Science:&nbsp;&nbsp;&nbsp; [Nisa Ulumuddin](https://github.com/nisaulumuddin)
+- Data Science:&nbsp;&nbsp;&nbsp; [Ganyi Zhang](https://github.com/Yii67)
+- Data Science:&nbsp;&nbsp;&nbsp; [Jayashree Prabhakaran](https://github.com/JayashreePrabhakaran)
+- WD Frontend:&nbsp;&nbsp;&nbsp;&nbsp; [Nikola Jelavic](https://github.com/NikolaJelavic)
+- WD Backend:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Abiraam Kantharajah](https://github.com/akrava25)
 - User Experience: [Leticia Valladares](https://github.com/lavf)
 - User Experience: [Ajimati Opeyemi](https://github.com/ope1521)
