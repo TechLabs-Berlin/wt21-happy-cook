@@ -80,7 +80,8 @@ HappyCook is Recipe Search Engine designed for busy people. Users can input thei
   $ pip install —user -U nltk
   ```
 
-  (for more infos <a href=“https://www.nltk.org/install.html”>click here</a>)  
+  
+  (for more information on nltk [click here](https://www.nltk.org/install.html))
 
   Note: If you find any ImportError messages, continue to install missing dependencies.
 
