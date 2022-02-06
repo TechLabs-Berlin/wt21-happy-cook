@@ -17,8 +17,8 @@
   <a href="#About">About</a>  |
   <a href="#Prototype">Prototype</a>  |
   <a href="#Setup">Setup</a>  |
-  <a href="Running">Run</a>  |
-  <a href="Authors">Authors</a>
+  <a href="#Running">Run</a>  |
+  <a href="#Authors">Authors</a>
 </h5>
 
 &nbsp;
