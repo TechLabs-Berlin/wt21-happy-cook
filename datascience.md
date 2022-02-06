@@ -168,11 +168,19 @@ Based on this criteria, we can build up true positives and false positives data 
 The equations used as the model evaluation metrics are shown below:
 ![image](https://user-images.githubusercontent.com/91828417/152679463-39a94bbe-fae6-4d48-926b-917b28ca4c95.png)
 
-The evaluation result shows that model 2 provides a slightly better prediction result.
+We evaluated two model versions.
+
+![image](https://user-images.githubusercontent.com/91828417/152680080-275cb1d1-ba19-478c-af03-819d3a7ebd13.png)
+
+Our table shows the average ROC AUC (for 2000 data points) and average % match (for top 7 recipes) based on 10 runs.
 ![image](https://user-images.githubusercontent.com/91828417/152679534-efe79268-479f-42fe-8db9-ff47d0d17994.png)
 
+It indicates that tuning of the model by vectorizing a combined 'ingredients' and 'cooking_directions' column improves the performance of the model slightly. As future work, we need to figure out a better strategy to ensure that the recipes are listed in descending order of their % ingredient match score.
 
 ### Step 5: Setting up the Model API on Flask (Ganyi, Nisa)
 
 A week was spent on creating the API for connecting our model to the backend of the web app. We used Flask to set up a local server. Two routes were created to provide the data for the results page and the details page.
+
+![image](https://user-images.githubusercontent.com/91828417/152679987-574655ed-ed5e-4bfe-83b6-c68cdb431e35.png)
+
 
