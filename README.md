@@ -123,10 +123,16 @@ Data Science:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nisa Ulumuddin](https://githu
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Jayashree Prabhakaran](https://github.com/JayashreePrabhakaran) &nbsp;
 
+&nbsp;
+
 WD Frontend:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nikola Jelavić](https://github.com/NikolaJelavic) &nbsp;
+
+&nbsp;
 
 WD Backend:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Abiraam Kantharajah](https://github.com/akrava25) &nbsp;
 
+&nbsp;
+
 User Experience:&nbsp; [Leticia Valladares](https://github.com/lavf) &nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ajimati Opeyemi](https://github.com/ope1521)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ajimati Opeyemi](https://github.com/ope1521)
