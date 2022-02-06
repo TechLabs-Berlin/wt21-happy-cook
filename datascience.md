@@ -1,22 +1,39 @@
-datascience.md
+# Team: Data Science
+********
+## The Logic of the Model
 
-Data Science Blog
+Happy Cook Project developed the recipe search engine model based on the content-based recommendation approach. The rationale behind the model is that recipes with the most similar words to the user's query should be the most relevant recipes to the user's needs. We applied various natural language processing techniques to tokenize and vectorize the ingredients and cooking direction texts of 40000 recipes and then adopted the TF-IDF method to vectorize the word corpus. We then used a vector-similarity function to compute and compare the similarity scores among the recipes.
 
-Happy Cook Project developed the recipe recommendation model based on the content-based recommendation approach. This approach follows the logic if a user likes a certain recipe, then he/she is likely to be interested in recipes sharing similar features (Image 1). Hence, the measurement of the similarity among recipes lies in the core of the model building. We applied various natural language processing techniques to tokenize and vectorize ingredients and cooking directions of 40000 recipes and then adopted the TF-IDF method to calculate the cosine-similarity score among the recipes (Image 2&amp;3).
+![image](https://user-images.githubusercontent.com/91828417/152676220-c625b2a0-e2a3-46d9-b097-96ff63add927.png)
+*Image 1: The logic diagram of our search engine model*
 
-![](RackMultipart20220206-4-rd8i3s_html_ca20efc0abe4b59a.png) ![](RackMultipart20220206-4-rd8i3s_html_9044ea15f24f668e.png)
+## Other Features of the Model 
 
-_Image 1: The Sample Tokenized Ingredients and Other Strings (Left) and the Similarity Score (Right)_
+Given Happy Cook is a website targeting busy people, the difficulty level of recipes is also brought into the model development. The difficulty level is measured based on the duration of cooking time. By adding the difficulty level filter into the recommendation system, the model not only recommends recipes similar to the user query but also filters the recipe according to the user's preferred difficulty level.
 
-Given Happy Cook is a website targeting busy people, the difficulty level of recipes is also brought into the model development. The difficulty level is measured based on the duration of cooking time. By adding the difficulty level filter into the recommendation system, the model not only recommends recipes similar to the user query but also recipes adapting to the user&#39;s preferred difficulty level.
+### Step 1: Data Cleaning
 
-![Shape1](RackMultipart20220206-4-rd8i3s_html_9fbeed08b9d368d1.gif)
+#### 1.1 Extracting cooking time and no. of steps 
 
-_Image 2- Recap of the Process_
+#### 1.2 Preparation of data for Natural Language Processing
 
-![Shape2](RackMultipart20220206-4-rd8i3s_html_d94f5d4b708ed4f4.gif) ![Shape3](RackMultipart20220206-4-rd8i3s_html_7f5a33f90d6c696e.gif)
+#### 1.3 Used conditional statements to filter data based on difficulty criteria 
 
-_Image 3- The Flow of the Model_
+### Step 2: The First Version of Search Engine Model
+
+#### 2.1 Content-Based Similarity Model 
+
+#### 2.2 Other Explored Models
+
+### Step 3: Developing the Evaluation Metrics 
+
+#### 3.1 Effectivity Function
+
+#### 3.2 Creating Model Dataset (Excluded)
+
+### Step 4: Evaluation of Model Performance
+
+### Step 5: Setting up the Model API on Flask 
 
 Following this logic, two models were developed and evaluated (Image 2). Model evaluation was based on two evaluation metrics: precision/recall evaluation metric and an effectivity evaluation function. The ROC curve was plotted by treating the similarity score as the predicted results and the effectivity evaluation result as the true results (Image 4&amp; 5). The evaluation result shows that model 2 provides a slightly better prediction result (Table 1).
 
