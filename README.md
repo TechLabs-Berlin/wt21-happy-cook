@@ -31,6 +31,8 @@ HappyCook is Recipe Search Engine designed for busy people. Users can input thei
 
 ## Prototype
 
+https://user-images.githubusercontent.com/73216174/152697069-a8305a60-b67f-49f6-b196-1de575ad121a.mp4
+
 &nbsp;
 
 ## Setup

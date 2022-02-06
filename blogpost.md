@@ -272,7 +272,7 @@ Due to lack of time, I had to conduct **Usability Testing** with a High-Fidelity
 
 &nbsp;
 
-https://user-images.githubusercontent.com/73216174/152541003-4a1b2477-eb22-49bc-a787-1c57d627dbdb.mp4
+https://user-images.githubusercontent.com/73216174/152696497-033a75aa-8985-462a-a258-ff113a66960d.mp4
 
 &nbsp;
 
@@ -583,3 +583,65 @@ It was planned that website is responsive, but, while connecting frontend and ba
 JavaScript was used for creating “to the top” button and tags inside of input field, while writing ingredients.
 
 Also JS was used for creating slider for choosing ingredients.
+
+*Home*
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152696627-dd7d2f33-b2d7-4c81-a967-43d9c19adac0.png width="900" />
+</p>
+
+&nbsp;
+
+*Results*
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152696698-927d7617-3a7b-4084-9a87-342dc6923371.png width="900" />
+</p>
+
+&nbsp;
+
+*Recipe Overview*
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152696689-a1ef2b14-4640-4ba7-b5e6-b38116c87878.png width="900" />
+</p>
+
+&nbsp;
+
+*Inspiration*
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152696638-c500ed97-d6ff-463a-a075-63f037d12d9f.png width="900" />
+</p>
+
+&nbsp;
+
+*Inspiration with hover*
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152696660-5a799517-9066-4f60-b8ac-831ade63087b.png width="900" />
+</p>
+
+&nbsp;
+
+*About us*
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152696615-7426bc54-9582-4673-bba5-bee3e769065f.png width="900" />
+</p>
+
+&nbsp;
+
+*Cookies*
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152696618-ff6bca00-2e96-4806-a333-21527a1850cf.png width="900" />
+</p>
+
+&nbsp;
+
+*Privacy Policy*
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152696681-81cd485d-227b-4a22-aef0-853f4d85a5d1.png width="900" />
+</p>
