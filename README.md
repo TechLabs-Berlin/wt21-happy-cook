@@ -82,7 +82,8 @@ https://user-images.githubusercontent.com/73216174/152697069-a8305a60-b67f-49f6-
   $ pip install —user -U nltk
   ```
 
-  (for more infos <a href=“https://www.nltk.org/install.html”>click here</a>)  
+  
+  (for more information on nltk [click here](https://www.nltk.org/install.html))
 
   Note: If you find any ImportError messages, continue to install missing dependencies.
 
