@@ -10,5 +10,4 @@ main.py : the main py script to run the above-mentioned functions
 
 
 app.py :  contains the script to run Flask. It uses a local server to get user query and outputs a list of recipe recommendations. 
-login.html: the template to the login page (involved inside app.py)
 app.py needs to run with N.joblib, vectorized_corpus.joblib, and DF.joblib.
