@@ -54,7 +54,7 @@ https://user-images.githubusercontent.com/73216174/152697069-a8305a60-b67f-49f6-
 ### Flask server
 > for installation
 
-1. Go to the directory: `wt21-happy-cook/python_app/flask_rec`
+1. Go to the directory: `wt21-happy-cook/python_app/flask_app`
 
 2. Install python: $ pip install python  or  $ pip3 install python
 
@@ -92,7 +92,7 @@ https://user-images.githubusercontent.com/73216174/152697069-a8305a60-b67f-49f6-
 ## Running
 **to start up the flask server**:
 
-1. Go to the directory: `wt21-happy-cook/python_app/flask_rec`
+1. Go to the directory: `wt21-happy-cook/python_app/flask_app`
 
 2. Make sure that you are in the virtual environment (venv).
   If you are not, reactivate the environment (see link <a href=“https://flask.palletsprojects.com/en/2.0.x/installation/”>click here</a>)
