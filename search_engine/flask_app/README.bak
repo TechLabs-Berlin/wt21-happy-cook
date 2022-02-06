@@ -1,0 +1,16 @@
+Below are the key files in this folder:
+
+func_datapreprocessing : contains functions to preprocess the text on the recipe table
+func_predict : contains the function to calculate vector similarity between query and recipe
+func_similarityfunc : contains the equation to vector similarity
+func_tfidf : contains function to vectorize text data 
+
+
+main.py : the main py script to run the above-mentioned functions 
+
+main_notebook.ipynb : the main.py ran in a jupyter notebook 
+
+
+app.py :  contains the script to run Flask. It uses a local server to get user query and outputs a list of recipe recommendations. 
+login.html: the template to the login page (involved inside app.py)
+app.py needs to run with N.joblib, vectorized_corpus.joblib, and DF.joblib.
