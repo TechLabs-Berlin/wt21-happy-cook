@@ -169,8 +169,8 @@ The equations used as the model evaluation metrics are shown below:
 ![image](https://user-images.githubusercontent.com/91828417/152679463-39a94bbe-fae6-4d48-926b-917b28ca4c95.png)
 
 We evaluated two model versions.
+![image](https://user-images.githubusercontent.com/91828417/152680845-03398a2b-d5a7-45dd-be8f-e9c0fe64a4ae.png)
 
-![image](https://user-images.githubusercontent.com/91828417/152680080-275cb1d1-ba19-478c-af03-819d3a7ebd13.png)
 
 Our table shows the average ROC AUC (for 2000 data points) and average % match (for top 7 recipes) based on 10 runs.
 ![image](https://user-images.githubusercontent.com/91828417/152679534-efe79268-479f-42fe-8db9-ff47d0d17994.png)
