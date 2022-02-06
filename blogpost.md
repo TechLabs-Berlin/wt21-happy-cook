@@ -245,7 +245,7 @@ The **logo** transmits both concepts of HappyCook: Happiness and Cooking. Even i
 
 &nbsp;
 
-The **color palette** was took from the logo and the home background image. I didn’t want to use the standard white as background color since the dataset pictures didn’t have good quality and white background highlights the images. Colors were more in the dark palette side, but keeping in mind contrast (monochrome test). I kept red variations as the main colors since red was the main original color in the project pitch slides.
+The **color palette** was taken from the logo and the home background image. I didn’t want to use the standard white as background color since the dataset pictures didn’t have good quality and white background highlights the images. Colors were more in the dark palette side, but keeping in mind contrast (monochrome test). I kept red variations as the main colors since red was the main original color in the project pitch slides.
 
 I used some **rules for colors** to keep everything logic and structured, more than pretty, that is to say: there is only one color for all hover effects, one for titles without link, one for text without link, one for activated links, and another one for not-activated links. I applied the same for buttons.
 
@@ -278,9 +278,9 @@ https://user-images.githubusercontent.com/73216174/152696497-033a75aa-8985-462a-
 
 [Usability Testing 101](https://www.nngroup.com/articles/usability-testing-101/) from Nielsen Norman Group was my guideline. I wrote some scenarios/tasks and tested the prototype a couple of times before starting. First I asked the user to think out loud in the whole test, then I explain the first task and let the user speak and navigate. The think-out-loud technique was of great help to take note of aspects not considered in the tasks and get some suggestions.
 
-After finishing the test, I understood that a ‘How it works Page’ was necessary. As a team we though that explaining this in the ‘About Us’ Page was enough, but we were completely wrong. That was the only task the user couldn’t finish (navigate to know how HappyCook works).The tasks related to the MVP were successfully completed, it was pretty intuitive for the user to look for recipes. Some small discrepancies between the machine learning model and prototype such as percentages with two decimals, were not pleasing to the eye.
+After finishing the test, I understood that a ‘How it works Page’ was necessary. As a team we thought that explaining this in the ‘About Us’ Page was enough, but we were completely wrong. That was the only task the user couldn’t finish (navigate to know how HappyCook works). The tasks related to the MVP were successfully completed, it was pretty intuitive for the user to look for recipes. Some small discrepancies between the machine learning model and prototype such as percentages with two decimals, were not pleasing to the eye.
 
-User found out that the Inspiration Page was interesting and was looking forward to it, and was glad that registration wasn’t needed in relation to privacy.
+User found out that the Inspiration Page was interesting and so the user was looking forward to it, and also was glad that a registration wasn’t needed for privacy purposes.
 
 [> See Usability Test Report](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#be40bd27cb3249f7b20659f28287a5a1)
 
