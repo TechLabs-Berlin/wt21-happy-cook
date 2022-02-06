@@ -14,17 +14,27 @@
 
 ## Description
 
+HappyCook is Recipe Search Engine designed for busy people. Users can input their available ingredients or select them to search for their favorite recipes according to several factors such as ingredients, time, and difficulty. Using our powerful algorithms, HappyCook suggests a list with the most relevant recipes to the least ones providing key data and an overview of each recipe.
+
+During the project, a team of 2 UX/UI designers, 2 web developers, and 3 data scientists actively applied and deepened their knowledge, acquired during the TechLabs Academic Phase. Using common tools from every discipline, the project team developed a functioning, responsive, and user-friendly prototype. As in every project, there were challenges. In our case, we were faced with a lack of data, experience, and time. Despite that, we were able to agree on a weekly MVP to find agreeable solutions to every challenge in conjunction with our mentor, Kathryn Rough.
+
+We are happy to bring an interdisciplinary project of this scope to life within a 10-week period while having fun and respecting each other's needs. Thank you for having us!
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 ## UX
-<h5 align="left">by [Leticia](https://github.com/lavf)</h5>
+##### by [Leticia](https://github.com/lavf)
 
 <h5 align="left">
   || &nbsp; <a href="#strategy">Strategy</a> &nbsp; ||
-  <a href="#scope">Scope</a> &nbsp; ||
-  <a href="#structure">Structure</a> &nbsp; ||
-  <a href="#skeleton">Skeleton</a> &nbsp; ||
-  <a href="#surface">Surface</a> &nbsp; ||
-  <a href="#testing">Testing</a> &nbsp; ||
-  <a href="#future">Future</a> &nbsp; ||
+  &nbsp; <a href="#scope">Scope</a> &nbsp; ||
+  &nbsp; <a href="#structure">Structure</a> &nbsp; ||
+  &nbsp; <a href="#skeleton">Skeleton</a> &nbsp; ||
+  &nbsp; <a href="#surface">Surface</a> &nbsp; ||
+  &nbsp; <a href="#testing">Testing</a> &nbsp; ||
+  &nbsp; <a href="#future">Future</a> &nbsp; ||
 </h5>
 
 &nbsp;
@@ -61,7 +71,7 @@ Based on quantitative results from the survey, we selected the three main featur
 <img src=https://user-images.githubusercontent.com/73216174/152563596-675a679c-022c-4154-b7ab-4fc4edcb3c89.png width="600" />
 </p>
 
-[> See Typeform Survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
+[> See Typeform survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
 &nbsp;
 
 [> See further insights](https://www.notion.so/happycook/HappyCook-UX-b945b4438e014fefbae45cf0bac6adeb#35fce534a2ea4a72963b688e17867e8c)
@@ -203,7 +213,7 @@ The **Key Value** Path for HappyCook is:
 <img src=https://user-images.githubusercontent.com/73216174/152556834-86409f20-b942-4087-baee-2a0c3e7d37af.png width="900" />
 </p>
 
-[> See High_Fidelity Prototype](https://www.figma.com/proto/cFAruddFG2PtB5Wa9CKp0R/HappyCook_Prototype?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=350%3A575&node-id=877%3A7503)
+[> See High-Fidelity Prototype](https://www.figma.com/proto/cFAruddFG2PtB5Wa9CKp0R/HappyCook_Prototype?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=350%3A575&node-id=877%3A7503)
 
 &nbsp;
 &nbsp;
@@ -282,6 +292,7 @@ User found out that the Inspiration Page was interesting and was looking forward
 - Finishing Mobile Prototype
 - Finishing Dark Mode Prototype
 
+&nbsp;
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152688862-f727fddc-4e20-4c34-9f67-a04eb57720c0.png width="900" />
@@ -294,7 +305,7 @@ User found out that the Inspiration Page was interesting and was looking forward
 &nbsp;
 
 ## DS
-<h5 align="left">by Nisa Ulumuddin, Ganyi Zhang and Jayashree Prabhakaran</h5>
+##### by [Nisa](https://github.com/nisaulumuddin), [Ganyi](https://github.com/Yii67) and [Jayashree](https://github.com/JayashreePrabhakaran)
 
 ### The Logic of the Model
 
@@ -488,43 +499,55 @@ A week was spent on creating the API for connecting our model to the backend of 
 &nbsp;
 
 ## WD-Backend
-<h5 align="left">by [Abiraam](https://github.com/akrava25)</h5>
+#####by [Abiraam](https://github.com/akrava25)
 
 The development of the backend of happy cooks was characterized by ups and downs. Overall, the backend was developed in an agile way using smaller packages and goals, which led to weekly endproducts. Initially, there was no explicit coordination with the frontend or the datascience track, which led to some code not being needed in the final MVP (see section "technical journey > Part 4).
-\
-\
+
+
 ### Technical journey:
 The creation of the backend is divided into the following 5 phases:
-\
+
 #### 1. Finish academic phase
 At the start of the project, there was a major confusion for me regarding my progress of the academic part of the Techlab course. Online I was shown that I had already completed 94% of my theoretical part. Practically, however, the last 6% was a majority of the backend learning. This resulted in me lacking the knowledge to even have an approach on where and how to set up a backend for the website. The first step for me was to finish the last 6% of the academic part.
-\
+
 #### 2. Development of the first MVP without frontend and datascience
-At this stage, my goal was to create an extremely simple version of the website. Basically, this should enable the following: \'84Show me recipes for 1 or more ingredients.\'93\
+At this stage, my goal was to create an extremely simple version of the website. Basically, this should enable the following: Show me recipes for 1 or more ingredients.
+
 I realized this with node.js (incl. npm packages), MongoDB and mongoose.
+
 In the following you can see a few images of this phase:
-\
+
 Search page:  
-![Search_Page](https://user-images.githubusercontent.com/91902360/152676122-f0ead7bb-08a6-46d0-ba18-2dc9566b3b08.png)
-\
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/91902360/152676122-f0ead7bb-08a6-46d0-ba18-2dc9566b3b08.png>
+</p>
+
+
 Results page:
-![Results_Page](https://user-images.githubusercontent.com/91902360/152676192-1ae22d45-56c9-4769-8b28-aceb824ed44e.png)
-\
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/91902360/152676192-1ae22d45-56c9-4769-8b28-aceb824ed44e.png>
+</p>
+
+
 Details page:
-![Details_Page](https://user-images.githubusercontent.com/91902360/152676231-42ad6c25-23a8-4280-b5ac-cb755e79157e.png)
-\
-\
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/91902360/152676231-42ad6c25-23a8-4280-b5ac-cb755e79157e.png>
+</p>
+
+
 #### 3. Connecting backend to frontend
 In the third phase, my backend was to be connected to the frontend. Nikola and I regularly exchanged feedback for this. Here, various problems occurred, such as "search bar was no longer centered", "some links in the navigation bar did not work". We were able to correct these problems with both more and less effort.
-\
-\
+
 #### 4. Connecting website with datascience algorithm
 The goal at this stage was to link Datascience's algorithm to the website. My original idea of having all the recipes uploaded to MongoDB and then integrating DataScience's algorithm or python code into my node.js was quickly dropped after a conversation with the trackleads from the web development team. Instead, datascience and I agreed on the following API structure:
 ![API_structure](https://user-images.githubusercontent.com/91902360/152676403-bc0cf475-6a9d-4f53-90db-8c8d6adc1ea5.png)\
-\
-As with the frontend and backend work, several alignments were necessary here as well, so that the right data could be connected via the right endpoints. \
+
+As with the frontend and backend work, several alignments were necessary here as well, so that the right data could be connected via the right endpoints.
 In the end, we were able to look back on a solid and functioning connection between the website and the database.
-\
+
 #### 5. MVP finalization
 In this phase, we fixed the last issues and finished the last details.
 For example:
@@ -535,13 +558,10 @@ For example:
 \
 \
 I am very happy with the result of our website. Even though setting up the MongoDB server was useless in retrospect, I still found it necessary to have a better understanding of the whole system. Only with frequent coordination and great communication within the team it was possible for us to create such a MVP.
-\
-\
-\
-\
-\
+
+
 ## WD-Frontend
-<h5 align="left">by [Nikola](https://github.com/NikolaJelavic)</h5>
+##### by [Nikola](https://github.com/NikolaJelavic)
 
 While creating Happy cook web site Bootstrap5 was used, since it is HTML, CSS & JS Library that focuses on simplifying the development.
 It was useful for responsiveness, buttons and modals.
