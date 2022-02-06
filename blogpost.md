@@ -645,3 +645,13 @@ Also JS was used for creating slider for choosing ingredients.
 <p align="center">
 <img src=https://user-images.githubusercontent.com/73216174/152696681-81cd485d-227b-4a22-aef0-853f4d85a5d1.png width="900" />
 </p>
+
+&nbsp;
+
+<h5 align="center">
+  <a href="#Description">Project Description</a>  |
+  <a href="#UX">User Experience</a>  |
+  <a href="#DS">Data Science</a>  |
+  <a href="#WD-Backend">WD Backend</a>  |
+  <a href="#WD-Frontend">WD Frontend</a>
+</h5>
