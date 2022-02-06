@@ -87,6 +87,7 @@ We tried exploring the implementation of "User-Based Similarity Model". However,
 
 Vectorizing the recipe corpus was improved by combining the ingredients and cooking_directions columns from the raw dataset. One weakness that was seen with our code is that in our query, every ingredient is weighed equally. i.e. "chicken, potatoes". Therefore, the model looks for recipes which has the greatest total frequency of both words. However, this may sometimes results in recipes which may have "potatoes" mentioned a lot of times without mentioning "chicken" at all.
 
+To give more weight to the ingredients, we explored vectorizing both the 'cooking_directions' and 'ingredients' texts to represent the recipe vector.
 After preprocessing the two columns, a combined column was created, and its words were tokenized:
 
 `processed_text = []`
