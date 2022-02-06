@@ -572,7 +572,7 @@ I am very happy with the result of our website. Even though setting up the Mongo
 &nbsp;
 
 ## WD-Frontend
-##### by [Nikola](https://github.com/NikolaJelavic)
+#### by [Nikola](https://github.com/NikolaJelavic)
 
 While creating Happy cook web site Bootstrap5 was used, since it is HTML, CSS & JS Library that focuses on simplifying the development.
 It was useful for responsiveness, buttons and modals.
