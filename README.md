@@ -117,19 +117,19 @@ HappyCook is Recipe Search Engine designed for busy people. Users can input thei
 &nbsp;
 
 ## Authors
-Data Science:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nisa Ulumuddin](https://github.com/nisaulumuddin) &nbsp;
+Data Science:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nisa Ulumuddin](https://github.com/nisaulumuddin) &nbsp;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ganyi Zhang](https://github.com/Yii67) &nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Jayashree Prabhakaran](https://github.com/JayashreePrabhakaran) &nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Jayashree Prabhakaran](https://github.com/JayashreePrabhakaran)
 
 &nbsp;
 
-WD Frontend:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nikola Jelavić](https://github.com/NikolaJelavic) &nbsp;
+WD Frontend:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nikola Jelavić](https://github.com/NikolaJelavic)
 
 &nbsp;
 
-WD Backend:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Abiraam Kantharajah](https://github.com/akrava25) &nbsp;
+WD Backend:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Abiraam Kantharajah](https://github.com/akrava25)
 
 &nbsp;
 
