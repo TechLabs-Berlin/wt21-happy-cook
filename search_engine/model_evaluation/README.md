@@ -1,6 +1,6 @@
-# Evaluation of Model
+# List of key files in this directory
 
-This directory contains the evaluation notebook under the name `model_evaluation.ipynb`. 
-All other files in this directory are dependencies for the notebook to be run.
+A walk-through of how our search engine model was developed is written in the `notebook_model.ipynb`. 
+The model performance was evaluated and tuned in the `notebook_evaluation.ipynb` 
 
 Happy reading!
