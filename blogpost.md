@@ -2,19 +2,29 @@
 <img src=https://user-images.githubusercontent.com/73216174/149679461-b22ff91c-a52f-49b2-9553-f8712dcd74b0.png>
 </p>
 
-<h2 align="left">Project Description</h2>
+<h5 align="center">
+  <a href="#Description">Project Description</a>  |
+  <a href="#UX">User Experience</a>  |
+  <a href="#DS">Data Science</a>  |
+  <a href="#WD-Backend">WD Backend</a>  |
+  <a href="#WD-Frontend">WD Frontend</a>
+</h5>
 
-<h2 align="left">UX</h2>
-<h5 align="left">by Leticia Valladares</h5>
+&nbsp;
+
+## Description
+
+## UX
+<h5 align="left">by [Leticia](https://github.com/lavf)</h5>
 
 <h5 align="left">
-  <a href="#strategy">Strategy</a>  ||
-  <a href="#scope">Scope</a>  ||
-  <a href="#structure">Structure</a>  ||
-  <a href="#skeleton">Skeleton</a>  ||
-  <a href="#surface">Surface</a>  ||
-  <a href="#testing">Testing</a>  ||
-  <a href="#future">Future</a>
+  || &nbsp; <a href="#strategy">Strategy</a> &nbsp; ||
+  <a href="#scope">Scope</a> &nbsp; ||
+  <a href="#structure">Structure</a> &nbsp; ||
+  <a href="#skeleton">Skeleton</a> &nbsp; ||
+  <a href="#surface">Surface</a> &nbsp; ||
+  <a href="#testing">Testing</a> &nbsp; ||
+  <a href="#future">Future</a> &nbsp; ||
 </h5>
 
 &nbsp;
@@ -193,6 +203,8 @@ The **Key Value** Path for HappyCook is:
 <img src=https://user-images.githubusercontent.com/73216174/152556834-86409f20-b942-4087-baee-2a0c3e7d37af.png width="900" />
 </p>
 
+[> See High_Fidelity Prototype](https://www.figma.com/proto/cFAruddFG2PtB5Wa9CKp0R/HappyCook_Prototype?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=350%3A575&node-id=877%3A7503)
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -270,43 +282,49 @@ User found out that the Inspiration Page was interesting and was looking forward
 - Finishing Mobile Prototype
 - Finishing Dark Mode Prototype
 
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/73216174/152688862-f727fddc-4e20-4c34-9f67-a04eb57720c0.png width="900" />
+</p>
+
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
 
-
-<h2 align="left">DS</h2>
+## DS
 <h5 align="left">by Nisa Ulumuddin, Ganyi Zhang and Jayashree Prabhakaran</h5>
 
-## The Logic of the Model
+### The Logic of the Model
 
 Happy Cook Project developed the recipe search engine model based on the content-based recommendation approach. The rationale behind the model is that recipes with the most similar words to the user's query should be the most relevant recipes to the user's needs. We applied various natural language processing techniques to tokenize and vectorize the ingredients and cooking direction texts of 40000 recipes and then adopted the TF-IDF method to vectorize the word corpus. We then used a vector-similarity function to compute and compare the similarity scores among the recipes.
 
 ![image](https://user-images.githubusercontent.com/91828417/152676220-c625b2a0-e2a3-46d9-b097-96ff63add927.png)
 *Image 1: The logic diagram of our search engine model*
 
-## Other Features of the Model
+### Other Features of the Model
 
 Given Happy Cook is a website targeting busy people, the difficulty level of recipes is also brought into the model development. The difficulty level is measured based on the duration of cooking time. By adding the difficulty level filter into the recommendation system, the model not only recommends recipes similar to the user query but also filters the recipe according to the user's preferred difficulty level.
 
-## The Raw Dataset
+### The Raw Dataset
 
 A sample of the raw dataset that was used for our model is shown below. As seen, the columns 'cooking_direction' and 'ingredients' are the most indicative of the recipe's attributes.
 
 ![image](https://user-images.githubusercontent.com/91828417/152676746-3082afca-213e-42de-b3c8-d9e64af9a90a.png)
 
 
-### Step 1: Data Cleaning
+#### Step 1: Data Cleaning
 
 The data cleaning task was distributed among all members in the project.
 
-#### 1.1 Extracting cooking time and no. of steps (Ganyi, Tejesh)
+##### 1.1 Extracting cooking time and no. of steps (Ganyi, Tejesh)
 
 As some features of the recipes are convoluted inside the 'cooking_directions' column, we have extracted the cooking time and total no. of steps into their own individual columns. This was important for the difficulty filtering feature of our web app.
 
 ![image](https://user-images.githubusercontent.com/91828417/152678144-9daf5fa8-9bc1-4d2d-be70-3ed078af4751.png)
 
-#### 1.2 Preparation of data for Natural Language Processing (Nisa, Jayashree)
+##### 1.2 Preparation of data for Natural Language Processing (Nisa, Jayashree)
 
 Several functions were created in order to preprocess the recipe corpus.
 - Conversion of all words to lowercase (Nisa)
@@ -320,16 +338,16 @@ An sample of the tokenized words is shown below
 ![image](https://user-images.githubusercontent.com/91828417/152677455-0a3a58bd-2c6f-4258-82d3-ab4f68b9a03b.png)
 
 
-#### 1.3 Used conditional statements to filter data based on difficulty criteria (Muhammad Bilal)
+##### 1.3 Used conditional statements to filter data based on difficulty criteria (Muhammad Bilal)
 
 A new column was created to classify the recipes according to their difficulty level. We set 3 levels of difficulty: easy, medium , hard.
 
 
-### Step 2: The First Version of Search Engine Model
+#### Step 2: The First Version of Search Engine Model
 
 The first version of the search engine mode was developed for our minimum viable product (MVP). A few different types were attempted, however we ended up just using the content-based similarity model.
 
-#### 2.1 Content-Based Similarity Model (Nisa, Ganyi)
+##### 2.1 Content-Based Similarity Model (Nisa, Ganyi)
 
 This component became the core of our machine learning model.
 
@@ -357,11 +375,11 @@ The cosine similarity function was used to calculate the similarity between each
 
 
 
-#### 2.2 Other Explored Models (Nisa, Jayashree, Muhammad Bilal) (Not Implemented)
+##### 2.2 Other Explored Models (Nisa, Jayashree, Muhammad Bilal) (Not Implemented)
 
 We tried exploring the implementation of "User-Based Similarity Model". However, due to the lack of time, we could not continue with this venture. The members' lack of presence and activity in this task also largely contributed to the underdevelopment of this task. Therefore, we decided to work on the content-based similarity model by tuning different parameters.
 
-#### 2.3 Tuning of the Model (Jayashree)
+##### 2.3 Tuning of the Model (Jayashree)
 
 Vectorizing the recipe corpus was improved by combining the ingredients and cooking_directions columns from the raw dataset. One weakness that was seen with our code is that in our query, every ingredient is weighed equally. i.e. "chicken, potatoes". Therefore, the model looks for recipes which has the greatest total frequency of both words. However, this may sometimes results in recipes which may have "potatoes" mentioned a lot of times without mentioning "chicken" at all.
 
@@ -376,11 +394,11 @@ After preprocessing the two columns, a combined column was created, and its word
 
 
 
-### Step 3: Developing the Evaluation Metrics
+#### Step 3: Developing the Evaluation Metrics
 
 Members of the group realized that there is a difference between recommendation models and search engine models. Initially we planned to use user rating as our true values to our predicted values. However, since our model does not predict ratings, the rating data is no longer relevant for our model evaluation. Unfortunately, it was highly difficult to obtain datasets which connects a query of ingredients to the clicking rate of recipes. Ideally, our team would conduct a survey of sufficient scale to gather this data. However, due to the limitations of time, we have been advised to generate our own evaluation functions.
 
-#### 3.1 Effectivity Function (Ganyi)
+##### 3.1 Effectivity Function (Ganyi)
 
 The first evaluation function is called **Effectivity Function**. This function calculates the percentage of queried ingredients inside the recommended recipes outputted by the model.
 
@@ -398,18 +416,18 @@ and `percent_table` is a dataframe showing percentage values of how many ingredi
 ![image](https://user-images.githubusercontent.com/91828417/152678718-b12101f8-6606-4d8b-9cb1-0a9d422352e4.png)
 
 
-#### 3.2 Creating Model Dataset (Nisa) (Not Implemented)
+##### 3.2 Creating Model Dataset (Nisa) (Not Implemented)
 
 The dataset is loaded into the variable `eval_recipe`. It consists of 57 data points. Each recipe was labeled either 1 (relevant) or 0(irrelevant) to indicate whether it is a relevant recipe to the model query. We can then do statistical analysis based on these results (i.e. recall/precision type analysis)
 
-##### Query List:
+###### Query List:
 
 * Query 1:  beef, salt, pepper   
 * Query 2: chicken, cream      
 * Query 3: noodles, chicken   
 * Query 4: beef, potatoes      
 
-##### Score metric:
+###### Score metric:
 * 1 = fulfils query
 * 0 = does not fulfil query
 
@@ -420,7 +438,7 @@ It is important to note that these scores were made arbitrarily based on the jud
 
 There was high bias when the model dataset was curated. Once it was used, we found that it did not provide consistent results with the Effectivity Function discussed previously. For our evaluation of the model performance, we ended up not using this evaluation method.
 
-### Step 4: Evaluation of Model Performance (Nisa)
+#### Step 4: Evaluation of Model Performance (Nisa)
 
 To show that our model works as intended, here are some samples of our model outputs, where 'ingredient_match' is the 'percent' match outputted by our Effectivity Function.
 
@@ -459,76 +477,78 @@ Our table shows the average ROC AUC (for 2000 data points) and average % match (
 
 It indicates that tuning of the model by vectorizing a combined 'ingredients' and 'cooking_directions' column improves the performance of the model slightly. As future work, we need to figure out a better strategy to ensure that the recipes are listed in descending order of their % ingredient match score.
 
-### Step 5: Setting up the Model API on Flask (Ganyi, Nisa)
+#### Step 5: Setting up the Model API on Flask (Ganyi, Nisa)
 
 A week was spent on creating the API for connecting our model to the backend of the web app. We used Flask to set up a local server. Two routes were created to provide the data for the results page and the details page.
 
-{\rtf1\ansi\ansicpg1252\cocoartf2636
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww21460\viewh16120\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
-\f0\fs24 \cf0 \'97\
-\
-## Backend\
-\pard\pardeftab720\partightenfactor0
+## WD-Backend
+<h5 align="left">by [Abiraam](https://github.com/akrava25)</h5>
 
-\f1\fs26 \cf0 \expnd0\expndtw0\kerning0
-**by [Abiraam](https://github.com/akrava25)**\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \
-The development of the backend of happy cooks was characterized by ups and downs. Overall, the backend was developed in an agile way using smaller packages and goals, which led to weekly endproducts. Initially, there was no explicit coordination with the frontend or the datascience track, which led to some code not being needed in the final MVP (see section "technical journey > Part 4). \
+The development of the backend of happy cooks was characterized by ups and downs. Overall, the backend was developed in an agile way using smaller packages and goals, which led to weekly endproducts. Initially, there was no explicit coordination with the frontend or the datascience track, which led to some code not being needed in the final MVP (see section "technical journey > Part 4).
 \
 \
-### Technical journey: \
-The creation of the backend is divided into the following 5 phases:\
+### Technical journey:
+The creation of the backend is divided into the following 5 phases:
 \
-#### 1. Finish academic phase\
-At the start of the project, there was a major confusion for me regarding my progress of the academic part of the Techlab course. Online I was shown that I had already completed 94% of my theoretical part. Practically, however, the last 6% was a majority of the backend learning. This resulted in me lacking the knowledge to even have an approach on where and how to set up a backend for the website. The first step for me was to finish the last 6% of the academic part. \
+#### 1. Finish academic phase
+At the start of the project, there was a major confusion for me regarding my progress of the academic part of the Techlab course. Online I was shown that I had already completed 94% of my theoretical part. Practically, however, the last 6% was a majority of the backend learning. This resulted in me lacking the knowledge to even have an approach on where and how to set up a backend for the website. The first step for me was to finish the last 6% of the academic part.
 \
-#### 2. Development of the first MVP without frontend and datascience\
+#### 2. Development of the first MVP without frontend and datascience
 At this stage, my goal was to create an extremely simple version of the website. Basically, this should enable the following: \'84Show me recipes for 1 or more ingredients.\'93\
-I realized this with node.js (incl. npm packages), MongoDB and mongoose. \
-In the following you can see a few images of this phase:\
+I realized this with node.js (incl. npm packages), MongoDB and mongoose.
+In the following you can see a few images of this phase:
 \
-Search page:  \
-![Search_Page](https://user-images.githubusercontent.com/91902360/152676122-f0ead7bb-08a6-46d0-ba18-2dc9566b3b08.png)\
+Search page:  
+![Search_Page](https://user-images.githubusercontent.com/91902360/152676122-f0ead7bb-08a6-46d0-ba18-2dc9566b3b08.png)
 \
-Results page: \
-![Results_Page](https://user-images.githubusercontent.com/91902360/152676192-1ae22d45-56c9-4769-8b28-aceb824ed44e.png)\
+Results page:
+![Results_Page](https://user-images.githubusercontent.com/91902360/152676192-1ae22d45-56c9-4769-8b28-aceb824ed44e.png)
 \
-Details page: \
-![Details_Page](https://user-images.githubusercontent.com/91902360/152676231-42ad6c25-23a8-4280-b5ac-cb755e79157e.png)\
-\
-\
-#### 3. Connecting backend to frontend\
-In the third phase, my backend was to be connected to the frontend. Nikola and I regularly exchanged feedback for this. Here, various problems occurred, such as "search bar was no longer centered", "some links in the navigation bar did not work". We were able to correct these problems with both more and less effort. \
+Details page:
+![Details_Page](https://user-images.githubusercontent.com/91902360/152676231-42ad6c25-23a8-4280-b5ac-cb755e79157e.png)
 \
 \
-#### 4. Connecting website with datascience algorithm\
-The goal at this stage was to link Datascience's algorithm to the website. My original idea of having all the recipes uploaded to MongoDB and then integrating DataScience's algorithm or python code into my node.js was quickly dropped after a conversation with the trackleads from the web development team. Instead, datascience and I agreed on the following API structure: \
+#### 3. Connecting backend to frontend
+In the third phase, my backend was to be connected to the frontend. Nikola and I regularly exchanged feedback for this. Here, various problems occurred, such as "search bar was no longer centered", "some links in the navigation bar did not work". We were able to correct these problems with both more and less effort.
+\
+\
+#### 4. Connecting website with datascience algorithm
+The goal at this stage was to link Datascience's algorithm to the website. My original idea of having all the recipes uploaded to MongoDB and then integrating DataScience's algorithm or python code into my node.js was quickly dropped after a conversation with the trackleads from the web development team. Instead, datascience and I agreed on the following API structure:
 ![API_structure](https://user-images.githubusercontent.com/91902360/152676403-bc0cf475-6a9d-4f53-90db-8c8d6adc1ea5.png)\
 \
 As with the frontend and backend work, several alignments were necessary here as well, so that the right data could be connected via the right endpoints. \
-In the end, we were able to look back on a solid and functioning connection between the website and the database. \
+In the end, we were able to look back on a solid and functioning connection between the website and the database.
 \
-#### 5. MVP finalization\
-In this phase, we fixed the last issues and finished the last details.\
-For example: \
-- difficulty filtering\
-- correct image URLs for the recipes \
-- show matching score in details page\
-\
-\
-\
-I am very happy with the result of our website. Even though setting up the MongoDB server was useless in retrospect, I still found it necessary to have a better understanding of the whole system. Only with frequent coordination and great communication within the team it was possible for us to create such a MVP. \
+#### 5. MVP finalization
+In this phase, we fixed the last issues and finished the last details.
+For example:
+- difficulty filtering
+- correct image URLs for the recipes
+- show matching score in details page
 \
 \
+\
+I am very happy with the result of our website. Even though setting up the MongoDB server was useless in retrospect, I still found it necessary to have a better understanding of the whole system. Only with frequent coordination and great communication within the team it was possible for us to create such a MVP.
 \
 \
 \
 \
-}
+\
+## WD-Frontend
+<h5 align="left">by [Nikola](https://github.com/NikolaJelavic)</h5>
+
+While creating Happy cook web site Bootstrap5 was used, since it is HTML, CSS & JS Library that focuses on simplifying the development.
+It was useful for responsiveness, buttons and modals.
+
+Also, Bootstrap is having flexbox grids to build layouts of shapes and sizes thanks to a twelve-column system and six default-responsive tiers.
+It was planned that website is responsive, but, while connecting frontend and backend, some frontend things had to be removed/refactored, so only desktop version was done.
+
+JavaScript was used for creating “to the top” button and tags inside of input field, while writing ingredients.
+
+Also JS was used for creating slider for choosing ingredients.
