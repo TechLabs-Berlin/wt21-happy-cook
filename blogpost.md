@@ -25,7 +25,16 @@ We are happy to bring an interdisciplinary project of this scope to life within 
 &nbsp;
 
 ## UX
-#### by [Leticia](https://github.com/lavf)
+<h5 align="left">
+  | &nbsp; <a href="#Leticia">Leticia</a> &nbsp; |
+  &nbsp; <a href="#Opeyemi">Opeyemi</a> &nbsp; |
+</h5>
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+#### [Leticia](https://github.com/lavf)
 
 <h5 align="left">
   || &nbsp; <a href="#strategy">Strategy</a> &nbsp; ||
@@ -307,7 +316,10 @@ User found out that the Inspiration Page was interesting and so the user was loo
 &nbsp;
 &nbsp;
 
-#### by [Opeyemi](https://github.com/ope1521)
+#
+&nbsp;
+
+#### [Opeyemi](https://github.com/ope1521)
 
 #### Defining the problem / Possible solution
 
