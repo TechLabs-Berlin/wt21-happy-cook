@@ -324,8 +324,9 @@ User found out that the Inspiration Page was interesting and so the user was loo
 
 **Target Respondents**: Users between 18 and 80, who cook (for pleasure or not), and get/buy their groceries.
 
-</p>[> See Typeform survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
+[> See Typeform survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
 &nbsp;
+
 &nbsp;
 &nbsp;
 
