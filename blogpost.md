@@ -34,7 +34,6 @@ We are happy to bring an interdisciplinary project of this scope to life within 
 &nbsp;
 &nbsp;
 
-#### User Experience
 #### [Leticia](https://github.com/lavf)
 
 <h5 align="left">
@@ -317,7 +316,8 @@ User found out that the Inspiration Page was interesting and so the user was loo
 &nbsp;
 &nbsp;
 
-#### User Experience
+#
+
 #### [Opeyemi](https://github.com/ope1521)
 
 #### Defining the problem / Possible solution
