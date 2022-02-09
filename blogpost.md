@@ -307,6 +307,56 @@ User found out that the Inspiration Page was interesting and so the user was loo
 &nbsp;
 &nbsp;
 
+#### by [Opeyemi](https://github.com/ope1521)
+
+#### Defining the problem / Possible solution
+
+**Problem**: In a world where a lot of people are busy, with limited time to cook. Many apps offer recipes by providing available ingredients. However, this is insufficient if the user simply receives a few pages with hundreds of recipes, with only information about how long it takes to prepare the food and no consideration for the user’s time or missing ingredients.
+
+**Solution**: We did some quantitative and qualitative research and found out that people are most interested in a website where a user can enter ingredients or select them and get the best recipes according to several factors (time, other users’ ratings, quantity of missing ingredients, diet). As we see a growing trend for websites of this nature, we feel, of course, a need to build a more centralized platform for our potential users.
+
+&nbsp;
+&nbsp;
+
+#### User Research
+
+**User Survey** was our first method of User Research. We compared the questions we wrote, chose the most pertinent ones, and uploaded them to TypeForm. We began sharing it on social media and received 54 responses.
+
+**Target Respondents**: Users between 18 and 80, who cook (for pleasure or not), and get/buy their groceries.
+
+</p>[> See Typeform survey](https://7v2689hvz4u.typeform.com/to/dmVKDJJY)
+&nbsp;
+&nbsp;
+&nbsp;
+
+#### Personas
+
+We started to sketch our prototype with the above personas in mind. We came up with sketches, and then moved on to design our wireframes on Figma.
+
+&nbsp;
+&nbsp;
+
+#### Wireframes
+
+We started to sketch our prototype with the above personas in mind. We came up with sketches on the Invision app, and then moved on to design our wireframes on Figma.
+We decided to go for a neat, simple and cheerful design, which primary colours (, red, green and blue), we also kept red variations as the main colors since red was the main original color in the project pitch slides. We use the Nokora font which gives a modern and not too serious feel. We avoid sharp corners in our buttons and text boxes, which also contributes to the friendly and cheerful look and feel of the site.
+
+I also created the privacy policy page, About us and the cookies pop-up page.
+In the About us page, there are details about the Happycook team, pictures and roles of each team member.
+
+&nbsp;
+&nbsp;
+
+#### Usability Testing
+
+Due to lack of time, I conducted Usability Testing with two of my friends with the High-Fidelity Prototype. I was able to walk them through the website functionality using the prototype.
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
 ## DS
 #### by [Nisa](https://github.com/nisaulumuddin), [Ganyi](https://github.com/Yii67) and [Jayashree](https://github.com/JayashreePrabhakaran)
 
